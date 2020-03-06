@@ -5,8 +5,13 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   min-height: 130px;
+`;
 
-  background-color: #1b2555;
+export const MarginBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 `;
 
 export const DropButtonContent = styled.div`

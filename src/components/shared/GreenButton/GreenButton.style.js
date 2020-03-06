@@ -9,4 +9,5 @@ export const Button = styled.button`
   background-color: #69b643;
   font-weight: 500;
   max-height: 51px;
+  max-width: ${({ maxWidth }) => maxWidth};
 `;
