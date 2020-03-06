@@ -13,6 +13,7 @@ export default createGlobalStyle`
   }
 
   body * {
+    color: #ffffff;
     font-family: 'Montserrat';
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
