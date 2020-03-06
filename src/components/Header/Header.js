@@ -1,18 +1,19 @@
 import React from 'react';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
-import DropButton from '../shared/DropButton/DropButton'
+import DropButton from '../shared/DropButton/DropButton';
 import {
   Container,
   LinksContent,
   ButtonContent,
   DropButtonContent
 } from './Header.style';
+import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
 
 const Header = () => {
   return (
     <Container>
-      <img src="" alt="" />
+      <BizLogo />
       <LinksContent>
         <DropButtonContent>
           <DropButton content="Portugal" />
