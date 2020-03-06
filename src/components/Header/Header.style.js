@@ -17,6 +17,7 @@ export const DropButtonContent = styled.div`
 export const HeaderContent = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
 
 export const LinksContent = styled.div`
@@ -25,6 +26,7 @@ export const LinksContent = styled.div`
   align-items: center;
 
   p {
+    font-weight: 600;
     margin: 0 18px;
   }
 `;
