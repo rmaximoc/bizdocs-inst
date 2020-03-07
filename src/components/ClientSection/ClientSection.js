@@ -4,7 +4,8 @@ import {
   MarginBox,
   TextContent,
   PresentationContent,
-  ImageContent
+  ImageContent,
+  News
 } from './ClientSection.style';
 import GreyButton from '../shared/GreyButton/GreyButton';
 
@@ -13,6 +14,7 @@ const ClientSection = () => {
     <Container>
       <MarginBox>
         <PresentationContent>
+          <News>NOTÍCIAS</News>
           <TextContent>
             <h1>
               Mais de <span>3.200 </span>

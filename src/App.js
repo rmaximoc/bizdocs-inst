@@ -3,19 +3,23 @@ import GlobalStyle from './global.styles';
 import Header from './components/Header/Header';
 import IntroSection from './components/IntroSection/IntroSection';
 import ClientSection from './components/ClientSection/ClientSection';
-import { Background } from './App.style';
+import { MainBackground, SecondBackground } from './App.style';
 import ClientsLogo from './components/ClientsLogo/ClientsLogo';
+import MainlyFunctions from './components/MainlyFunctions/MainlyFunctions';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Background>
+      <MainBackground>
         <Header />
         <IntroSection />
-      </Background>
+      </MainBackground>
       <ClientSection />
       <ClientsLogo />
+      <SecondBackground>
+        <MainlyFunctions />
+      </SecondBackground>
     </>
   );
 }

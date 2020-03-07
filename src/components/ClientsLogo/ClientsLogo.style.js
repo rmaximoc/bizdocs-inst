@@ -9,7 +9,7 @@ export const MarginBox = styled.div`
   width: 80%;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 
   img {
     max-width: 126px;
