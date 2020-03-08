@@ -6,6 +6,7 @@ import ClientSection from './components/ClientSection/ClientSection';
 import { MainBackground, SecondBackground } from './App.style';
 import ClientsLogo from './components/ClientsLogo/ClientsLogo';
 import MainlyFunctions from './components/MainlyFunctions/MainlyFunctions';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SecondBackground>
         <MainlyFunctions />
       </SecondBackground>
+      <Testimonials />
     </>
   );
 }

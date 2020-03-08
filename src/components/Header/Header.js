@@ -30,7 +30,7 @@ const Header = () => {
           </LinksContent>
           <ButtonContent>
             <GreenButton content="Experimente grátis" maxWidth="185px" />
-            <OpacityButton content="Login" />
+            <OpacityButton maxWidth="88px" content="Login" />
           </ButtonContent>
         </HeaderContent>
       </MarginBox>

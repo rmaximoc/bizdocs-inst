@@ -17,17 +17,14 @@ const MainlyFunctions = () => {
           documental.
         </p>
         <CardsBox>
-          {cardsContent.map(card => {
-            console.log(card);
-            return (
-              <FunctionsCard
-                image={card.image}
-                title={card.title}
-                text={card.text}
-                key={card.title}
-              />
-            );
-          })}
+          {cardsContent.map(card => (
+            <FunctionsCard
+              image={card.image}
+              title={card.title}
+              text={card.text}
+              key={card.title}
+            />
+          ))}
         </CardsBox>
         <OpacityButton content="Ver mais benefícios" maxWidth="247px" />
       </MarginBox>
