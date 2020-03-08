@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   z-index: 2;
+  max-height: 650px;
 `;
 
 export const MarginBox = styled.div`

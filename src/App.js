@@ -7,6 +7,7 @@ import { MainBackground, SecondBackground } from './App.style';
 import ClientsLogo from './components/ClientsLogo/ClientsLogo';
 import MainlyFunctions from './components/MainlyFunctions/MainlyFunctions';
 import Testimonials from './components/Testimonials/Testimonials';
+import Compliance from './components/Compliance/Compliance';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <MainlyFunctions />
       </SecondBackground>
       <Testimonials />
+      <Compliance />
     </>
   );
 }
