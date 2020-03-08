@@ -27,6 +27,6 @@ export const CardsBox = styled.div`
   display: grid;
   margin: 60px auto 70px;
   grid-template-columns: 450px 450px;
-  grid-column-gap: 48px;
+  grid-column-gap: 45px;
   grid-row-gap: 42px;
 `;

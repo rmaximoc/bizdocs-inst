@@ -9,6 +9,7 @@ export const MarginBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-width: 450px;
   width: 80%;
   justify-content: center;
   padding: 45px;
@@ -23,4 +24,5 @@ export const MarginBox = styled.div`
 export const Title = styled.h1`
   font-size: 18px;
   color: #69b643;
+  margin: 22px 0;
 `;
