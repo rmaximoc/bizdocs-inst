@@ -8,6 +8,7 @@ import ClientsLogo from './components/ClientsLogo/ClientsLogo';
 import MainlyFunctions from './components/MainlyFunctions/MainlyFunctions';
 import Testimonials from './components/Testimonials/Testimonials';
 import Compliance from './components/Compliance/Compliance';
+import DesktopFooter from './components/shared/DesktopFooter/DesktopFooter';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </SecondBackground>
       <Testimonials />
       <Compliance />
+      <DesktopFooter />
     </>
   );
 }

@@ -11,4 +11,5 @@ export const Button = styled.button`
   max-height: 51px;
   max-width: ${({ maxWidth }) => maxWidth};
   box-shadow: 0px 10px 20px #0000003d;
+  cursor: pointer;
 `;

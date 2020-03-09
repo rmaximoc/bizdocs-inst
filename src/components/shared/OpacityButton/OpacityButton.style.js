@@ -9,4 +9,5 @@ export const Button = styled.button`
   font-weight: 500;
   max-height: 51px;
   max-width: ${({ maxWidth }) => maxWidth};
+  cursor: pointer;
 `;

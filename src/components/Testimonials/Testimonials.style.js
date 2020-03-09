@@ -23,7 +23,7 @@ export const GreenBackground = styled.div`
   height: 356px;
   width: 120%;
   transform: rotate(-6deg);
-  margin: -93px -35px;
+  margin: -127px 0 0 -35px;
   box-shadow: 0px 30px 60px #00000029;
 `;
 
