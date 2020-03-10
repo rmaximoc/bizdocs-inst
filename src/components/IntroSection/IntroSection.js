@@ -5,7 +5,8 @@ import {
   TextContent,
   VideoContent,
   PresentationContent,
-  MarginBox
+  MarginBox,
+  Triangle
 } from './IntroSection.style';
 
 const IntroSection = () => {
@@ -29,6 +30,7 @@ const IntroSection = () => {
         </PresentationContent>
         <VideoContent>video here</VideoContent>
       </MarginBox>
+      <Triangle />
     </Container>
   );
 };

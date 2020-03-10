@@ -57,7 +57,7 @@ export const ImageContent = styled.div`
   display: flex;
   width: 50%;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 export const News = styled.p`
@@ -71,9 +71,8 @@ export const News = styled.p`
 
 export const ExternalBorder = styled.div`
   display: flex;
-  right: 17vw;
-  top: 134vh;
-  position: absolute;
+  position: static;
+  margin: 5vh 10vw 0 -45vw;
   border: 1px solid #69b643;
   width: 437px;
   height: 564px;
