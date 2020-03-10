@@ -22,11 +22,11 @@ const Header = () => {
         <HeaderContent>
           <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
           <LinksContent>
-            <p>Bizdocs</p>
-            <p>G.Contabilidade</p>
-            <p>Empresas</p>
-            <p>Planos e Preços</p>
-            <p>Suporte</p>
+            <a href="#">Bizdocs</a>
+            <a href="#">G.Contabilidade</a>
+            <a href="#">Empresas</a>
+            <a href="#">Planos e Preços</a>
+            <a href="#">Suporte</a>
           </LinksContent>
           <ButtonContent>
             <GreenButton content="Experimente grátis" maxWidth="185px" />

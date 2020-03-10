@@ -17,7 +17,7 @@ export const MarginBox = styled.div`
 `;
 
 export const Title = styled.h1`
-  margin: 157px 0 30px 0;
+  margin: 258px 0 30px 0;
   font-size: 36px;
   color: #69b643;
   text-align: center;

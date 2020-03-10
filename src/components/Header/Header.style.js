@@ -30,7 +30,8 @@ export const LinksContent = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  p {
+  a {
+    text-decoration: none;
     font-weight: 600;
     margin: 0 18px;
   }
