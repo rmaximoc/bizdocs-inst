@@ -14,14 +14,14 @@ export const MarginBox = styled.div`
   margin: 0 auto;
 `;
 
-export const DropButtonContent = styled.div`
+export const DropDownContent = styled.div`
   display: flex;
   justify-content: flex-end;
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 `;
 

@@ -9,6 +9,7 @@ export const Container = styled.div`
 
 export const MarginBox = styled.div`
   display: flex;
+  justify-content: space-between;
   width: 80%;
   margin: 66px auto 97px;
 `;

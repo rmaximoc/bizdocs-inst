@@ -8,7 +8,7 @@ import {
   Links,
   Copyright,
   SocialLinks
-} from './DesktopFooter.style.';
+} from './DesktopFooter.style';
 import footerLinks from './footerLinks';
 
 const DesktopFooter = () => {

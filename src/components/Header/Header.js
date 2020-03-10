@@ -1,12 +1,12 @@
 import React from 'react';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
-import DropButton from '../shared/DropButton/DropButton';
+import DropDown from '../shared/DropDown/DropDown';
 import {
   Container,
   LinksContent,
   ButtonContent,
-  DropButtonContent,
+  DropDownContent,
   HeaderContent,
   MarginBox
 } from './Header.style';
@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <Container>
       <MarginBox>
-        <DropButtonContent>
-          <DropButton content="Portugal" />
-        </DropButtonContent>
+        <DropDownContent>
+          <DropDown content="Portugal" />
+        </DropDownContent>
         <HeaderContent>
           <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
           <LinksContent>
