@@ -7,7 +7,7 @@ export const Container = styled.div`
 export const MarginBox = styled.div`
   display: flex;
   width: 80%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 `;
@@ -32,7 +32,7 @@ export const TextContent = styled.div`
 export const PresentationContent = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 130px auto 123px;
+  margin: 130px auto 123px 0;
   width: 50%;
 `;
 

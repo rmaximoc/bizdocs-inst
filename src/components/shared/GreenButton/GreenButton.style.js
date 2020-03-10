@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
+  white-space: nowrap;
   text-align: center;
   margin-right: 10px;
   padding: 17px 23px;

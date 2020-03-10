@@ -5,6 +5,8 @@ import {
   TextContent,
   PresentationContent,
   ImageContent,
+  Image,
+  ExternalBorder,
   News
 } from './ClientSection.style';
 import GreyButton from '../shared/GreyButton/GreyButton';
@@ -30,8 +32,9 @@ const ClientSection = () => {
           <GreyButton content="Saber mais" maxWidth="247px" />
         </PresentationContent>
         <ImageContent>
-          <img src="" alt="" />
+          <Image />
         </ImageContent>
+        <ExternalBorder />
       </MarginBox>
     </Container>
   );
