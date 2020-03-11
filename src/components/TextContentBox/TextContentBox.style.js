@@ -14,9 +14,3 @@ export const MarginBox = styled.div`
   width: 80%;
   margin: 0 auto;
 `;
-
-export const TextContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-`;
