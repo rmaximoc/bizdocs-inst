@@ -1,5 +1,11 @@
 import React from 'react';
-import { Container, MarginBox, Title, CardsBox } from './MainlyFunctions.style';
+import {
+  Container,
+  MarginBox,
+  Title,
+  CardsBox,
+  Strip
+} from './MainlyFunctions.style';
 import FunctionsCard from '../FunctionsCard/FunctionsCard';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import cardsContent from './cardsContent';
@@ -7,6 +13,7 @@ import cardsContent from './cardsContent';
 const MainlyFunctions = () => {
   return (
     <Container>
+      <Strip />
       <MarginBox>
         <Title>
           Principais

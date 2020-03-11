@@ -7,7 +7,8 @@ import {
   ImageContent,
   Image,
   ExternalBorder,
-  News
+  News,
+  Strip
 } from './ClientSection.style';
 import GreyButton from '../shared/GreyButton/GreyButton';
 
@@ -15,6 +16,7 @@ const ClientSection = () => {
   return (
     <Container>
       <MarginBox>
+        <Strip />
         <PresentationContent>
           <News>NOTÍCIAS</News>
           <TextContent>

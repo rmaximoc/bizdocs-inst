@@ -76,4 +76,21 @@ export const ExternalBorder = styled.div`
   border: 1px solid #69b643;
   width: 437px;
   height: 564px;
+
+  @media screen and (max-width: 1770px) {
+    margin: 5vh 0vw 0 -45vw;
+  }
+
+  @media screen and (max-width: 1400px) {
+    margin: 5vh 0vw 0 -30vw;
+  }
+`;
+
+export const Strip = styled.div`
+  display: flex;
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background-color: #69b643;
+  margin: -50px 0 0 15vw;
 `;

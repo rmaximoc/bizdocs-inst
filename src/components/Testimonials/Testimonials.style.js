@@ -38,3 +38,13 @@ export const Title = styled.h1`
   margin-bottom: 35px;
   z-index: 1;
 `;
+
+export const Strip = styled.div`
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background-color: #ffffff;
+  margin: -190px 50% 0;
+`;

@@ -30,3 +30,12 @@ export const CardsBox = styled.div`
   grid-column-gap: 45px;
   grid-row-gap: 42px;
 `;
+
+export const Strip = styled.div`
+  display: flex;
+  position: absolute;
+  width: 2px;
+  height: 120px;
+  background-color: #69b643;
+  margin: 35px 50% 0;
+`;

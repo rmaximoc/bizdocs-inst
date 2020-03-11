@@ -4,7 +4,8 @@ import {
   MarginBox,
   GreenBackground,
   Title,
-  CardsBox
+  CardsBox,
+  Strip
 } from './Testimonials.style';
 import TestimonialCard from '../TestimonialsCard/TestimonialCard';
 import testimonialContent from './testimonialContent';
@@ -12,6 +13,7 @@ import testimonialContent from './testimonialContent';
 const Testimonials = () => {
   return (
     <Container>
+      <Strip />
       <GreenBackground />
       <MarginBox>
         <Title>Testemunhos</Title>
