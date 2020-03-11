@@ -22,6 +22,8 @@ const Testimonials = () => {
               text={card.text}
               name={card.name}
               key={card.image}
+              minHeight={card.height}
+              marginTop={card.marginTop}
             />
           ))}
         </CardsBox>

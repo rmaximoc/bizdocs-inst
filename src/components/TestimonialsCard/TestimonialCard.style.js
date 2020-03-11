@@ -17,14 +17,20 @@ export const Cards = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 436px;
+  min-height: ${({ minHeight }) => minHeight};
+  margin-top: ${({ marginTop }) => marginTop};
   max-width: 310px;
   box-shadow: 0px 10px 20px #86868638;
   background-color: #ffffff;
   padding: 25px;
 
-  &:nth-child(2) {
-    min-height: 502px;
+  img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #69b643;
+    margin-bottom: 21px;
   }
 `;
 
