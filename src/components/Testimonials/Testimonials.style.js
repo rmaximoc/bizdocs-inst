@@ -21,9 +21,9 @@ export const GreenBackground = styled.div`
   position: absolute;
   background-color: #69b643;
   height: 356px;
-  width: 120%;
-  transform: rotate(-6deg);
-  margin: -127px 0 0 -35px;
+  width: 100%;
+  transform: skewy(-4deg);
+  margin: -127px 0 0 0;
   box-shadow: 0px 30px 60px #00000029;
 `;
 

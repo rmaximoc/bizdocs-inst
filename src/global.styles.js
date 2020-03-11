@@ -12,10 +12,6 @@ export default createGlobalStyle`
     min-height: 100%;
   }
 
-  html {
-    overflow-x: hidden;
-  }
-
   body * {
     color: #ffffff;
     font-family: 'Montserrat';
