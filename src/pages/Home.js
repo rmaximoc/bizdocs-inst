@@ -7,8 +7,9 @@ import { MainBackground, SecondBackground } from './Home.style';
 import ClientsLogo from '../components/ClientsLogo/ClientsLogo';
 import MainlyFunctions from '../components/MainlyFunctions/MainlyFunctions';
 import Testimonials from '../components/Testimonials/Testimonials';
-import Compliance from '../components/Compliance/Compliance';
+import Compliance from '../components/shared/Compliance/Compliance';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
+import { ReactComponent as Stamp } from '../assets/images/green-stamp.svg';
 
 const Home = () => {
   return (
@@ -24,7 +25,13 @@ const Home = () => {
         <MainlyFunctions />
       </SecondBackground>
       <Testimonials />
-      <Compliance />
+      <Compliance
+        stamp={Stamp}
+        title="Conformidade com DL28/2019"
+        content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em
+              contabilidade manual como automatizada."
+        buttonContent="Experimente grátis"
+      />
       <DesktopFooter />
     </>
   );

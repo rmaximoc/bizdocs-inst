@@ -2,12 +2,13 @@ import React from 'react';
 import GlobalStyle from '../global.styles';
 import { CardBox } from './Bizdocs.style';
 import Header from '../components/Header/Header';
-import Compliance from '../components/Compliance/Compliance';
+import Compliance from '../components/shared/Compliance/Compliance';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
 import TextContentBox from '../components/TextContentBox/TextContentBox';
 import TextContentBoxButton from '../components/TextContentBoxButton/TextContentBoxButton';
 import CardWithLink from '../components/CardWithLink/CardWithLink';
 import cardContent from '../components/CardWithLink/cardContent';
+import { ReactComponent as Clock } from '../assets/images/clock.svg';
 
 const Bizdocs = () => {
   return (
@@ -27,7 +28,12 @@ const Bizdocs = () => {
         ))}
       </CardBox>
       <TextContentBoxButton />
-      <Compliance />
+      <Compliance
+        image={Clock}
+        title="A Qualquer hora, em qualquer lugar"
+        content="O Bizdocs aceita qualquer tipo de documento, da fatura ao talão de caixa, através de qualquer dispositivo, desde um scanner ou multifunções a um simples smartphone. Como funciona em Cloud, pode aceder aos seus documentos ou carregar seja o que for onde estiver, quando quiser, como preferir."
+        buttonContent="Experimente grátis"
+      />
       <DesktopFooter />
     </>
   );

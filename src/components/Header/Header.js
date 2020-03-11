@@ -10,7 +10,8 @@ import {
   ButtonContent,
   DropDownContent,
   HeaderContent,
-  MarginBox
+  MarginBox,
+  Anchor
 } from './Header.style';
 import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
 
@@ -25,12 +26,20 @@ const Header = ({ bgColor }) => {
           <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
           <LinksContent>
             <Link to="bizdocs">
-              <a>Bizdocs</a>
+              <Anchor>Bizdocs</Anchor>
             </Link>
-            <a href="#">G.Contabilidade</a>
-            <a href="#">Empresas</a>
-            <a href="#">Planos e Preços</a>
-            <a href="#">Suporte</a>
+            <Link to="/">
+              <Anchor>G.Contabilidade</Anchor>
+            </Link>
+            <Link to="empresas">
+              <Anchor>Empresas</Anchor>
+            </Link>
+            <Link to="/">
+              <Anchor>Planos e Preços</Anchor>
+            </Link>
+            <Link to="/">
+              <Anchor>Suporte</Anchor>
+            </Link>
           </LinksContent>
           <ButtonContent>
             <GreenButton content="Experimente grátis" maxWidth="185px" />

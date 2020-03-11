@@ -30,12 +30,12 @@ export const LinksContent = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+`;
 
-  a {
-    text-decoration: none;
-    font-weight: 600;
-    margin: 0 18px;
-  }
+export const Anchor = styled.a`
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 18px;
 `;
 
 export const ButtonContent = styled.div`
