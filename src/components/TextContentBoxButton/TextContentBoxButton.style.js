@@ -13,14 +13,6 @@ export const MarginBox = styled.div`
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
-`;
-
-export const TextContent = styled.div`
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 40px;
 
   img {
     margin-top: 40px;
@@ -34,7 +26,22 @@ export const TextContent = styled.div`
   }
 `;
 
+export const TextContent = styled.div`
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+`;
+
 export const ButtonBox = styled.div`
   display: flex;
-  margin: 60px 0 90px;
+  justify-content: center;
+  margin: 60px auto 90px;
+`;
+
+export const ImageBox = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 `;
