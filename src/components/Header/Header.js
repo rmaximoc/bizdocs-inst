@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import DropDown from '../shared/DropDown/DropDown';
@@ -12,9 +13,9 @@ import {
 } from './Header.style';
 import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
 
-const Header = () => {
+const Header = ({ bgColor }) => {
   return (
-    <Container>
+    <Container bgColor={bgColor}>
       <MarginBox>
         <DropDownContent>
           <DropDown content="Portugal" />
@@ -36,6 +37,14 @@ const Header = () => {
       </MarginBox>
     </Container>
   );
+};
+
+Header.propTypes = {
+  bgColor: string
+};
+
+Header.defaultProps = {
+  bgColor: ''
 };
 
 export default Header;

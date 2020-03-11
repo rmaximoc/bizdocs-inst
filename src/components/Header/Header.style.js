@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   min-height: 130px;
+  background-color: ${({ bgColor }) => bgColor};
 `;
 
 export const MarginBox = styled.div`
