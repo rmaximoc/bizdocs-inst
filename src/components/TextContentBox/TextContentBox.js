@@ -7,6 +7,7 @@ const TextContentBox = () => {
     <Container>
       <MarginBox>
         <TextContent
+          color="#585858"
           title="O que é?"
           paragraph="Todos sentimos já o pesadelo de ter que gerir uma montanha de papel,
             desde facturas e talões de caixa, passando por encomendas e ordens
@@ -15,6 +16,7 @@ const TextContentBox = () => {
             todos os seus documentos de negócio."
         />
         <TextContent
+          color="#585858"
           title="Como Funciona"
           paragraph="Imagine um sistema que aceita qualquer formato de documento, do
             papel digitalizado à simples foto de telemóvel, reconhecendo o
