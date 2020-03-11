@@ -1,5 +1,6 @@
 import React from 'react';
 import { string } from 'prop-types';
+import { Link } from 'react-router-dom';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import DropDown from '../shared/DropDown/DropDown';
@@ -23,7 +24,9 @@ const Header = ({ bgColor }) => {
         <HeaderContent>
           <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
           <LinksContent>
-            <a href="#">Bizdocs</a>
+            <Link to="bizdocs">
+              <a>Bizdocs</a>
+            </Link>
             <a href="#">G.Contabilidade</a>
             <a href="#">Empresas</a>
             <a href="#">Planos e Preços</a>
