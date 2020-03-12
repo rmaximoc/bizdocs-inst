@@ -1,14 +1,14 @@
 import React from 'react';
-import GlobalStyle from '../global.styles';
+import GlobalStyle from '../../global.styles';
 import { CardBox } from './Bizdocs.style';
-import Header from '../components/Header/Header';
-import Compliance from '../components/shared/Compliance/Compliance';
-import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
-import TextContentBox from '../components/TextContentBox/TextContentBox';
-import TextContentBoxButton from '../components/TextContentBoxButton/TextContentBoxButton';
-import CardWithLink from '../components/CardWithLink/CardWithLink';
-import cardContent from '../components/CardWithLink/cardContent';
-import { ReactComponent as Clock } from '../assets/images/clock.svg';
+import Header from '../../components/Header/Header';
+import Compliance from '../../components/shared/Compliance/Compliance';
+import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import TextContentBox from '../../components/TextContentBox/TextContentBox';
+import TextContentBoxButton from '../../components/TextContentBoxButton/TextContentBoxButton';
+import CardWithLink from '../../components/CardWithLink/CardWithLink';
+import cardContent from '../../components/CardWithLink/cardContent';
+import { ReactComponent as Clock } from '../../assets/images/clock.svg';
 
 const Bizdocs = () => {
   return (

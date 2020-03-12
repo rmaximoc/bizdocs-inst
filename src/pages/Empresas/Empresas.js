@@ -1,10 +1,12 @@
 import React from 'react';
-import GlobalStyles from '../global.styles';
-import Header from '../components/Header/Header';
-import TextContent from '../components/shared/TextContent/TextContent';
-import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
-import CardsBox from '../components/CardsBox/CardsBox';
-import PlanCardBox from '../components/PlanCardBox/PlanCardBox';
+import GlobalStyles from '../../global.styles';
+import Header from '../../components/Header/Header';
+import TextContent from '../../components/shared/TextContent/TextContent';
+import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import CardsBox from '../../components/CardsBox/CardsBox';
+import PlanCardBox from '../../components/PlanCardBox/PlanCardBox';
+import Contact from '../../components/Contact/Contact';
+import Compliance from '../../components/shared/Compliance/Compliance';
 
 const Empresas = () => {
   return (
@@ -18,6 +20,8 @@ const Empresas = () => {
       />
       <CardsBox />
       <PlanCardBox />
+      <Contact />
+      <Compliance />
       <DesktopFooter />
     </>
   );
