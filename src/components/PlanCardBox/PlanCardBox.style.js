@@ -3,11 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 `;
 
-export const TextBox = styled.p`
-  font-size: 18px;
-  color: #69b643;
+export const MarginBox = styled.div`
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 `;

@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import TextContent from '../components/shared/TextContent/TextContent';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
 import CardsBox from '../components/CardsBox/CardsBox';
+import PlanCardBox from '../components/PlanCardBox/PlanCardBox';
 
 const Empresas = () => {
   return (
@@ -16,6 +17,7 @@ const Empresas = () => {
         paragraph="Seja qual for a dimensão da sua empresa, existe uma solução Bizdocs para si. É natural que queira experimentar, testando este sistema em funcionamento, utilizando a versão gratuita que lhe disponibilizamos de imediato. Mas estamos certos de que, assim que sentir o alívio de poder trabalhar sem montanhas de papel, vai querer ajustar a sua solução Bizdocs às necessidades específicas da sua empresa."
       />
       <CardsBox />
+      <PlanCardBox />
       <DesktopFooter />
     </>
   );
