@@ -81,7 +81,7 @@ export const ExternalBorder = styled.div`
     margin: 5vh 0vw 0 -45vw;
   }
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1440px) {
     margin: 5vh 0vw 0 -30vw;
   }
 `;

@@ -23,7 +23,7 @@ const Bizdocs = () => {
             title={card.title}
             paragraph={card.paragraph}
             linkText={card.linkText}
-            href={card.hre}
+            href={card.href}
           />
         ))}
       </CardBox>
