@@ -6,6 +6,7 @@ import Empresas from './pages/Empresas/Empresas';
 import PlanDetails from './pages/PlanDetails/PlanDetails';
 import Benefits from './pages/Benefits/Benefits';
 import PlansAndPrices from './pages/PlansAndPrices/PlansAndPrices';
+import Security from './pages/Security/Security';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/plans-and-prices">
           <PlansAndPrices />
+        </Route>
+        <Route path="/security">
+          <Security />
         </Route>
       </Switch>
     </Router>
