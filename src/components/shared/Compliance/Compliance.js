@@ -10,10 +10,10 @@ import {
 } from './Compliance.style';
 import GreenButton from '../GreenButton/GreenButton';
 
-const Compliance = ({ stamp, title, content, buttonContent }) => {
+const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
   return (
     <Container>
-      <MarginBox>
+      <MarginBox margin={margin}>
         <ComplianceContent>
           {/* {stamp} */}
           <Texts>
@@ -31,7 +31,12 @@ Compliance.propTypes = {
   stamp: element.isRequired,
   title: string.isRequired,
   content: string.isRequired,
-  buttonContent: string.isRequired
+  buttonContent: string.isRequired,
+  margin: string
+};
+
+Compliance.defaultProps = {
+  margin: '0 auto 240px'
 };
 
 export default Compliance;

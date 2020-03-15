@@ -11,7 +11,7 @@ export const MarginBox = styled.div`
   flex-direction: column;
   width: 80%;
   justify-content: center;
-  margin: 0 auto 240px;
+  margin: ${({ margin }) => margin};
 `;
 
 export const ComplianceContent = styled.div`
