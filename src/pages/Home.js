@@ -26,6 +26,7 @@ const Home = () => {
       </SecondBackground>
       <Testimonials />
       <Compliance
+        margin="0 auto 84px"
         stamp={Stamp}
         title="Conformidade com DL28/2019"
         content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em
