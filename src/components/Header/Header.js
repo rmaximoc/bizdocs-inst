@@ -23,21 +23,23 @@ const Header = ({ bgColor }) => {
           <DropDown content="Portugal" />
         </DropDownContent>
         <HeaderContent>
-          <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
+          <Link to="/">
+            <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
+          </Link>
           <LinksContent>
-            <Link to="bizdocs">
+            <Link style={{ textDecoration: 'none' }} to="bizdocs">
               <Anchor>Bizdocs</Anchor>
             </Link>
-            <Link to="/">
+            <Link style={{ textDecoration: 'none' }} to="/">
               <Anchor>G.Contabilidade</Anchor>
             </Link>
-            <Link to="empresas">
+            <Link style={{ textDecoration: 'none' }} to="empresas">
               <Anchor>Empresas</Anchor>
             </Link>
-            <Link to="/">
+            <Link style={{ textDecoration: 'none' }} to="/">
               <Anchor>Planos e Preços</Anchor>
             </Link>
-            <Link to="/">
+            <Link style={{ textDecoration: 'none' }} to="/">
               <Anchor>Suporte</Anchor>
             </Link>
           </LinksContent>
