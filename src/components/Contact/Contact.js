@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import {
   Container,
@@ -8,9 +9,9 @@ import {
   InputBox
 } from './Contact.style';
 
-const Contact = () => {
+const Contact = ({ margin }) => {
   return (
-    <Container>
+    <Container margin={margin}>
       <MarginBox>
         <ContactBox>
           <Title>Faça o seu registro</Title>
@@ -27,6 +28,14 @@ const Contact = () => {
       </MarginBox>
     </Container>
   );
+};
+
+Contact.propTypes = {
+  margin: string
+};
+
+Contact.defaultProps = {
+  margin: ''
 };
 
 export default Contact;

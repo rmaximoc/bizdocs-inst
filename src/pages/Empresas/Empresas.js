@@ -20,8 +20,12 @@ const Empresas = () => {
       />
       <CardsBox />
       <PlanCardBox />
-      <Contact />
-      <Compliance />
+      <Contact margin="106px 0 174px" />
+      <Compliance
+        title="Smart OCR, com Machine Learning"
+        content="OCR (Optical Character Recognition) é a tecnologia que permite reconhecer as formas dos caracteres numa simples imagem, transformando-os em texto pesquisável e editável. Quando se reforça isso com com a própria aprendizagem da máquina, que em caso de dúvida lhe pede um esclarecimento, guardando essa decisão para outros documentos semelhantes, o Bizdocs não para nunca de evoluir em eficiência."
+        buttonContent="Experimente grátis"
+      />
       <DesktopFooter />
     </>
   );
