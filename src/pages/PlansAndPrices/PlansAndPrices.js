@@ -25,8 +25,13 @@ const PlansAndPrices = () => {
       />
       <PlansSquares />
       <ComparativeTable />
-      <Contact />
-      <Compliance />
+      <Contact margin="140px 0 174px" />
+      <Compliance
+        buttonContent="Experimente grátis"
+        title="Caixa-Forte Documental"
+        content="A encriptação blindada de última geração e os níveis de acesso totalmente parametrizáveis, fazem com que os seus documentos estejam exclusivamente disponíveis para quem deles necessita. Se acrescentarmos que os servidores onde se encontra armazenada a informação estão equipados com sistemas de segurança biométricos e debaixo de vigilância 24 horas por dia, depressa concluirá que todos os seus documentos estão em boas mãos."
+        margin="0 auto 48px"
+      />
       <DesktopFooter />
     </>
   );

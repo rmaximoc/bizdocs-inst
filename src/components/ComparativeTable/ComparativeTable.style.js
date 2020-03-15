@@ -14,7 +14,11 @@ export const MarginBox = styled.div`
 `;
 
 export const Header = styled.div`
-  background-color: blue;
+  color: #adadad;
+  font-size: 24px;
+  padding: 38px;
 `;
 
-export const Box = styled.div``;
+export const Box = styled.div`
+  display: flex;
+`;
