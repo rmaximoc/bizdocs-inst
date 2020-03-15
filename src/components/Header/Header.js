@@ -36,7 +36,7 @@ const Header = ({ bgColor }) => {
             <Link style={{ textDecoration: 'none' }} to="empresas">
               <Anchor>Empresas</Anchor>
             </Link>
-            <Link style={{ textDecoration: 'none' }} to="/">
+            <Link style={{ textDecoration: 'none' }} to="/plans-and-prices">
               <Anchor>Planos e Preços</Anchor>
             </Link>
             <Link style={{ textDecoration: 'none' }} to="/">
