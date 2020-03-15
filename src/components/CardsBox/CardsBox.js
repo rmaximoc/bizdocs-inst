@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, MarginBox } from './CardsBox.style';
+import { Container, MarginBox, Box } from './CardsBox.style';
 import CardTitle from '../CardTitle/CardTitle';
 import cardsContent from './cardsContent';
 
@@ -8,7 +8,9 @@ const CardsBox = () => {
     <Container>
       <MarginBox>
         {cardsContent.map(card => (
-          <CardTitle image={card.image} text={card.text} />
+          <Box>
+            <CardTitle image={card.image} text={card.text} />
+          </Box>
         ))}
       </MarginBox>
     </Container>

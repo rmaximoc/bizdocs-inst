@@ -12,7 +12,8 @@ const PlanCardBox = () => {
             cardColor={card.cardColor}
             headerTitle={card.headerTitle}
             valueText={card.valueText}
-            tableContent={card.tableContent}
+            tableValue={card.tableContent.value}
+            tableTitle={card.tableContent.title}
             buttonText={card.buttonText}
           />
         ))}
