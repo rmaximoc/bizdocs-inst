@@ -27,4 +27,5 @@ export const Title = styled.div`
   color: #adadad;
   font-size: 24px;
   margin-right: 60px;
+  padding-left: 10px;
 `;

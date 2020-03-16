@@ -39,7 +39,9 @@ const ComparativeTable = () => {
             />
           </Box>
         ))}
-        <Header>Funcionalidades</Header>
+        <Header>
+          <Title>Funcionalidades</Title>
+        </Header>
         {functionalities.map(item => (
           <Box>
             <ComparationTableLine
@@ -53,7 +55,9 @@ const ComparativeTable = () => {
             />
           </Box>
         ))}
-        <Header>Bizdocs Automation add-on</Header>
+        <Header>
+          <Title>Bizdocs Automation add-on</Title>
+        </Header>
         {adon.map(item => (
           <Box>
             <ComparationTableLine
