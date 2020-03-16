@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const Box = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-shadow: 0px 10px 20px #86868629;
   width: 343px;
   height: 545px;
+  margin: 0 10px;
 `;
 
 export const Header = styled.div`
@@ -26,6 +26,14 @@ export const Price = styled.h1`
 
 export const Table = styled.div`
   display: flex;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
 `;
 
 export const Value = styled.h1`

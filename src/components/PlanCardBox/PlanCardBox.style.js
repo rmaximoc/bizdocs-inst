@@ -8,8 +8,21 @@ export const Container = styled.div`
 
 export const MarginBox = styled.div`
   display: flex;
+  flex-direction: column;
   width: 80%;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+`;
+
+export const Box = styled.div`
+  display: flex;
+  margin: 0px 10px 20px;
+`;
+
+export const Title = styled.p`
+  font-size: 18px;
+  color: #69b643;
+  font-weight: 700;
+  margin: 21px 0;
 `;

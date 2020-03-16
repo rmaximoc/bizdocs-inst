@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes, { string } from 'prop-types';
-import { Box, Header, Price, Value, Table } from './PlanCard.style';
+import { Box, Header, Price, Value, Table, Content } from './PlanCard.style';
 import TableLine from '../shared/TableLine/TableLine';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
@@ -22,25 +22,27 @@ const PlanCards = ({
   cardColor,
   headerTitle,
   valueText,
-  tableTitle,
-  tableValue,
+  tableContent,
   buttonText
 }) => {
   return (
     <Box>
       <Header cardColor={cardColor}>{headerTitle}</Header>
-      <Price cardColor={cardColor}>
-        A partir de
-        <Value cardColor={cardColor}>{splitPrice(valueText)}</Value>
-      </Price>
-      <Table>
-        {[tableTitle].map(content => {
-          console.log(content);
-          return <TableLine title={content} content={content} />;
-        })}
-      </Table>
-      <GreenButton content={buttonText} />
-      <OpacityButton />
+      <Content>
+        <Price cardColor={cardColor}>
+          A partir de
+          <Value cardColor={cardColor}>{splitPrice(valueText)}</Value>
+        </Price>
+        <Table>
+          {tableContent.map(content => {
+            console.log(content.value);
+            return <TableLine title={content.title} content={content.value} />;
+          })}
+          {/* <TableLine title={tableTitle[0]} content={tableValue[0]} /> */}
+        </Table>
+        <GreenButton content={buttonText} />
+        <OpacityButton color="#1C3144" width="100%" content="Comparar planos" />
+      </Content>
     </Box>
   );
 };
@@ -50,8 +52,7 @@ PlanCards.propTypes = {
   valueText: string.isRequired,
   cardColor: string.isRequired,
   buttonText: string.isRequired,
-  tableValue: PropTypes.arrayOf(string).isRequired,
-  tableTitle: PropTypes.arrayOf(string).isRequired
+  tableContent: PropTypes.arrayOf(string).isRequired
 };
 
 export default PlanCards;

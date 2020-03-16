@@ -1,13 +1,31 @@
 import React from 'react';
-import { Container, MarginBox, Header, Box } from './ComparativeTable.style';
+import {
+  Container,
+  MarginBox,
+  Header,
+  Box,
+  Title
+} from './ComparativeTable.style';
 import ComparationTableLine from '../shared/ComparationTableLine/ComparationTableLine';
 import { characteristics, functionalities, adon } from './comparativeContent';
+import OpacityButton from '../shared/OpacityButton/OpacityButton';
 
 const ComparativeTable = () => {
   return (
     <Container>
       <MarginBox>
-        <Header>Principais Características</Header>
+        <Header>
+          <Title>Principais Características</Title>
+          <OpacityButton
+            width="137px"
+            color="#69B643"
+            content="Experimente Grátis"
+          />
+          <OpacityButton width="145px" color="#ADADAD" content="Aderir" />
+          <OpacityButton width="145px" color="#B99769" content="Aderir" />
+          <OpacityButton width="145px" color="#656565" content="Fale conosco" />
+          <OpacityButton width="145px" color="#1C3144" content="Fale conosco" />
+        </Header>
         {characteristics.map(item => (
           <Box>
             <ComparationTableLine

@@ -14,11 +14,17 @@ export const MarginBox = styled.div`
 `;
 
 export const Header = styled.div`
-  color: #adadad;
-  font-size: 24px;
-  padding: 38px;
+  padding: 38px 0px;
+  display: flex;
 `;
 
 export const Box = styled.div`
   display: flex;
+`;
+
+export const Title = styled.div`
+  display: flex;
+  color: #adadad;
+  font-size: 24px;
+  margin-right: 60px;
 `;

@@ -1,22 +1,35 @@
 import React from 'react';
 import PlanCard from '../PlanCard/PlanCard';
-import { Container, MarginBox } from './PlanCardBox.style';
-import cardsContent from './cardsContent';
+import { Container, MarginBox, Box, Title } from './PlanCardBox.style';
+import { cards, second } from './cardsContent';
 
 const PlanCardBox = () => {
   return (
     <Container>
       <MarginBox>
-        {cardsContent.map(card => (
-          <PlanCard
-            cardColor={card.cardColor}
-            headerTitle={card.headerTitle}
-            valueText={card.valueText}
-            tableValue={card.tableContent.value}
-            tableTitle={card.tableContent.title}
-            buttonText={card.buttonText}
-          />
-        ))}
+        <Box>
+          {cards.map(card => (
+            <PlanCard
+              cardColor={card.cardColor}
+              headerTitle={card.headerTitle}
+              valueText={card.valueText}
+              tableContent={card.tableContent}
+              buttonText={card.buttonText}
+            />
+          ))}
+        </Box>
+        <Title>Outros planos</Title>
+        <Box>
+          {second.map(card => (
+            <PlanCard
+              cardColor={card.cardColor}
+              headerTitle={card.headerTitle}
+              valueText={card.valueText}
+              tableContent={card.tableContent}
+              buttonText={card.buttonText}
+            />
+          ))}
+        </Box>
       </MarginBox>
     </Container>
   );

@@ -24,6 +24,7 @@ export const Box = styled.div`
   justify-content: flex-end;
   background-color: ${({ color }) => color};
   width: 157px;
+  border-radius: 6px 6px 0 0;
 `;
 
 export const Value = styled.h1`

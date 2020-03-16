@@ -8,6 +8,9 @@ export const Button = styled.button`
   background-color: rgba(255, 255, 255, 0);
   font-weight: 500;
   max-height: 51px;
+  border: 1px solid ${({ color }) => color};
+  color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
+  width: ${({ width }) => width};
   cursor: pointer;
 `;
