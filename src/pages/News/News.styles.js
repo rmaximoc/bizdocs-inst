@@ -11,7 +11,7 @@ export const MarginBox = styled.div`
   width: 80%;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 60px auto 30px;
 `;
 
 export const TitleBox = styled.div`
@@ -22,4 +22,10 @@ export const TitleBox = styled.div`
 export const TitleGreen = styled.h1`
   font-size: 36px;
   color: #69b643;
+`;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 68px auto 140px;
 `;

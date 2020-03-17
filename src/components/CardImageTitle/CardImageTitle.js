@@ -1,34 +1,18 @@
 import React from 'react';
-import { string, element } from 'prop-types';
-import {
-  Container,
-  MarginBox,
-  Date,
-  Title,
-  Image,
-  CardBox
-} from './CardImageTitle.style';
+import CardsNews from '../CardsNews/CardsNews';
+import { Container, MarginBox } from './CardImageTitle.style';
+import newsContent from './newsContent';
 
-const CardImageTitle = ({ image, date, title }) => {
+const CardImageTitle = () => {
   return (
     <Container>
       <MarginBox>
-        <CardBox>
-          <Image>
-            <img src={image} alt="" />
-          </Image>
-          <Date>{date}</Date>
-          <Title>{title}</Title>
-        </CardBox>
+        {newsContent.map(item => (
+          <CardsNews image={item.image} date={item.date} title={item.title} />
+        ))}
       </MarginBox>
     </Container>
   );
-};
-
-CardImageTitle.propTypes = {
-  image: element.isRequired,
-  date: string.isRequired,
-  title: string.isRequired
 };
 
 export default CardImageTitle;

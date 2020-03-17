@@ -7,9 +7,8 @@ import Title from '../../components/shared/Title/Title';
 import ImageBottomText from '../../components/ImageBottomText/ImageBottomText';
 import Background from '../../assets/images/newsBg.png';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
-import { TitleGreen, Container, MarginBox } from './News.styles';
+import { TitleGreen, Container, MarginBox, ButtonBox } from './News.styles';
 import CardImageTitle from '../../components/CardImageTitle/CardImageTitle';
-import img from '../../assets/images/adidas.png';
 
 const News = () => {
   return (
@@ -26,9 +25,16 @@ const News = () => {
           <TitleGreen>Últimas notícias</TitleGreen>
         </MarginBox>
       </Container>
-      <CardImageTitle image={img} date="12/12/12" title="soaihdo" />
-      <GreenButton />
-      <Compliance />
+      <CardImageTitle />
+      <ButtonBox>
+        <GreenButton content="Ver mais notícias" minWidth="372px" />
+      </ButtonBox>
+      <Compliance
+        margin="0 auto 75px"
+        title="Integração Automatizada"
+        content="O Bizdocs é compatível com os principais sistemas de contabilidade e gestão, permitindo uma integração imediata e sem disrupção. Os processos habituais entre si e a sua contabilidade podem ser automatizados, permitindo que, por exemplo, faturas sejam classificadas e lançadas sem intervenção humana – e com menos erros e atrasos."
+        buttonContent="Experimente grátis"
+      />
       <DesktopFooter />
     </>
   );
