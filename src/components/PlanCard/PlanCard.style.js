@@ -11,6 +11,8 @@ export const Box = styled.div`
 
 export const Header = styled.div`
   display: flex;
+  font-weight: 700;
+  justify-content: center;
   padding: 15px;
   border-radius: 6px 6px 0px 0px;
   background-color: ${({ cardColor }) => cardColor};
@@ -26,6 +28,7 @@ export const Price = styled.h1`
 
 export const Table = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 export const Content = styled.div`

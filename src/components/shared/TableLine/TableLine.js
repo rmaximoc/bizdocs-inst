@@ -1,20 +1,41 @@
 import React from 'react';
 import { string } from 'prop-types';
-import { Box, FirstColumn, SecondColumn } from './TableLine.style';
+import {
+  Box,
+  FirstLine,
+  SecondLine,
+  ThirdLine,
+  FirstTitle,
+  FirstValue
+} from './TableLine.style';
 
-const TableLine = ({ title, content }) => {
-  // console.log(title, content);
+const TableLine = ({ content }) => {
   return (
-    <Box>
-      <FirstColumn>{title}</FirstColumn>
-      <SecondColumn>{content}</SecondColumn>
-    </Box>
+    <>
+      <Box>
+        <FirstLine>
+          <FirstTitle>{content.title[0]}</FirstTitle>
+          <FirstValue>{content.value[0]}</FirstValue>
+        </FirstLine>
+      </Box>
+      <Box>
+        <SecondLine>
+          <FirstTitle>{content.title[1]}</FirstTitle>
+          <FirstValue>{content.value[1]}</FirstValue>
+        </SecondLine>
+      </Box>
+      <Box>
+        <ThirdLine>
+          <FirstTitle>{content.title[2]}</FirstTitle>
+          <FirstValue>{content.value[2]}</FirstValue>
+        </ThirdLine>
+      </Box>
+    </>
   );
 };
 
 TableLine.propTypes = {
-  content: string.isRequired,
-  title: string.isRequired
+  content: string.isRequired
 };
 
 export default TableLine;

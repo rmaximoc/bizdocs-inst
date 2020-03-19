@@ -35,10 +35,8 @@ const PlanCards = ({
         </Price>
         <Table>
           {tableContent.map(content => {
-            console.log(content.value);
-            return <TableLine title={content.title} content={content.value} />;
+            return <TableLine title={content} content={content} />;
           })}
-          {/* <TableLine title={tableTitle[0]} content={tableValue[0]} /> */}
         </Table>
         <GreenButton content={buttonText} />
         <OpacityButton color="#1C3144" width="100%" content="Comparar planos" />

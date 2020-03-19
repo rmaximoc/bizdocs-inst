@@ -44,7 +44,11 @@ const Header = ({ bgColor }) => {
             </Link>
           </LinksContent>
           <ButtonContent>
-            <GreenButton content="Experimente grátis" maxWidth="185px" />
+            <GreenButton
+              content="Experimente grátis"
+              maxWidth="185px"
+              margin="0 10px 0 0"
+            />
             <OpacityButton maxWidth="88px" content="Login" />
           </ButtonContent>
         </HeaderContent>
