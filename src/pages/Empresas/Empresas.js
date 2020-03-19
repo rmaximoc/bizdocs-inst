@@ -7,6 +7,7 @@ import CardsBox from '../../components/CardsBox/CardsBox';
 import PlanCardBox from '../../components/PlanCardBox/PlanCardBox';
 import Contact from '../../components/Contact/Contact';
 import Compliance from '../../components/shared/Compliance/Compliance';
+import { ReactComponent as Smart } from '../../assets/images/smartOCR.svg';
 
 const Empresas = () => {
   return (
@@ -22,6 +23,7 @@ const Empresas = () => {
       <PlanCardBox />
       <Contact margin="106px 0 174px" />
       <Compliance
+        stamp={<Smart />}
         margin="0 auto 35px"
         title="Smart OCR, com Machine Learning"
         content="OCR (Optical Character Recognition) é a tecnologia que permite reconhecer as formas dos caracteres numa simples imagem, transformando-os em texto pesquisável e editável. Quando se reforça isso com com a própria aprendizagem da máquina, que em caso de dúvida lhe pede um esclarecimento, guardando essa decisão para outros documentos semelhantes, o Bizdocs não para nunca de evoluir em eficiência."

@@ -7,6 +7,7 @@ import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
 import Contact from '../../components/Contact/Contact';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import TableContent from '../../components/TableContent/TableContent';
+import { ReactComponent as Dl28 } from '../../assets/images/stamp-DL28-2019.svg';
 
 const PlanDetails = ({ planValue, bgColor }) => {
   return (
@@ -25,6 +26,7 @@ const PlanDetails = ({ planValue, bgColor }) => {
       />
       <Contact margin="71px 0 175px" />
       <Compliance
+        stamp={<Dl28 />}
         margin="0 auto 78px"
         buttonContent="Experimente grátis"
         title="Conformidade com o RGPD e a ePrivacy"
