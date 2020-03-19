@@ -31,9 +31,10 @@ export const Title = styled.h2`
   margin-bottom: 21px;
 `;
 
-export const Links = styled.p`
+export const Links = styled.a`
   color: #ffffff;
   margin-top: 10px;
+  cursor: pointer;
 `;
 
 export const SocialLinks = styled.div`

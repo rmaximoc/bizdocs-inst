@@ -22,9 +22,11 @@ export const Triangle = styled.div`
 
 export const Content = styled.div`
   display: none;
+  width: 140px;
+  max-width: 140px;
   margin-left: -28px;
   justify-content: center;
-  padding: 10px;
+  padding: 17px 10px 10px;
   background-color: #ffffff;
   flex-direction: column;
   position: absolute;
@@ -39,9 +41,12 @@ export const Content = styled.div`
     color: #585858;
     background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
+    padding: 5px;
 
     :hover {
       background-color: #69b643;
+      border-radius: 3px;
+      color: #ffffff;
     }
   }
 `;

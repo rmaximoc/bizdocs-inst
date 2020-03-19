@@ -15,7 +15,7 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
     <Container>
       <MarginBox margin={margin}>
         <ComplianceContent>
-          {/* {stamp} */}
+          {stamp}
           <Texts>
             <Title>{title}</Title>
             <TextContent>{content}</TextContent>
