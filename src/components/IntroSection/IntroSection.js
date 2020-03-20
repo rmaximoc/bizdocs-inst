@@ -6,7 +6,9 @@ import {
   VideoContent,
   PresentationContent,
   MarginBox,
-  Triangle
+  Triangle,
+  ButtonBoxDesktop,
+  ButtonBoxMobile
 } from './IntroSection.style';
 
 const IntroSection = () => {
@@ -26,9 +28,19 @@ const IntroSection = () => {
               qualquer documento ou talão.
             </p>
           </TextContent>
-          <GreenButton content="Experimente grátis" maxWidth="301px" />
+          <ButtonBoxDesktop>
+            <GreenButton content="Experimente grátis" maxWidth="301px" />
+          </ButtonBoxDesktop>
         </PresentationContent>
         <VideoContent>video here</VideoContent>
+        <ButtonBoxMobile>
+          <GreenButton
+            margin="23px auto 42px"
+            content="Experimente grátis"
+            maxWidth="100%"
+            width="100%"
+          />
+        </ButtonBoxMobile>
       </MarginBox>
       <Triangle />
     </Container>

@@ -12,5 +12,6 @@ export const Button = styled.button`
   background-color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
   min-width: ${({ minWidth }) => minWidth};
+  width: ${({ width }) => width};
   cursor: pointer;
 `;
