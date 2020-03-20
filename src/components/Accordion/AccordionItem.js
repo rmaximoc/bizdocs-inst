@@ -1,41 +1,37 @@
-import React, { useState } from 'react';
-import { string } from 'prop-types';
+import React from 'react';
+import { string, bool } from 'prop-types';
 import {
-  ItemLine,
-  Line,
-  Title,
-  Icon,
-  Inner,
-  Content,
-  Paragraph
+  AccordionLine,
+  AccordionIcon,
+  AccordionTitle,
+  AccordionInner,
+  AccordionContent,
+  AccordionParagraph
 } from './Accordion.style';
 
-const AccordionItem = ({ title, paragraph }) => {
-  const [opened, setState] = useState({
-    opened: false
-  });
-
-  const handleClick = () =>
-    setState(previousState => ({ ...previousState, opened: !opened }));
-
+const AccordionItem = ({ title, paragraph, opened, bgColor }) => {
   return (
-    <ItemLine onClick={handleClick}>
-      <Line>
-        <Title>{title}</Title>
-        <Icon />
-      </Line>
-      <Inner>
-        <Content>
-          <Paragraph>{paragraph}</Paragraph>
-        </Content>
-      </Inner>
-    </ItemLine>
+    <>
+      <AccordionLine bgColor={bgColor}>
+        <AccordionTitle>
+          {title}
+          <AccordionIcon opened={opened} />
+        </AccordionTitle>
+      </AccordionLine>
+      <AccordionInner opened={opened}>
+        <AccordionContent opened={opened}>
+          <AccordionParagraph>{paragraph}</AccordionParagraph>
+        </AccordionContent>
+      </AccordionInner>
+    </>
   );
 };
 
 AccordionItem.propTypes = {
   title: string.isRequired,
-  paragraph: string.isRequired
+  paragraph: string.isRequired,
+  opened: bool.isRequired,
+  bgColor: string.isRequired
 };
 
 export default AccordionItem;

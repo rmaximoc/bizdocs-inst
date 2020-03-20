@@ -13,7 +13,7 @@ const TestimonialCard = ({ image, text, name, minHeight, marginTop }) => {
     <Container>
       <MarginBox>
         <Cards minHeight={minHeight} marginTop={marginTop}>
-          <img src={image} alt="" />
+          <img src={image} alt="imag" />
           <TextContent>{text}</TextContent>
           <NameText>{name}</NameText>
         </Cards>

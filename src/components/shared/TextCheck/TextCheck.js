@@ -1,6 +1,6 @@
 import React from 'react';
 import { string } from 'prop-types';
-import { Container, MarginBox, Box } from './TextCheck.style';
+import { Container, MarginBox, Box, BoxCheck } from './TextCheck.style';
 import { ReactComponent as Check } from '../../../assets/images/check.svg';
 
 const TextCheck = ({ content }) => {
@@ -8,7 +8,9 @@ const TextCheck = ({ content }) => {
     <Container>
       <MarginBox>
         <Box>
-          <Check />
+          <BoxCheck>
+            <Check fill="#69B643" />
+          </BoxCheck>
           {content}
         </Box>
       </MarginBox>

@@ -16,4 +16,12 @@ export const MarginBox = styled.div`
 
 export const Box = styled.div`
   display: flex;
+  color: #585858;
+  font-size: 16px;
+`;
+
+export const BoxCheck = styled.div`
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 40px;
 `;

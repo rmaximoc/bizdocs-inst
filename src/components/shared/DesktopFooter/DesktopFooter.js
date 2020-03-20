@@ -19,7 +19,7 @@ const DesktopFooter = () => {
           <LinksContent>
             <Title>Sobre o Bizdocs</Title>
             {footerLinks.about.map(link => (
-              <Links>{link.text}</Links>
+              <Links key={link.text}>{link.text}</Links>
             ))}
           </LinksContent>
         </Column>
@@ -27,13 +27,13 @@ const DesktopFooter = () => {
           <LinksContent>
             <Title>Portal Gab. Contabilidade</Title>
             {footerLinks.portal.map(link => (
-              <Links>{link.text}</Links>
+              <Links key={link.text}>{link.text}</Links>
             ))}
           </LinksContent>
           <LinksContent>
             <Title style={{ marginTop: '50px' }}>Empresas - Mobi</Title>
             {footerLinks.empresas.map(link => (
-              <Links>{link.text}</Links>
+              <Links key={link.text}>{link.text}</Links>
             ))}
           </LinksContent>
         </Column>
@@ -41,7 +41,7 @@ const DesktopFooter = () => {
           <LinksContent>
             <Title>Login</Title>
             {footerLinks.login.map(link => (
-              <Links>{link.text}</Links>
+              <Links key={link.text}>{link.text}</Links>
             ))}
           </LinksContent>
         </Column>
@@ -49,7 +49,7 @@ const DesktopFooter = () => {
           <Title>Social</Title>
           <SocialLinks>
             {footerLinks.social.map(social => (
-              <>{social.logo}</>
+              <div key={social.alt}>{social.logo}</div>
             ))}
           </SocialLinks>
           <Copyright>@2020 Bizdocs. Todos os direitos reservados</Copyright>

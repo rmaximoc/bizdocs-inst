@@ -21,7 +21,7 @@ export const Triangle = styled.div`
 `;
 
 export const Content = styled.div`
-  display: none;
+  display: ${props => (props.opened ? 'flex' : 'none')};
   width: 140px;
   max-width: 140px;
   margin-left: -28px;
