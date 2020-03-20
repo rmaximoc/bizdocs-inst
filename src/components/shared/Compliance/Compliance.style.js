@@ -27,6 +27,12 @@ export const TextContent = styled.p`
   font-size: 16px;
 `;
 
+export const StampBox = styled.div`
+  display: flex;
+  height: 100%;
+  padding: 33px 20px;
+`;
+
 export const Title = styled.h2`
   font-size: 24px;
   margin-bottom: 15px;

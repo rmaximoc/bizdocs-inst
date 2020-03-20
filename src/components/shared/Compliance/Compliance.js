@@ -4,6 +4,7 @@ import {
   Container,
   MarginBox,
   ComplianceContent,
+  StampBox,
   TextContent,
   Title,
   Texts
@@ -15,7 +16,7 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
     <Container>
       <MarginBox margin={margin}>
         <ComplianceContent>
-          {stamp}
+          <StampBox>{stamp}</StampBox>
           <Texts>
             <Title>{title}</Title>
             <TextContent>{content}</TextContent>
