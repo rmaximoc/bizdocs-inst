@@ -10,4 +10,8 @@ export const MainBackground = styled.div`
 export const SecondBackground = styled.div`
   background-image: url(${secondBackground});
   background-size: cover;
+
+  @media screen and (max-width: 992px) {
+    margin-top: -213px;
+  }
 `;

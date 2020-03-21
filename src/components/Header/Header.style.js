@@ -18,6 +18,10 @@ export const MarginBox = styled.div`
 export const DropDownContent = styled.div`
   display: flex;
   justify-content: flex-end;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 `;
 
 export const HeaderContent = styled.div`
@@ -30,6 +34,10 @@ export const LinksContent = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 `;
 
 export const Anchor = styled.a`
@@ -41,4 +49,8 @@ export const Anchor = styled.a`
 export const ButtonContent = styled.div`
   display: flex;
   justify-content: space-evenly;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 `;

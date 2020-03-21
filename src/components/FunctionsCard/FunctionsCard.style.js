@@ -19,6 +19,12 @@ export const MarginBox = styled.div`
   p {
     color: #585858;
   }
+
+  @media screen and (max-width: 992px) {
+    min-width: unset;
+    width: 100%;
+    padding: 30px;
+  }
 `;
 
 export const Title = styled.h1`

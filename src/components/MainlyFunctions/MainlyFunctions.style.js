@@ -13,14 +13,22 @@ export const MarginBox = styled.div`
 
   p {
     text-align: center;
+
+    @media screen and (max-width: 992px) {
+      font-size: 16px;
+    }
   }
 `;
 
 export const Title = styled.h1`
-  margin: 258px 0 30px 0;
+  margin: 348px 0 30px 0;
   font-size: 36px;
   color: #69b643;
   text-align: center;
+
+  @media screen and (max-width: 992px) {
+    font-size: 24px;
+  }
 `;
 
 export const CardsBox = styled.div`
@@ -29,6 +37,10 @@ export const CardsBox = styled.div`
   grid-template-columns: 450px 450px;
   grid-column-gap: 45px;
   grid-row-gap: 42px;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: repeat(1, 100%);
+  }
 `;
 
 export const Strip = styled.div`
@@ -38,4 +50,9 @@ export const Strip = styled.div`
   height: 120px;
   background-color: #69b643;
   margin: 35px 50% 0;
+
+  @media screen and (max-width: 992px) {
+    margin: 242px 50% 0;
+    height: 50px;
+  }
 `;
