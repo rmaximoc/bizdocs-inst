@@ -8,7 +8,8 @@ import {
   Image,
   ExternalBorder,
   News,
-  Strip
+  Strip,
+  ButtonBox
 } from './ClientSection.style';
 import GreyButton from '../shared/GreyButton/GreyButton';
 
@@ -31,7 +32,13 @@ const ClientSection = () => {
               para criar.
             </p>
           </TextContent>
-          <GreyButton content="Saber mais" maxWidth="247px" />
+          <ButtonBox>
+            <GreyButton
+              content="Saber mais"
+              minWidth="247px"
+              maxWidth="247px"
+            />
+          </ButtonBox>
         </PresentationContent>
         <ImageContent>
           <Image />
