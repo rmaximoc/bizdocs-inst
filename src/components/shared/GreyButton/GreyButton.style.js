@@ -10,6 +10,9 @@ export const Button = styled.button`
   font-weight: 500;
   max-height: 51px;
   max-width: ${({ maxWidth }) => maxWidth};
+  min-width: ${({ minWidth }) => minWidth};
+  width: ${({ width }) => width};
+  margin: ${({ margin }) => margin};
   box-shadow: 0px 10px 20px #0000003d;
   cursor: pointer;
 `;
