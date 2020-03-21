@@ -29,7 +29,11 @@ const IntroSection = () => {
             </p>
           </TextContent>
           <ButtonBoxDesktop>
-            <GreenButton content="Experimente grátis" maxWidth="301px" />
+            <GreenButton
+              content="Experimente grátis"
+              maxWidth="301px"
+              minWidth="301px"
+            />
           </ButtonBoxDesktop>
         </PresentationContent>
         <VideoContent>video here</VideoContent>

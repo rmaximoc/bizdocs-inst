@@ -14,7 +14,7 @@ export const MarginBox = styled.div`
   align-items: center;
   margin: 0 auto;
 
-  @media${({ theme: { devices } }) => devices.smallMobile} {
+  @media screen and (max-width: 992px) {
     flex-direction: column;
   }
 `;
@@ -22,7 +22,7 @@ export const MarginBox = styled.div`
 export const ButtonBoxDesktop = styled.div`
   display: flex;
 
-  @media${({ theme: { devices } }) => devices.smallMobile} {
+  @media screen and (max-width: 992px) {
     display: none;
   }
 `;
@@ -31,9 +31,9 @@ export const ButtonBoxMobile = styled.div`
   display: none;
   width: 100%;
 
-@media${({ theme: { devices } }) => devices.smallMobile} {
-  display: flex;
-}
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
 `;
 
 export const TextContent = styled.div`
@@ -43,7 +43,7 @@ export const TextContent = styled.div`
   margin-bottom: 41px;
   max-width: 550px;
 
-  @media${({ theme: { devices } }) => devices.smallMobile} {
+  @media screen and (max-width: 992px) {
     margin-bottom: 10px;
   }
 
@@ -51,7 +51,7 @@ export const TextContent = styled.div`
     font-size: 36px;
     margin-bottom: 24px;
 
-    @media${({ theme: { devices } }) => devices.smallMobile} {
+    @media screen and (max-width: 992px) {
       font-size: 24px;
     }
   }
@@ -59,7 +59,7 @@ export const TextContent = styled.div`
   p {
     font-size: 16px;
 
-    @media${({ theme: { devices } }) => devices.smallMobile} {
+    @media screen and (max-width: 992px) {
       display: none;
     }
   }
@@ -71,7 +71,7 @@ export const PresentationContent = styled.div`
   margin: 130px auto 123px 0;
   width: 50%;
 
-  @media${({ theme: { devices } }) => devices.smallMobile} {
+  @media screen and (max-width: 992px) {
     width: 100%;
     margin: 50px 0 0;
     text-align: center;
@@ -84,7 +84,7 @@ export const VideoContent = styled.div`
   width: 564px;
   height: 320px;
 
-  @media${({ theme: { devices } }) => devices.smallMobile} {
+  @media screen and (max-width: 992px) {
     width: 100%;
   }
 `;
