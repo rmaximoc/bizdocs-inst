@@ -10,6 +10,7 @@ import TextContentBoxButton from '../../components/TextContentBoxButton/TextCont
 import CardWithLink from '../../components/CardWithLink/CardWithLink';
 import cardContent from '../../components/CardWithLink/cardContent';
 import { ReactComponent as Clock } from '../../assets/images/clock.svg';
+import CarouselSlider from '../../components/CarouselSlider/CarouselSlider';
 
 const Bizdocs = () => {
   return (
@@ -28,6 +29,35 @@ const Bizdocs = () => {
           />
         ))}
       </CardBox>
+      <CarouselSlider
+        firstCard={
+          <CardWithLink
+            image={cardContent[0].image}
+            title={cardContent[0].title}
+            paragraph={cardContent[0].paragraph}
+            linkText={cardContent[0].linkText}
+            href={cardContent[0].href}
+          />
+        }
+        secondCard={
+          <CardWithLink
+            image={cardContent[1].image}
+            title={cardContent[1].title}
+            paragraph={cardContent[1].paragraph}
+            linkText={cardContent[1].linkText}
+            href={cardContent[1].href}
+          />
+        }
+        thirdCard={
+          <CardWithLink
+            image={cardContent[2].image}
+            title={cardContent[2].title}
+            paragraph={cardContent[2].paragraph}
+            linkText={cardContent[2].linkText}
+            href={cardContent[2].href}
+          />
+        }
+      />
       <TextContentBoxButton />
       <Compliance
         margin="0 auto 84px"
