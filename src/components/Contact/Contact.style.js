@@ -20,6 +20,10 @@ export const ContactBox = styled.div`
   margin: 56px auto;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -32,6 +36,10 @@ export const InputBox = styled.div`
   display: flex;
   width: 100%;
 
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+  }
+
   input {
     min-width: 468px;
     margin: 30px 5px;
@@ -40,5 +48,9 @@ export const InputBox = styled.div`
     color: #585858;
     border-radius: 6px;
     border: 1px solid #adadad;
+
+    @media screen and (max-width: 992px) {
+      min-width: unset;
+    }
   }
 `;
