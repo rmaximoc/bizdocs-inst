@@ -32,6 +32,10 @@ export const Cards = styled.div`
     border: 1px solid #69b643;
     margin-bottom: 21px;
   }
+
+  @media screen and (max-width: 992px) {
+    max-width: unset;
+  }
 `;
 
 export const TextContent = styled.p`

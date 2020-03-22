@@ -29,6 +29,10 @@ export const GreenBackground = styled.div`
   transform: skewy(-4deg);
   margin: -141px 0 0 0;
   box-shadow: 0px 30px 60px #00000029;
+
+  @media screen and (max-width: 992px) {
+    margin: -70px 0 0 0;
+  }
 `;
 
 export const CardsBox = styled.div`
@@ -55,4 +59,9 @@ export const Strip = styled.div`
   height: 120px;
   background-color: #ffffff;
   margin: -190px 50% 0;
+
+  @media screen and (max-width: 992px) {
+    height: 50px;
+    margin: -97px 50% 0;
+  }
 `;
