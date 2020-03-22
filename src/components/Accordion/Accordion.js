@@ -3,7 +3,7 @@ import { string } from 'prop-types';
 import { Container, MarginBox, Box, AccordionList } from './Accordion.style';
 import AccordionItem from './AccordionItem';
 
-const Accordion = ({ bgColor, title, paragraph }) => {
+const Accordion = ({ bgColor, title, paragraph, color, width }) => {
   const [opened, setOpen] = useState(false);
 
   function handleClick() {
@@ -20,6 +20,8 @@ const Accordion = ({ bgColor, title, paragraph }) => {
                 opened={opened}
                 title={title}
                 paragraph={paragraph}
+                color={color}
+                width={width}
               />
             </li>
           </AccordionList>
@@ -32,7 +34,14 @@ const Accordion = ({ bgColor, title, paragraph }) => {
 Accordion.propTypes = {
   bgColor: string.isRequired,
   title: string.isRequired,
-  paragraph: string.isRequired
+  paragraph: string.isRequired,
+  color: string,
+  width: string
+};
+
+Accordion.defaultProps = {
+  color: '#585858',
+  width: ''
 };
 
 export default Accordion;

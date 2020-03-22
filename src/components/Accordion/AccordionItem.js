@@ -9,11 +9,11 @@ import {
   AccordionParagraph
 } from './Accordion.style';
 
-const AccordionItem = ({ title, paragraph, opened, bgColor }) => {
+const AccordionItem = ({ title, paragraph, opened, bgColor, color }) => {
   return (
     <>
       <AccordionLine bgColor={bgColor}>
-        <AccordionTitle>
+        <AccordionTitle color={color}>
           {title}
           <AccordionIcon opened={opened} />
         </AccordionTitle>
@@ -31,7 +31,12 @@ AccordionItem.propTypes = {
   title: string.isRequired,
   paragraph: string.isRequired,
   opened: bool.isRequired,
-  bgColor: string.isRequired
+  bgColor: string.isRequired,
+  color: string
+};
+
+AccordionItem.defaultProps = {
+  color: '#585858'
 };
 
 export default AccordionItem;

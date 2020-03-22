@@ -13,6 +13,10 @@ export const MarginBox = styled.div`
   width: 80%;
   justify-content: center;
   margin: 0 auto 240px;
+
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
 `;
 
 export const GreenBackground = styled.div`
@@ -23,13 +27,17 @@ export const GreenBackground = styled.div`
   height: 356px;
   width: 100%;
   transform: skewy(-4deg);
-  margin: -127px 0 0 0;
+  margin: -141px 0 0 0;
   box-shadow: 0px 30px 60px #00000029;
 `;
 
 export const CardsBox = styled.div`
   display: flex;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`

@@ -4,6 +4,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
 `;
 
 export const MarginBox = styled.div`
@@ -12,6 +16,11 @@ export const MarginBox = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    margin: 10px;
+  }
 `;
 
 export const Box = styled.div`
@@ -49,7 +58,7 @@ export const AccordionTitle = styled.h3`
   font-size: 16px;
   margin: 0;
   font-weight: 700;
-  color: #585858;
+  color: ${({ color }) => color};
 `;
 
 export const AccordionIcon = styled.span`
