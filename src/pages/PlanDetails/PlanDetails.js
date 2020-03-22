@@ -9,17 +9,20 @@ import Contact from '../../components/Contact/Contact';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import TableContent from '../../components/TableContent/TableContent';
 import { ReactComponent as Dl28 } from '../../assets/images/stamp-DL28-2019.svg';
+import { MarginBox } from '../../components/Header/Header.style';
 
 const PlanDetails = ({ planValue, bgColor }) => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
-      <TextContent
-        title="Mobi grátis"
-        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        color="#585858"
-      />
+      <MarginBox>
+        <TextContent
+          title="Mobi grátis"
+          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          color="#585858"
+        />
+      </MarginBox>
       <TableContent
         bgColor={bgColor}
         planValue={planValue}
