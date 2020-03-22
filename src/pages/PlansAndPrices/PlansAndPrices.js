@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import Contact from '../../components/Contact/Contact';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import Paragraph from '../../components/shared/Paragraph/Paragraph';
 import PlansSquares from '../../components/PlansSquares/PlansSquares';
@@ -37,6 +38,7 @@ const PlansAndPrices = () => {
         margin="0 auto 48px"
       />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };

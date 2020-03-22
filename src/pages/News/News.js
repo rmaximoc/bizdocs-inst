@@ -2,6 +2,7 @@ import React from 'react';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import Title from '../../components/shared/Title/Title';
 import ImageBottomText from '../../components/ImageBottomText/ImageBottomText';
@@ -36,6 +37,7 @@ const News = () => {
         buttonContent="Experimente grátis"
       />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };

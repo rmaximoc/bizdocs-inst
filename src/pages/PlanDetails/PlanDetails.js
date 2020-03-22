@@ -4,6 +4,7 @@ import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import Contact from '../../components/Contact/Contact';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import TableContent from '../../components/TableContent/TableContent';
@@ -33,6 +34,7 @@ const PlanDetails = ({ planValue, bgColor }) => {
         content="Permanentemente actualizado com a última legislação em vigor, a gestão documental do Bizdocs garante que a sua empresa estará sempre segura na conformidade. A segurança e inviolabilidade dos dados, outro requisite exigido pela nova regulamentação, estão também garantidos pelos sistemas e recursos que temos instalados"
       />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };

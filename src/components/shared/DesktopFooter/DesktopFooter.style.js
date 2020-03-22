@@ -5,6 +5,10 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: #1b2555;
   min-height: 464px;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 `;
 
 export const MarginBox = styled.div`

@@ -9,6 +9,7 @@ import MainlyFunctions from '../components/MainlyFunctions/MainlyFunctions';
 import Testimonials from '../components/Testimonials/Testimonials';
 import Compliance from '../components/shared/Compliance/Compliance';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../components/shared/MobileFooter/MobileFooter';
 import { ReactComponent as Stamp } from '../assets/images/green-stamp.svg';
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
         buttonContent="Experimente grátis"
       />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };

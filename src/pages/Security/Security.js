@@ -3,6 +3,7 @@ import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import Paragraph from '../../components/shared/Paragraph/Paragraph';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
@@ -25,6 +26,7 @@ const Security = () => {
       <GreenButton />
       <Compliance />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };

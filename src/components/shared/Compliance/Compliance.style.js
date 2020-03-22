@@ -18,13 +18,23 @@ export const ComplianceContent = styled.div`
   display: flex;
   align-items: center;
   background-color: #1b2555;
-  height: 248px;
+  min-height: 248px;
   justify-content: center;
   box-shadow: 0px 10px 20px #0000003b;
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 22px;
+  }
 `;
 
 export const TextContent = styled.p`
   font-size: 16px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 24px;
+  }
 `;
 
 export const StampBox = styled.div`
@@ -43,4 +53,9 @@ export const Texts = styled.div`
   flex-direction: column;
   max-width: 474px;
   margin-right: 128px;
+
+  @media screen and (max-width: 992px) {
+    max-width: unset;
+    margin-right: 0;
+  }
 `;

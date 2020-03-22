@@ -3,6 +3,7 @@ import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
+import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import CardsBox from '../../components/CardsBox/CardsBox';
 import PlanCardBox from '../../components/PlanCardBox/PlanCardBox';
 import Contact from '../../components/Contact/Contact';
@@ -30,6 +31,7 @@ const Empresas = () => {
         buttonContent="Experimente grátis"
       />
       <DesktopFooter />
+      <MobileFooter />
     </>
   );
 };
