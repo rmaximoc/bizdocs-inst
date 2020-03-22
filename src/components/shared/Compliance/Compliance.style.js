@@ -25,7 +25,7 @@ export const ComplianceContent = styled.div`
   @media screen and (max-width: 992px) {
     flex-direction: column;
     text-align: center;
-    padding: 22px;
+    padding: 0 22px 53px;
   }
 `;
 
@@ -34,6 +34,7 @@ export const TextContent = styled.p`
 
   @media screen and (max-width: 992px) {
     margin-bottom: 24px;
+    font-weight: 500;
   }
 `;
 
@@ -57,5 +58,22 @@ export const Texts = styled.div`
   @media screen and (max-width: 992px) {
     max-width: unset;
     margin-right: 0;
+  }
+`;
+
+export const ButtonBoxMobile = styled.div`
+  display: none;
+  width: 100%;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+`;
+
+export const ButtonBoxDesktop = styled.div`
+  display: flex;
+
+  @media screen and (max-width: 992px) {
+    display: none;
   }
 `;

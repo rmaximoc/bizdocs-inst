@@ -7,7 +7,9 @@ import {
   StampBox,
   TextContent,
   Title,
-  Texts
+  Texts,
+  ButtonBoxDesktop,
+  ButtonBoxMobile
 } from './Compliance.style';
 import GreenButton from '../GreenButton/GreenButton';
 
@@ -21,7 +23,12 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
             <Title>{title}</Title>
             <TextContent>{content}</TextContent>
           </Texts>
-          <GreenButton content={buttonContent} maxWidth="280px" />
+          <ButtonBoxDesktop>
+            <GreenButton content={buttonContent} maxWidth="280px" />
+          </ButtonBoxDesktop>
+          <ButtonBoxMobile>
+            <GreenButton content={buttonContent} width="100%" />
+          </ButtonBoxMobile>
         </ComplianceContent>
       </MarginBox>
     </Container>
