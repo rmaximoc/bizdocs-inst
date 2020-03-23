@@ -15,6 +15,10 @@ export const MarginBox = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Box = styled.div`
@@ -27,4 +31,8 @@ export const Box = styled.div`
   text-align: center;
   margin: 10px;
   padding: 53px;
+
+  @media screen and (max-width: 992px) {
+    box-shadow: 0px 10px 20px #86868629;
+  }
 `;

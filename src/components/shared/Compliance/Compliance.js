@@ -27,7 +27,7 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
             <GreenButton content={buttonContent} maxWidth="280px" />
           </ButtonBoxDesktop>
           <ButtonBoxMobile>
-            <GreenButton content={buttonContent} width="100%" />
+            <GreenButton content={buttonContent} width="100%" maxWidth="100%" />
           </ButtonBoxMobile>
         </ComplianceContent>
       </MarginBox>
