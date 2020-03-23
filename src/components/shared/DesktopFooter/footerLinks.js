@@ -29,7 +29,7 @@ const footerLinks = {
     },
     {
       text: 'Suporte',
-      link: ''
+      link: '/plans/plan-details'
     },
     {
       text: 'Novidades',
