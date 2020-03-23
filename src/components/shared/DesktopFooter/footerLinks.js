@@ -20,15 +20,15 @@ const footerLinks = {
       link: '/security'
     },
     {
-      text: 'RGPD',
-      link: ''
+      text: 'Empresas',
+      link: '/empresas'
     },
     {
       text: 'Planos e preços',
       link: '/plans-and-prices'
     },
     {
-      text: 'Suporte',
+      text: 'Detalhes do plano',
       link: '/plans/plan-details'
     },
     {
