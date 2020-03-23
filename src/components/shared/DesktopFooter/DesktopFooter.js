@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Container,
   MarginBox,
@@ -19,7 +20,9 @@ const DesktopFooter = () => {
           <LinksContent>
             <Title>Sobre o Bizdocs</Title>
             {footerLinks.about.map(link => (
-              <Links key={link.text}>{link.text}</Links>
+              <Link to={link.link} key={link.text}>
+                {link.text}
+              </Link>
             ))}
           </LinksContent>
         </Column>

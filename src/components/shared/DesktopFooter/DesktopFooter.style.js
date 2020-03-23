@@ -22,6 +22,13 @@ export const LinksContent = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 105px 0 0;
+
+  a {
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
 `;
 
 export const Column = styled.div`

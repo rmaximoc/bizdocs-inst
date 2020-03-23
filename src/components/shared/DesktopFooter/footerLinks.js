@@ -9,15 +9,15 @@ const footerLinks = {
   about: [
     {
       text: 'Porque o Bizdocs?',
-      link: ''
+      link: '/bizdocs'
     },
     {
       text: 'Benefícios e funcionalidades',
-      link: ''
+      link: '/plans/benefits'
     },
     {
       text: 'Segurança',
-      link: ''
+      link: '/security'
     },
     {
       text: 'RGPD',
@@ -25,7 +25,7 @@ const footerLinks = {
     },
     {
       text: 'Planos e preços',
-      link: ''
+      link: '/plans-and-prices'
     },
     {
       text: 'Suporte',
@@ -33,7 +33,7 @@ const footerLinks = {
     },
     {
       text: 'Novidades',
-      link: ''
+      link: '/news'
     },
     {
       text: 'Contactos',
