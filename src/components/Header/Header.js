@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import DropDown from '../shared/DropDown/DropDown';
+
 import {
   Container,
   LinksContent,
@@ -11,9 +12,11 @@ import {
   DropDownContent,
   HeaderContent,
   MarginBox,
-  Anchor
+  Anchor,
+  Logo,
+  BurgerBox
 } from './Header.style';
-import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 const Header = ({ bgColor }) => {
   return (
@@ -24,7 +27,7 @@ const Header = ({ bgColor }) => {
         </DropDownContent>
         <HeaderContent>
           <Link to="/">
-            <BizLogo style={{ marginRight: '5%', minWidth: '200px' }} />
+            <Logo />
           </Link>
           <LinksContent>
             <Link style={{ textDecoration: 'none' }} to="bizdocs">
@@ -52,6 +55,9 @@ const Header = ({ bgColor }) => {
             <OpacityButton maxWidth="88px" content="Login" />
           </ButtonContent>
         </HeaderContent>
+        <BurgerBox>
+          <BurgerMenu />
+        </BurgerBox>
       </MarginBox>
     </Container>
   );

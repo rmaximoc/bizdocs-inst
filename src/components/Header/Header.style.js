@@ -1,4 +1,15 @@
 import styled from 'styled-components';
+import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
+
+export const Logo = styled(BizLogo)`
+  margin-right: 5%;
+  min-width: 200px;
+
+  @media screen and (max-width: 992px) {
+    max-width: 135px;
+    min-width: unset;
+  }
+`;
 
 export const Container = styled.div`
   display: flex;
@@ -53,4 +64,8 @@ export const ButtonContent = styled.div`
   @media screen and (max-width: 992px) {
     display: none;
   }
+`;
+
+export const BurgerBox = styled.div`
+  display: flex;
 `;
