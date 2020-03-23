@@ -39,7 +39,8 @@ const cards = [
   },
   {
     image: <Integration />,
-    text: 'Assegura total conformidade com o RGPD'
+    text: 'Assegura total conformidade com o RGPD',
+    columnPosition: '2 / 3'
   }
 ];
 

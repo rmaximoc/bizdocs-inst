@@ -8,7 +8,7 @@ const CardsBox = () => {
     <Container>
       <MarginBox>
         {cardsContent.map(card => (
-          <Box>
+          <Box columnPosition={card.columnPosition}>
             <CardTitle image={card.image} text={card.text} />
           </Box>
         ))}

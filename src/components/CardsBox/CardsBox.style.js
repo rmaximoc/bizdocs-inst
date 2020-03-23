@@ -19,6 +19,10 @@ export const MarginBox = styled.div`
   @media screen and (max-width: 992px) {
     grid-template-columns: 1fr;
   }
+
+  @media screen and (max-width: 1160px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 export const Box = styled.div`
@@ -32,7 +36,13 @@ export const Box = styled.div`
   margin: 10px;
   padding: 53px;
 
+  grid-column: ${({ columnPosition }) => columnPosition};
+
   @media screen and (max-width: 992px) {
     box-shadow: 0px 10px 20px #86868629;
+  }
+
+  @media screen and (max-width: 1160px) {
+    grid-column: unset;
   }
 `;
