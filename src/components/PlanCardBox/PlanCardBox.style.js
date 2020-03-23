@@ -20,6 +20,15 @@ export const Box = styled.div`
   margin: 0px 10px 20px;
 `;
 
+export const SecondBox = styled.div`
+  display: flex;
+  margin: 0px 10px 20px;
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+  }
+`;
+
 export const Title = styled.p`
   font-size: 18px;
   color: #69b643;

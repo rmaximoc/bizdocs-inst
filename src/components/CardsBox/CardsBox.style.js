@@ -16,12 +16,12 @@ export const MarginBox = styled.div`
   align-items: center;
   margin: 0 auto 129px;
 
-  @media screen and (max-width: 992px) {
-    grid-template-columns: 1fr;
-  }
-
   @media screen and (max-width: 1160px) {
     grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -40,6 +40,7 @@ export const Box = styled.div`
 
   @media screen and (max-width: 992px) {
     box-shadow: 0px 10px 20px #86868629;
+    margin: 10px auto;
   }
 
   @media screen and (max-width: 1160px) {

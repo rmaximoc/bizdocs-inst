@@ -1,6 +1,12 @@
 import React from 'react';
 import PlanCard from '../PlanCard/PlanCard';
-import { Container, MarginBox, Box, Title } from './PlanCardBox.style';
+import {
+  Container,
+  MarginBox,
+  Box,
+  Title,
+  SecondBox
+} from './PlanCardBox.style';
 import { cards, second } from './cardsContent';
 
 const PlanCardBox = () => {
@@ -19,7 +25,7 @@ const PlanCardBox = () => {
           ))}
         </Box>
         <Title>Outros planos</Title>
-        <Box>
+        <SecondBox>
           {second.map(card => (
             <PlanCard
               cardColor={card.cardColor}
@@ -29,7 +35,7 @@ const PlanCardBox = () => {
               buttonText={card.buttonText}
             />
           ))}
-        </Box>
+        </SecondBox>
       </MarginBox>
     </Container>
   );
