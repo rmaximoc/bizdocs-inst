@@ -18,6 +18,8 @@ const MobileFooter = () => {
           paragraph="teste"
           color="#ABC6DE"
           width="100%"
+          liColor="#1b2555"
+          fontColor="#ffffff"
         />
         <Accordion
           bgColor="#1b2555"
@@ -25,6 +27,8 @@ const MobileFooter = () => {
           paragraph="teste"
           color="#ABC6DE"
           width="100%"
+          liColor="#1b2555"
+          fontColor="#ffffff"
         />
         <Accordion
           bgColor="#1b2555"
@@ -32,6 +36,8 @@ const MobileFooter = () => {
           paragraph="teste"
           color="#ABC6DE"
           width="100%"
+          liColor="#1b2555"
+          fontColor="#ffffff"
         />
         <Accordion
           bgColor="#1b2555"
@@ -39,6 +45,8 @@ const MobileFooter = () => {
           paragraph="teste"
           color="#ABC6DE"
           width="100%"
+          liColor="#1b2555"
+          fontColor="#ffffff"
         />
         <SocialLinks>
           {footerLinks.social.map(social => (

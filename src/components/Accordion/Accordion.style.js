@@ -38,6 +38,14 @@ export const AccordionList = styled.ul`
   overflow: hidden;
   box-shadow: 0 0 0.8rem 0.1rem rgba(darken(#3978ef, 20%), 0.06),
     0 20px 30px -10px rgba(darken(#3978ef, 20%), 0.2);
+
+  li {
+    background-color: ${({ liColor }) => liColor};
+
+    p {
+      color: ${({ fontColor }) => fontColor};
+    }
+  }
 `;
 
 export const AccordionItem = styled.div`
