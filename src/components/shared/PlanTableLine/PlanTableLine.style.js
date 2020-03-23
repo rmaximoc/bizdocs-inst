@@ -12,6 +12,10 @@ export const FirstColumn = styled.div`
   font-weight: 500;
   width: 30%;
   padding: 24px;
+
+  @media screen and (max-width: 992px) {
+    width: 70%;
+  }
 `;
 
 export const SecondColumn = styled.div`
@@ -20,4 +24,9 @@ export const SecondColumn = styled.div`
   margin: 0 auto;
   padding: 24px;
   width: 70%;
+
+  @media screen and (max-width: 992px) {
+    text-align: right;
+    width: 30%;
+  }
 `;

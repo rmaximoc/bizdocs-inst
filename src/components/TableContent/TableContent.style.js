@@ -39,3 +39,20 @@ export const Title = styled.h1`
   font-size: 24px;
   font-weight: 700;
 `;
+
+export const DesktopBox = styled.div`
+  display: flex;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+`;
+
+export const MobileBox = styled.div`
+  display: none;
+  flex-direction: column;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+`;

@@ -5,11 +5,14 @@ import {
   MarginBox,
   Header,
   Value,
-  Title
+  Title,
+  DesktopBox,
+  MobileBox
 } from './TableContent.style';
 import { characteristics, functionalities } from './tableData';
 import PlanTableLine from '../shared/PlanTableLine/PlanTableLine';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
+import Accordion from '../Accordion/Accordion';
 
 const TableContent = ({ planValue, margin, bgColor }) => {
   return (
@@ -32,14 +35,25 @@ const TableContent = ({ planValue, margin, bgColor }) => {
         <Header bgColor={bgColor}>
           <Title>Funcionalidades</Title>
         </Header>
-        {functionalities.map(item => (
-          <PlanTableLine
-            first={item.first}
-            second={item.second}
-            bgColor={item.bgColor}
-            textAlign="left"
-          />
-        ))}
+        <DesktopBox>
+          {functionalities.map(item => (
+            <PlanTableLine
+              first={item.first}
+              second={item.second}
+              bgColor={item.bgColor}
+              textAlign="left"
+            />
+          ))}
+        </DesktopBox>
+        <MobileBox>
+          {functionalities.map(item => (
+            <Accordion
+              title={item.first}
+              paragraph={item.second}
+              bgColor={item.bgColor}
+            />
+          ))}
+        </MobileBox>
       </MarginBox>
     </Container>
   );
