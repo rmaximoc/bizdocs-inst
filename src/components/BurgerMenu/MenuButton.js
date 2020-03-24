@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Menu from './Menu';
+import MenuItem from './MenuItem';
+
 import {
   MenuButtonContainer,
   MenuButtonLineTop,
@@ -13,12 +16,28 @@ const MenuButton = () => {
     setOpen(!open);
   }
 
+  const menu = [
+    'Bizdocs',
+    'G. Contabilidade',
+    'Empresas',
+    'Planos/Preços',
+    'Suporte'
+  ];
+  const menuItems = menu.map((val, index) => (
+    <MenuItem delay={`${index * 0.1}s`} onClick={handleClick}>
+      {val}
+    </MenuItem>
+  ));
+
   return (
-    <MenuButtonContainer onClick={handleClick}>
-      <MenuButtonLineTop open={open} color="red" />
-      <MenuButtonLineMiddle open={open} color="red" />
-      <MenuButtonLineBottom open={open} color="red" />
-    </MenuButtonContainer>
+    <>
+      <MenuButtonContainer onClick={handleClick}>
+        <MenuButtonLineTop open={open} color="white" />
+        <MenuButtonLineMiddle open={open} color="white" />
+        <MenuButtonLineBottom open={open} color="white" />
+      </MenuButtonContainer>
+      <Menu open={open}>{menuItems}</Menu>
+    </>
   );
 };
 

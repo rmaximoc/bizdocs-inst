@@ -24,6 +24,11 @@ export const MarginBox = styled.div`
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 export const DropDownContent = styled.div`

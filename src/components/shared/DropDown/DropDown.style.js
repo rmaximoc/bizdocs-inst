@@ -5,6 +5,10 @@ export const Button = styled.div`
   flex-direction: column;
   user-select: none;
   cursor: pointer;
+
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
 `;
 
 export const Triangle = styled.div`
@@ -16,8 +20,12 @@ export const Triangle = styled.div`
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-
   border-top: 5px solid #ffffff;
+
+  @media screen and (max-width: 992px) {
+    margin: 6px 10px 6px 47px;
+    position: absolute;
+  }
 `;
 
 export const Content = styled.div`
@@ -32,6 +40,12 @@ export const Content = styled.div`
   position: absolute;
   top: 43px;
   border-radius: 5px;
+
+  @media screen and (max-width: 992px) {
+    position: relative;
+    margin-left: 0;
+    top: 0;
+  }
 
   button {
     border: 0;

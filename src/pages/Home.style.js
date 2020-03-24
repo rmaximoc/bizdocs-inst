@@ -5,6 +5,11 @@ import secondBackground from '../assets/images/second-background.png';
 export const MainBackground = styled.div`
   background-image: url(${mainBackground});
   background-size: cover;
+
+  @media screen and (max-width: 992px) {
+    background-color: #1b2555;
+    background-image: unset;
+  }
 `;
 
 export const SecondBackground = styled.div`

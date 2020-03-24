@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import {
-  MenuItemContainer,
-  MenuItemContent,
-  MenuItemLine
-} from './BurgerMenu.style';
+import { MenuItemContainer, MenuItemContent } from './BurgerMenu.style';
 
 const MenuItem = ({ onClick, children }) => {
   const [hover, setHover] = useState(false);
@@ -22,9 +18,13 @@ const MenuItem = ({ onClick, children }) => {
       >
         {children}
       </MenuItemContent>
-      <MenuItemLine />
     </MenuItemContainer>
   );
 };
+
+// MenuItem.propTypes = {
+//   onClick: ,
+//   children:
+// };
 
 export default MenuItem;

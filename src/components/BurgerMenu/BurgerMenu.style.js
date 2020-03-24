@@ -2,14 +2,12 @@ import styled from 'styled-components';
 
 export const BurgerMenuContainer = styled.div`
   display: none;
-  position: absolute;
+  position: relative;
+  justify-content: flex-end;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 99;
-  opacity: 0.9;
   align-items: center;
-  background-color: black;
-  width: 100%;
   color: white;
 
   @media screen and (max-width: 992px) {
@@ -32,13 +30,14 @@ export const BurgerMenuContent = styled.div`
 `;
 
 export const MenuItemContainer = styled.div`
-  opacity: 0;
+  opacity: ${props => (props.open ? '0' : '1')};
   animation: 1s appear forwards;
   animation-delay: ${({ delay }) => delay};
 `;
 
 export const MenuItemContent = styled.div`
   font-size: 1.2rem;
+  text-align: center;
   padding: 1rem 0;
   margin: 0 5%;
   cursor: pointer;
@@ -48,28 +47,21 @@ export const MenuItemContent = styled.div`
   animation-delay: ${({ delay }) => delay};
 `;
 
-export const MenuItemLine = styled.div`
-  width: 90%;
-  height: 1px;
-  background-color: gray;
-  margin: 0 auto;
-  animation: 0.5s shrink forwards;
-  animation-delay: ${({ delay }) => delay};
-`;
-
 export const MenuContainer = styled.div`
   display: none;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   height: ${props => (props.open ? '100%' : '0')};
   width: 100vw;
   flex-direction: column;
-  background-color: black;
-  opacity: 0.95;
+  background-color: #1b2555;
   color: #fafafa;
   transition: height 0.3s ease;
   z-index: 2;
+  margin-top: 8vh;
+  margin-right: -10vw;
+  transition: all 0.2s ease;
 
   @media screen and (max-width: 992px) {
     display: flex;
@@ -78,6 +70,8 @@ export const MenuContainer = styled.div`
 
 export const MenuList = styled.div`
   padding-top: 3rem;
+  background-color: #1b2555;
+  transition: all 0.2s ease;
 `;
 
 export const MenuButtonContainer = styled.div`
@@ -88,6 +82,7 @@ export const MenuButtonContainer = styled.div`
   align-items: center;
   cursor: pointer;
   padding: 4px;
+  z-index: 100;
 
   @media screen and (max-width: 992px) {
     display: flex;
@@ -122,6 +117,20 @@ export const MenuButtonLineBottom = styled.div`
     props.open ? 'translateX(-1px) rotate(-45deg)' : 'none'};
   transform-origin: top left;
   margin-top: 5px;
+`;
+
+export const PostMenu = styled.div`
+  display: ${props => (props.open ? 'flex' : 'none')};
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1b2555;
+`;
+
+export const DropDownMobile = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 33px auto 27px;
 `;
 
 // @keyframes appear {
