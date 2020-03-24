@@ -5,44 +5,64 @@ import {
   SocialLinks,
   Copyright
 } from './MobileFooter.style';
-import Accordion from '../../Accordion/Accordion';
 import footerLinks from '../DesktopFooter/footerLinks';
+import AccordionFooter from '../../AccordionFooter/AccordionFooter';
 
 const MobileFooter = () => {
   return (
     <Container>
       <MarginBox>
-        <Accordion
+        <AccordionFooter
           bgColor="#1b2555"
           title="Sobre o Bizdocs"
-          paragraph="teste"
+          paragraph={
+            <>
+              <li>teste1</li>
+              <li>teste2</li>
+            </>
+          }
           color="#ABC6DE"
           width="100%"
           liColor="#1b2555"
           fontColor="#ffffff"
         />
-        <Accordion
+        <AccordionFooter
           bgColor="#1b2555"
           title="Portal Gab. Contabilidade"
-          paragraph="teste"
+          paragraph={
+            <>
+              <li>teste1</li>
+              <li>teste2</li>
+            </>
+          }
           color="#ABC6DE"
           width="100%"
           liColor="#1b2555"
           fontColor="#ffffff"
         />
-        <Accordion
+        <AccordionFooter
           bgColor="#1b2555"
           title="Empresa - Mobi"
-          paragraph="teste"
+          paragraph={
+            <>
+              <li>teste1</li>
+              <li>teste2</li>
+            </>
+          }
           color="#ABC6DE"
           width="100%"
           liColor="#1b2555"
           fontColor="#ffffff"
         />
-        <Accordion
+        <AccordionFooter
           bgColor="#1b2555"
           title="Login"
-          paragraph="teste"
+          paragraph={
+            <>
+              <li>teste1</li>
+              <li>teste2</li>
+            </>
+          }
           color="#ABC6DE"
           width="100%"
           liColor="#1b2555"
