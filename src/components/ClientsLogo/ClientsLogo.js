@@ -1,6 +1,11 @@
 import React from 'react';
-import { Container, MarginBox, LogoBox } from './ClientsLogo.style';
-import logos from './logos';
+import {
+  Container,
+  MarginBox,
+  LogoBox,
+  LogoBoxMobile
+} from './ClientsLogo.style';
+import { logos, logosMobile } from './logos';
 
 const ClientsLogo = () => {
   return (
@@ -11,6 +16,11 @@ const ClientsLogo = () => {
             <img src={logo} alt="logos" key={logo.toString()} />
           ))}
         </LogoBox>
+        <LogoBoxMobile>
+          {logosMobile.map(logo => (
+            <img src={logo} alt="logos" key={logo.toString()} />
+          ))}
+        </LogoBoxMobile>
       </MarginBox>
     </Container>
   );

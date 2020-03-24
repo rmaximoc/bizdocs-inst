@@ -6,6 +6,5 @@ import rtp from '../../assets/images/rtp.png';
 import voqin from '../../assets/images/voqin.png';
 import adidas from '../../assets/images/adidas.png';
 
-const logos = [boutiqueLogo, sandeman, fnac, galp, rtp, voqin, adidas];
-
-export default logos;
+export const logos = [boutiqueLogo, sandeman, fnac, galp, rtp, voqin, adidas];
+export const logosMobile = [boutiqueLogo, sandeman, fnac, galp, rtp, voqin];
