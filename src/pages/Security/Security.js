@@ -7,8 +7,9 @@ import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import Paragraph from '../../components/shared/Paragraph/Paragraph';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
-import { MarginBox } from '../../components/Header/Header.style';
-import { DesktopButton, MobileButton } from './Security.style';
+import { MarginBox, DesktopButton, MobileButton } from './Security.style';
+
+import Coding from '../../assets/images/coding-pc.png';
 
 const Security = () => {
   return (
@@ -17,12 +18,15 @@ const Security = () => {
       <Header bgColor="#1B2555" />
       <MarginBox>
         <TextContent
+          margin="0 auto 35px"
           color="#585858"
           title="Segurança"
           paragraph="A informação e os dados – tanto pessoais como empresariais – são cada vez mais considerados um património inestimável. Todos sabemos, porém, que esse património é cada vez mais cobiçado e vulnerável nos dias que correm. Por isso é tão importante para nós garantir a total segurança dos dados, informações e documentos que mantemos no sistema Bizdocs."
         />
       </MarginBox>
-      <img src="" alt="" />
+      <MarginBox>
+        <img src={Coding} alt="coding" />
+      </MarginBox>
       <MarginBox>
         <Paragraph
           color="#585858"
@@ -37,14 +41,16 @@ const Security = () => {
           margin="50px auto 164px"
         />
       </DesktopButton>
-      <MobileButton>
-        <GreenButton
-          content="Ver todos os benefícios e funcionalidades"
-          width="100%"
-          maxWidth="100%"
-          margin="0 auto"
-        />
-      </MobileButton>
+      <MarginBox>
+        <MobileButton>
+          <GreenButton
+            content="Ver todos os benefícios e funcionalidades"
+            width="100%"
+            maxWidth="100%"
+            margin="40px auto 40px"
+          />
+        </MobileButton>
+      </MarginBox>
       <Compliance
         margin="0 auto 73px"
         buttonContent="Experimente grátis"
