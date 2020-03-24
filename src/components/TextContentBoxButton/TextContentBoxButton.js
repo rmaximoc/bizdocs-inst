@@ -20,6 +20,7 @@ const TextContentBoxButton = () => {
         />
         <ButtonBox>
           <GreenButton
+            width="100%"
             content="Ver todos os benefícios e funcionalidades"
             maxWidth="372px"
           />
@@ -31,9 +32,9 @@ const TextContentBoxButton = () => {
         />
         <ButtonBox>
           <GreenButton
+            width="100%"
             content="Ver Planos e Preços"
             maxWidth="372px"
-            minWidth="372px"
           />
         </ButtonBox>
         <TextContent
@@ -46,9 +47,9 @@ const TextContentBoxButton = () => {
         </ImageBox>
         <ButtonBox>
           <GreenButton
+            width="100%"
             content="Ver Planos e Preços"
             maxWidth="372px"
-            minWidth="372px"
           />
         </ButtonBox>
       </MarginBox>

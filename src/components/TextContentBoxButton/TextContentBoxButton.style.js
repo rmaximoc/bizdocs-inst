@@ -38,6 +38,10 @@ export const ButtonBox = styled.div`
   display: flex;
   justify-content: center;
   margin: 60px auto 90px;
+
+  @media screen and (max-width: 992px) {
+    margin: 60px 0 90px;
+  }
 `;
 
 export const ImageBox = styled.div`

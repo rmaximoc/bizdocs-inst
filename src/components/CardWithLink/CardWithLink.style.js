@@ -12,6 +12,10 @@ export const MarginBox = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    width: 80%;
+  }
 `;
 
 export const CardContent = styled.div`
@@ -26,6 +30,10 @@ export const CardContent = styled.div`
   justify-content: center;
   align-items: center;
   box-shadow: 0px 20px 60px #b4b4b429;
+
+  @media screen and (max-width: 992px) {
+    min-width: unset;
+  }
 `;
 
 export const Title = styled.h1`
