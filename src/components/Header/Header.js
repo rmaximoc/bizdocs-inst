@@ -11,7 +11,7 @@ import {
   ButtonContent,
   DropDownContent,
   HeaderContent,
-  MarginBox,
+  MarginBoxHeader,
   Anchor,
   Logo,
   BurgerBox
@@ -21,7 +21,7 @@ import BurgerMenu from '../BurgerMenu/BurgerMenu';
 const Header = ({ bgColor }) => {
   return (
     <Container bgColor={bgColor}>
-      <MarginBox>
+      <MarginBoxHeader>
         <DropDownContent>
           <DropDown content="Portugal" />
         </DropDownContent>
@@ -58,7 +58,7 @@ const Header = ({ bgColor }) => {
         <BurgerBox>
           <BurgerMenu />
         </BurgerBox>
-      </MarginBox>
+      </MarginBoxHeader>
     </Container>
   );
 };

@@ -24,6 +24,13 @@ export const MarginBox = styled.div`
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
+`;
+
+export const MarginBoxHeader = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 
   @media screen and (max-width: 992px) {
     flex-direction: row;
