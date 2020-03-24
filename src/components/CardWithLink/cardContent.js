@@ -5,7 +5,7 @@ import { ReactComponent as ConformityRG } from '../../assets/images/conformidade
 
 export const cards = [
   {
-    image: <ConformityDL />,
+    image: <ConformityDL fill="#69b643" />,
     title: 'Em conformidade com o DL28/19',
     paragraph:
       'O Decreto-Lei 28 de 2019 veio libertar as empresas da necessidade de manter em arquivo físico (papel) quase todos os documentos contabilísticos e uma grande parte dos restantes.',

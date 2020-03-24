@@ -4,10 +4,10 @@ import { Container } from './TextContent.style';
 import Title from '../Title/Title';
 import Paragraph from '../Paragraph/Paragraph';
 
-const TextContent = ({ title, paragraph, color }) => {
+const TextContent = ({ title, paragraph, color, margin }) => {
   return (
     <Container>
-      <Title content={title} />
+      <Title margin={margin} content={title} />
       <Paragraph color={color} content={paragraph} />
     </Container>
   );
@@ -16,7 +16,8 @@ const TextContent = ({ title, paragraph, color }) => {
 TextContent.propTypes = {
   title: string.isRequired,
   color: string.isRequired,
-  paragraph: string.isRequired
+  paragraph: string.isRequired,
+  margin: string.isRequired
 };
 
 export default TextContent;

@@ -8605,6 +8605,13 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-breadcrumbs-dynamic@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-breadcrumbs-dynamic/-/react-breadcrumbs-dynamic-1.2.1.tgz#7e9f046f717b45fc4e56d23d73fe81b212615472"
+  integrity sha512-6vw1RHQ2cHaHptRVQ+pwt6Vej/O6NGNBnEzC5fgW53ZhwABKtNW2xpljPppF+L8hVkNDBdjKSVMYp9K2U1j9qw==
+  dependencies:
+    react-through "^1.1.4"
+
 react-dev-utils@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.0.tgz#b11cc48aa2be2502fb3c27a50d1dfa95cfa9dfe0"
@@ -8758,6 +8765,11 @@ react-scripts@3.4.0:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-through@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-through/-/react-through-1.1.4.tgz#163485b56bb03ddd2e5f971ada50a57e76737b78"
+  integrity sha512-7VuRPSfKS3ihmMlTgQwOspjd+TV3u7tpFs07MMgLVA0g/bH7UHodKLpGS1LgJJlWTUqJKeN4wT9getqGUN37iA==
 
 react@^16.13.0:
   version "16.13.0"

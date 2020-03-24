@@ -24,7 +24,7 @@ const ClientSection = () => {
             <h1>
               Mais de <span>3.200 </span>
               empresários aplaudiram o Bizdocs em acção durante o evento OMIE de
-              Agosto 2019, em Sâo Paulo
+              Agosto 2019, em São Paulo
             </h1>
             <p>
               Imagine uma plataforma que aceita qualquer formato, através de

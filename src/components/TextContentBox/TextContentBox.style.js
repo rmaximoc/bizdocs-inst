@@ -6,6 +6,7 @@ export const Container = styled.div`
   justify-content: center;
   min-height: 130px;
   background-color: ${({ bgColor }) => bgColor};
+  margin: ${({ margin }) => margin};
 `;
 
 export const MarginBox = styled.div`

@@ -42,6 +42,7 @@ export const Title = styled.h1`
 
 export const DesktopBox = styled.div`
   display: flex;
+  flex-direction: column;
 
   @media screen and (max-width: 992px) {
     display: none;

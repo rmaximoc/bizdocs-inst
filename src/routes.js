@@ -9,6 +9,7 @@ import Benefits from './pages/Benefits/Benefits';
 import PlansAndPrices from './pages/PlansAndPrices/PlansAndPrices';
 import Security from './pages/Security/Security';
 import News from './pages/News/News';
+import OpenedNews from './pages/OpenedNews/OpenedNews';
 import theme from './config/theme';
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/news">
             <News />
+          </Route>
+          <Route path="/opened-news">
+            <OpenedNews />
           </Route>
         </Switch>
       </Router>

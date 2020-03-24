@@ -6,7 +6,8 @@ import {
   CardContent,
   Title,
   Paragraph,
-  Link
+  Link,
+  StampBox
 } from './CardWithLink.style';
 
 const CardWithLink = ({ image, title, paragraph, linkText, href }) => {
@@ -14,7 +15,7 @@ const CardWithLink = ({ image, title, paragraph, linkText, href }) => {
     <Container>
       <MarginBox>
         <CardContent>
-          {image}
+          <StampBox>{image}</StampBox>
           <Title>{title}</Title>
           <Paragraph>{paragraph}</Paragraph>
           <Link href={href}>{linkText}</Link>

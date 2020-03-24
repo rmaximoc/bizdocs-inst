@@ -11,6 +11,7 @@ import Title from '../../components/shared/Title/Title';
 import checkContent from './checkContent';
 import accordionContent from './accordionContent';
 import { MarginBox } from '../../components/Header/Header.style';
+import { AccordionMargin } from './Benefits.style';
 
 const Benefits = () => {
   return (
@@ -19,6 +20,7 @@ const Benefits = () => {
       <Header bgColor="#1B2555" />
       <MarginBox>
         <TextContent
+          margin="0 auto 35px"
           color="#585858"
           title="Principais Benefícios e funcionalidades"
           paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."
@@ -28,7 +30,7 @@ const Benefits = () => {
       {checkContent.map(item => (
         <TextCheck key={item.content} content={item.content} />
       ))}
-      <MarginBox>
+      <AccordionMargin>
         {accordionContent.map(acc => (
           <Accordion
             title={acc.title}
@@ -36,7 +38,7 @@ const Benefits = () => {
             bgColor={acc.bgColor}
           />
         ))}
-      </MarginBox>
+      </AccordionMargin>
       <Compliance
         margin="134px auto 68px"
         title="Integração Automatizada"

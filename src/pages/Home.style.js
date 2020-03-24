@@ -19,4 +19,8 @@ export const SecondBackground = styled.div`
   @media screen and (max-width: 992px) {
     margin-top: -213px;
   }
+
+  @media screen and (max-width: 768px) {
+    margin-top: -145px;
+  }
 `;

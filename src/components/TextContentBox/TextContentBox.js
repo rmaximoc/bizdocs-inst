@@ -7,6 +7,7 @@ const TextContentBox = () => {
     <Container>
       <MarginBox>
         <TextContent
+          margin="0px auto 35px"
           color="#585858"
           title="O que é?"
           paragraph="Todos sentimos já o pesadelo de ter que gerir uma montanha de papel,
@@ -16,6 +17,7 @@ const TextContentBox = () => {
             todos os seus documentos de negócio."
         />
         <TextContent
+          margin="0px auto 35px"
           color="#585858"
           title="Como Funciona"
           paragraph="Imagine um sistema que aceita qualquer formato de documento, do

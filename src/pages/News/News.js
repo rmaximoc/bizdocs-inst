@@ -8,7 +8,7 @@ import Title from '../../components/shared/Title/Title';
 import ImageBottomText from '../../components/ImageBottomText/ImageBottomText';
 import Background from '../../assets/images/newsBg.png';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
-import { TitleGreen, Container, MarginBox, ButtonBox } from './News.styles';
+import { TitleGreen, MarginBox, ButtonBox } from './News.styles';
 import CardImageTitle from '../../components/CardImageTitle/CardImageTitle';
 
 const News = () => {
@@ -21,11 +21,9 @@ const News = () => {
         bgImage={Background}
         text="Portugal em destaque nas startups no setor contábil"
       />
-      <Container>
-        <MarginBox>
-          <TitleGreen>Últimas notícias</TitleGreen>
-        </MarginBox>
-      </Container>
+      <MarginBox>
+        <TitleGreen>Últimas notícias</TitleGreen>
+      </MarginBox>
       <CardImageTitle />
       <ButtonBox>
         <GreenButton content="Ver mais notícias" minWidth="372px" />

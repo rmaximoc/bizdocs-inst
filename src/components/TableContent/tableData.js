@@ -34,7 +34,7 @@ export const characteristics = [
   },
   {
     first: 'Partilha de documentos com Gab. Contabilidade',
-    second: <Check />,
+    second: <Check fill="#69b643" />,
     bgColor: '#FCFCFC'
   }
 ];

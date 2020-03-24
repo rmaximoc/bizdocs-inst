@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const BurgerMenuContainer = styled.div`
   display: none;
@@ -10,7 +11,7 @@ export const BurgerMenuContainer = styled.div`
   align-items: center;
   color: white;
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
   }
 `;
@@ -24,7 +25,7 @@ export const BurgerMenuContent = styled.div`
   filter: ${props => (props.menuOpen ? 'blur(2px)' : null)};
   transition: filter 0.5s ease;
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
   }
 `;
@@ -32,15 +33,16 @@ export const BurgerMenuContent = styled.div`
 export const MenuItemContainer = styled.div`
   opacity: ${props => (props.open ? '0' : '1')};
   animation: 1s appear forwards;
-  animation-delay: ${({ delay }) => delay};
-`;
-
-export const MenuItemContent = styled.div`
-  font-size: 1.2rem;
   text-align: center;
   padding: 1rem 0;
   margin: 0 5%;
+  animation-delay: ${({ delay }) => delay};
+`;
+
+export const MenuItemContent = styled(Link)`
+  font-size: 1.2rem;
   cursor: pointer;
+  text-decoration: none;
   color: ${props => (props.hover ? 'gray' : '#fafafa')};
   transition: color 0.2s ease-in-out;
   animation: 0.5s slideIn forwards;
@@ -63,7 +65,7 @@ export const MenuContainer = styled.div`
   margin-right: -10vw;
   transition: all 0.2s ease;
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
   }
 `;
@@ -84,7 +86,7 @@ export const MenuButtonContainer = styled.div`
   padding: 4px;
   z-index: 100;
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
   }
 `;

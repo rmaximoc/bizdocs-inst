@@ -58,3 +58,9 @@ export const Link = styled.a`
   font-size: 12px;
   color: #69b643;
 `;
+
+export const StampBox = styled.div`
+  display: flex;
+  min-width: 60px;
+  min-height: 70px;
+`;

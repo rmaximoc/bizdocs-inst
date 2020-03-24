@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { string, func } from 'prop-types';
 import { MenuItemContainer, MenuItemContent } from './BurgerMenu.style';
 
-const MenuItem = ({ onClick, children }) => {
+const MenuItem = ({ children, to, onClick }) => {
   const [hover, setHover] = useState(false);
 
   function handleHover() {
@@ -14,6 +15,7 @@ const MenuItem = ({ onClick, children }) => {
         hover={hover}
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}
+        to={to}
         onClick={onClick}
       >
         {children}
@@ -22,9 +24,10 @@ const MenuItem = ({ onClick, children }) => {
   );
 };
 
-// MenuItem.propTypes = {
-//   onClick: ,
-//   children:
-// };
+MenuItem.propTypes = {
+  children: string.isRequired,
+  to: string.isRequired,
+  onClick: func.isRequired
+};
 
 export default MenuItem;

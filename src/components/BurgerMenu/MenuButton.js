@@ -17,15 +17,31 @@ const MenuButton = () => {
   }
 
   const menu = [
-    'Bizdocs',
-    'G. Contabilidade',
-    'Empresas',
-    'Planos/Preços',
-    'Suporte'
+    {
+      text: 'Bizdocs',
+      link: '/bizdocs'
+    },
+    {
+      text: 'G. Contabilidade',
+      link: '/bizdocs'
+    },
+    {
+      text: 'Empresas',
+      link: '/empresas'
+    },
+    {
+      text: 'Planos/Preços',
+      link: '/plans-and-prices'
+    },
+    {
+      text: 'Suporte',
+      link: '/'
+    }
   ];
+
   const menuItems = menu.map((val, index) => (
-    <MenuItem delay={`${index * 0.1}s`} onClick={handleClick}>
-      {val}
+    <MenuItem delay={`${index * 0.1}s`} to={val.link} onClick={handleClick}>
+      {val.text}
     </MenuItem>
   ));
 

@@ -18,6 +18,7 @@ const PlanDetails = ({ planValue, bgColor }) => {
       <Header bgColor="#1B2555" />
       <MarginBox>
         <TextContent
+          margin="0 auto 35px"
           title="Mobi grátis"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
           color="#585858"
