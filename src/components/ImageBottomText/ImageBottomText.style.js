@@ -28,7 +28,7 @@ export const Text = styled.p`
   display: flex;
   flex-direction: column-reverse;
   font-size: 32px;
-  width: 948px;
+  width: 100%;
   height: 524px;
   font-weight: bold;
 `;

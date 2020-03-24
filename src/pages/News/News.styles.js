@@ -22,6 +22,7 @@ export const TitleBox = styled.div`
 export const TitleGreen = styled.h1`
   font-size: 36px;
   color: #69b643;
+  margin: 0px 0 30px;
 `;
 
 export const ButtonBox = styled.div`

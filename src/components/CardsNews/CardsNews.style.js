@@ -10,6 +10,7 @@ export const CardBox = styled.div`
 export const Date = styled.p`
   text-align: left;
   color: #adadad;
+  margin: 28px 0 8px;
 `;
 
 export const Title = styled.h1`

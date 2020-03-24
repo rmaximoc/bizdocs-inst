@@ -16,7 +16,7 @@ const News = () => {
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
-      <Title content="Novidades" />
+      <Title margin="0 auto 35px" content="Novidades" />
       <ImageBottomText
         bgImage={Background}
         text="Portugal em destaque nas startups no setor contábil"
@@ -24,6 +24,7 @@ const News = () => {
       <MarginBox>
         <TitleGreen>Últimas notícias</TitleGreen>
       </MarginBox>
+      <CardImageTitle />
       <CardImageTitle />
       <ButtonBox>
         <GreenButton content="Ver mais notícias" minWidth="372px" />
