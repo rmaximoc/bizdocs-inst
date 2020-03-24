@@ -122,7 +122,7 @@ export const MenuButtonLineBottom = styled.div`
 export const PostMenu = styled.div`
   display: ${props => (props.open ? 'flex' : 'none')};
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   background-color: #1b2555;
 `;

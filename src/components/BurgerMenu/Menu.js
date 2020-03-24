@@ -17,11 +17,11 @@ const Menu = ({ open, children }) => {
         {open ? <MenuList>{children}</MenuList> : null}
         <PostMenu open={open}>
           <GreenButton
-            width="100%"
+            width="80%"
             margin="46px auto 23px"
             content="Experimente grátis"
           />
-          <OpacityButton width="100%" content="Login" />
+          <OpacityButton width="80%" content="Login" />
           <DropDownMobile>
             <DropDown content="Portugal" />
           </DropDownMobile>
