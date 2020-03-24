@@ -11,22 +11,27 @@ import PlansSquares from '../../components/PlansSquares/PlansSquares';
 import ComparativeTable from '../../components/ComparativeTable/ComparativeTable';
 import SwitchButton from '../../components/shared/SwitchButton/SwitchButton';
 import { ReactComponent as Vault } from '../../assets/images/vault.svg';
+import { MarginBox } from '../../components/Header/Header.style';
 
 const PlansAndPrices = () => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
-      <TextContent
-        color="#585858"
-        title="Planos e Preços"
-        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      />
+      <MarginBox>
+        <TextContent
+          color="#585858"
+          title="Planos e Preços"
+          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        />
+      </MarginBox>
       <SwitchButton />
-      <Paragraph
-        color="#585858"
-        content="Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      />
+      <MarginBox>
+        <Paragraph
+          color="#585858"
+          content="Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        />
+      </MarginBox>
       <PlansSquares />
       <ComparativeTable />
       <Contact margin="140px 0 174px" />
