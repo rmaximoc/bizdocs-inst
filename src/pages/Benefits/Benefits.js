@@ -17,11 +17,13 @@ const Benefits = () => {
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
-      <TextContent
-        color="#585858"
-        title="Principais Benefícios e funcionalidades"
-        paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."
-      />
+      <MarginBox>
+        <TextContent
+          color="#585858"
+          title="Principais Benefícios e funcionalidades"
+          paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."
+        />
+      </MarginBox>
       <Title margin="107px auto 47px" content="Portal Seguro e Ilimitado" />
       {checkContent.map(item => (
         <TextCheck key={item.content} content={item.content} />
