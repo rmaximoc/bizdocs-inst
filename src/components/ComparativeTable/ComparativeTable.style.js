@@ -16,10 +16,12 @@ export const MarginBox = styled.div`
 export const Header = styled.div`
   padding: 38px 0px;
   display: flex;
+  min-width: 1100px;
 `;
 
 export const Box = styled.div`
   display: flex;
+  min-width: 1100px;
 `;
 
 export const Title = styled.div`
@@ -28,4 +30,8 @@ export const Title = styled.div`
   font-size: 24px;
   margin-right: 60px;
   padding-left: 10px;
+`;
+
+export const TableWindow = styled.section`
+  overflow: scroll;
 `;

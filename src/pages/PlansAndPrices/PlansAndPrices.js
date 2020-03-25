@@ -7,7 +7,6 @@ import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
 import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import Paragraph from '../../components/shared/Paragraph/Paragraph';
-import PlansSquares from '../../components/PlansSquares/PlansSquares';
 import ComparativeTable from '../../components/ComparativeTable/ComparativeTable';
 import SwitchButton from '../../components/shared/SwitchButton/SwitchButton';
 import { ReactComponent as Vault } from '../../assets/images/vault.svg';
@@ -32,7 +31,6 @@ const PlansAndPrices = () => {
           content="Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
         />
       </MarginBox>
-      <PlansSquares />
       <ComparativeTable />
       <Contact margin="140px 0 174px" />
       <Compliance

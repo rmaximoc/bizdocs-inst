@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 98px;
+  min-width: 1220px;
 `;
 
 export const MarginBox = styled.div`
