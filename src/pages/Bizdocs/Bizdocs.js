@@ -30,6 +30,8 @@ const Bizdocs = () => {
         ))}
       </CardBox>
       <CarouselSlider
+        slidesToShow={1}
+        slidesToScroll={1}
         firstCard={
           <CardWithLink
             image={cardContent[0].image}

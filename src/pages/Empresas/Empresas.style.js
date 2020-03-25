@@ -13,6 +13,7 @@ export const DesktopBox = styled.div`
 export const MobileBox = styled.div`
   display: none;
   margin: 0 auto;
+  justify-content: center;
 
   @media screen and (max-width: 992px) {
     display: flex;
