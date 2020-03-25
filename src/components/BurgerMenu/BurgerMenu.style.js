@@ -61,7 +61,7 @@ export const MenuContainer = styled.div`
   color: #fafafa;
   transition: height 0.3s ease;
   z-index: 2;
-  margin-top: 10vh;
+  margin-top: 80px;
   margin-right: -10vw;
   transition: all 0.2s ease;
 

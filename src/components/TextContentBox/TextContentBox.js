@@ -23,7 +23,7 @@ const TextContentBox = () => {
         />
         <DesktopBox>
           <TextContent
-            margin="50px auto 35px"
+            margin="0px auto 35px"
             color="#585858"
             title="Como Funciona"
             paragraph="Imagine um sistema que aceita qualquer formato de documento, do

@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 992px) {
     display: flex;
+    margin: 20px auto;
   }
 `;
 

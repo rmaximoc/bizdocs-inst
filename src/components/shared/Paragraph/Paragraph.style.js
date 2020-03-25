@@ -7,4 +7,8 @@ export const Box = styled.p`
   color: ${({ color }) => color};
   font-weight: 500;
   max-width: 709px;
+
+  @media screen and (max-width: 992px) {
+    font-size: 14px;
+  }
 `;

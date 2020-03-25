@@ -14,4 +14,9 @@ export const Button = styled.button`
   min-width: ${({ minWidth }) => minWidth};
   width: ${({ width }) => width};
   cursor: pointer;
+
+  @media screen and (max-width: 992px) {
+    max-height: 70px;
+    white-space: unset;
+  }
 `;

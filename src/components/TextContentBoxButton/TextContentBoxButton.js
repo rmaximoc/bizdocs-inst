@@ -14,7 +14,7 @@ const TextContentBoxButton = () => {
     <Container>
       <MarginBox>
         <TextContent
-          margin="0px auto 35px"
+          margin="60px auto 35px"
           color="#585858"
           title="Benefícios e Funcionalidades"
           paragraph="Pode usar o Bizdocs para aumentar a sua eficiência, melhorar a Experiência com os seus Clientes, partilhar documentos em absoluta segurança, automatizar o processamento de informação e de facturas e muito mais."
