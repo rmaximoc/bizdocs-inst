@@ -11,12 +11,14 @@ import CardWithLink from '../../components/CardWithLink/CardWithLink';
 import cardContent from '../../components/CardWithLink/cardContent';
 import { ReactComponent as Clock } from '../../assets/images/clock.svg';
 import CarouselSlider from '../../components/CarouselSlider/CarouselSlider';
+import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 
 const Bizdocs = () => {
   return (
     <>
       <GlobalStyle />
       <Header bgColor="#1B2555" />
+      <BreadCrumbs content="Home Page >" link=" Bizdocs" />
       <TextContentBox />
       <CardBox>
         {cardContent.map(card => (
