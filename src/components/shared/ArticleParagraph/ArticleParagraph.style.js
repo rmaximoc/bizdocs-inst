@@ -6,8 +6,8 @@ export const Container = styled.div`
   margin: 0 auto;
 
   @media screen and (max-width: 992px) {
-      width: 100%;
-    }
+    width: 100%;
+  }
 `;
 
 export const Paragraph = styled.p`

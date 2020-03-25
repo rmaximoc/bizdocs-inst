@@ -2,14 +2,15 @@ import styled from 'styled-components';
 import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg';
 
 export const Logo = styled(BizLogo)`
-  /* display: flex; */
   margin-right: 5%;
   min-width: 200px;
+  display: flex;
 
-  /* @media screen and (min-width: 992px) {
+  @media screen and (max-width: 992px) {
+    width: 135px;
     max-width: 135px;
     min-width: unset;
-  } */
+  }
 `;
 
 export const Container = styled.div`
@@ -18,6 +19,10 @@ export const Container = styled.div`
   justify-content: center;
   min-height: 130px;
   background-color: ${({ bgColor }) => bgColor};
+
+  @media screen and (max-width: 992px) {
+    min-height: 80px;
+  }
 `;
 
 export const MarginBox = styled.div`
