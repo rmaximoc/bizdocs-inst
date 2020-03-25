@@ -15,3 +15,21 @@ export const MarginBox = styled.div`
   width: 80%;
   margin: 0 auto;
 `;
+
+export const DesktopBox = styled.div`
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+`;
+
+export const MobileBox = styled.div`
+  display: none;
+  justify-content: center;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+`;
