@@ -10,6 +10,7 @@ export const Button = styled.button`
   border: 1px solid ${({ color }) => color};
   color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
+  min-width: ${({ minWidth }) => minWidth};
   width: ${({ width }) => width};
   margin: ${({ margin }) => margin};
   cursor: pointer;

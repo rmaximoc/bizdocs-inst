@@ -1,6 +1,6 @@
 import React from 'react';
 import GlobalStyle from '../../global.styles';
-import { CardBox } from './Bizdocs.style';
+import { CardBox, BreadBox } from './Bizdocs.style';
 import Header from '../../components/Header/Header';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
@@ -18,7 +18,9 @@ const Bizdocs = () => {
     <>
       <GlobalStyle />
       <Header bgColor="#1B2555" />
-      <BreadCrumbs content="Home Page >" link=" Bizdocs" />
+      <BreadBox>
+        <BreadCrumbs content="Home Page >" link=" Bizdocs" />
+      </BreadBox>
       <TextContentBox />
       <CardBox>
         {cardContent.map(card => (

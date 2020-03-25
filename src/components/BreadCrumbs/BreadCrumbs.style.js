@@ -7,8 +7,8 @@ export const Container = styled.div`
 export const MarginBox = styled.div`
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin: 22px auto 40px;
+  width: 100%;
+  margin: 22px auto 10px;
 `;
 
 export const BreadBox = styled.div`

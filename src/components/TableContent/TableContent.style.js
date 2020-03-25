@@ -16,18 +16,27 @@ export const MarginBox = styled.div`
   margin: 0 auto;
 `;
 
-export const Header = styled.div`
+export const DesktopHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
   width: 100%;
+  border-radius: 6px 6px 0 0;
   background-color: ${({ bgColor }) => bgColor};
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 
   div {
     display: flex;
     align-items: center;
     width: 40%;
+  }
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
   }
 `;
 
@@ -52,6 +61,33 @@ export const DesktopBox = styled.div`
 export const MobileBox = styled.div`
   display: none;
   flex-direction: column;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+`;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  margin: 0 auto;
+
+  button {
+    @media screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+`;
+
+export const MobileHeader = styled.div`
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+  background-color: ${({ bgColor }) => bgColor};
 
   @media screen and (max-width: 992px) {
     display: flex;

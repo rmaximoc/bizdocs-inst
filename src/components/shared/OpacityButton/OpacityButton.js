@@ -2,7 +2,14 @@ import React from 'react';
 import { string } from 'prop-types';
 import { Button } from './OpacityButton.style';
 
-const OpacityButton = ({ content, maxWidth, width, color, margin }) => {
+const OpacityButton = ({
+  content,
+  maxWidth,
+  width,
+  color,
+  margin,
+  minWidth
+}) => {
   return (
     <Button
       margin={margin}
@@ -10,6 +17,7 @@ const OpacityButton = ({ content, maxWidth, width, color, margin }) => {
       color={color}
       width={width}
       maxWidth={maxWidth}
+      minWidth={minWidth}
     >
       {content}
     </Button>
@@ -21,11 +29,13 @@ OpacityButton.propTypes = {
   width: string.isRequired,
   maxWidth: string.isRequired,
   color: string.isRequired,
-  margin: string
+  margin: string,
+  minWidth: string
 };
 
 OpacityButton.defaultProps = {
-  margin: '0 auto'
+  margin: '0 auto',
+  minWidth: ''
 };
 
 export default OpacityButton;

@@ -12,7 +12,7 @@ const TextContentBox = () => {
     <Container>
       <MarginBox>
         <TextContent
-          margin="0px auto 35px"
+          margin="30px auto 35px"
           color="#585858"
           title="O que é?"
           paragraph="Todos sentimos já o pesadelo de ter que gerir uma montanha de papel,

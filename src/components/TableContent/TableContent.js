@@ -3,11 +3,13 @@ import { string } from 'prop-types';
 import {
   Container,
   MarginBox,
-  Header,
+  DesktopHeader,
   Value,
   Title,
   DesktopBox,
-  MobileBox
+  MobileBox,
+  ButtonBox,
+  MobileHeader
 } from './TableContent.style';
 import { characteristics, functionalities } from './tableData';
 import PlanTableLine from '../shared/PlanTableLine/PlanTableLine';
@@ -18,13 +20,26 @@ const TableContent = ({ planValue, margin, bgColor }) => {
   return (
     <Container margin={margin}>
       <MarginBox>
-        <Header bgColor={bgColor}>
+        <DesktopHeader bgColor={bgColor}>
           <Title>Principais Características</Title>
           <div>
             <Value>{planValue}</Value>
-            <OpacityButton content="Experimente grátis" />
+            <ButtonBox>
+              <OpacityButton
+                minWidth="254px"
+                width="100%"
+                content="Experimente grátis"
+              />
+            </ButtonBox>
           </div>
-        </Header>
+        </DesktopHeader>
+        <MobileHeader bgColor={bgColor}>
+          <Value>
+            {planValue}
+            <span>/mês</span>
+          </Value>
+          <Title>Principais Características</Title>
+        </MobileHeader>
         {characteristics.map(item => (
           <PlanTableLine
             first={item.first}
@@ -32,9 +47,9 @@ const TableContent = ({ planValue, margin, bgColor }) => {
             bgColor={item.bgColor}
           />
         ))}
-        <Header bgColor={bgColor}>
+        <DesktopHeader bgColor={bgColor}>
           <Title>Funcionalidades</Title>
-        </Header>
+        </DesktopHeader>
         <DesktopBox>
           {functionalities.map(item => (
             <PlanTableLine

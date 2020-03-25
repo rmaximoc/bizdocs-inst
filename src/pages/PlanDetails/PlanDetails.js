@@ -10,15 +10,20 @@ import TextContent from '../../components/shared/TextContent/TextContent';
 import TableContent from '../../components/TableContent/TableContent';
 import { ReactComponent as Dl28 } from '../../assets/images/stamp-DL28-2019.svg';
 import { MarginBox } from '../../components/Header/Header.style';
+import BreadCrumb from '../../components/BreadCrumbs/BreadCrumbs';
+import { BreadBox } from '../Bizdocs/Bizdocs.style';
 
 const PlanDetails = ({ planValue, bgColor }) => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
+      <BreadBox>
+        <BreadCrumb content="Home Page > Empresas > " link="Mobigrátis" />
+      </BreadBox>
       <MarginBox>
         <TextContent
-          margin="0 auto 35px"
+          margin="30px auto 35px"
           title="Mobi grátis"
           paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
           color="#585858"
