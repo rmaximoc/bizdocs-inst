@@ -5,8 +5,11 @@ import {
   MarginBox,
   Title,
   CardsBox,
-  Strip
+  Strip,
+  OpacityButtonMobile,
+  MarginBoxDesktop
 } from './MainlyFunctions.style';
+import CarouselSliderTwo from '../CarouselSliderTwo/CarouselSliderTwo';
 import FunctionsCard from '../FunctionsCard/FunctionsCard';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import cardsContent from './cardsContent';
@@ -44,7 +47,7 @@ const MainlyFunctions = () => {
           duration={2}
           delay={1}
         >
-          <MarginBox>
+          <MarginBoxDesktop>
             <CardsBox>
               {cardsContent.map(card => (
                 <FunctionsCard
@@ -55,8 +58,46 @@ const MainlyFunctions = () => {
                 />
               ))}
             </CardsBox>
-          </MarginBox>
+          </MarginBoxDesktop>
         </ScrollAnimation>
+        <MarginBox>
+          <CarouselSliderTwo
+            slidesToShow={1}
+            slidesToScroll={1}
+            firstCard={
+              <FunctionsCard
+                image={cardsContent[0].image}
+                title={cardsContent[0].title}
+                text={cardsContent[0].text}
+                key={cardsContent[0].title}
+              />
+            }
+            secondCard={
+              <FunctionsCard
+                image={cardsContent[1].image}
+                title={cardsContent[1].title}
+                text={cardsContent[1].text}
+                key={cardsContent[1].title}
+              />
+            }
+            thirdCard={
+              <FunctionsCard
+                image={cardsContent[2].image}
+                title={cardsContent[2].title}
+                text={cardsContent[2].text}
+                key={cardsContent[2].title}
+              />
+            }
+            fourthCard={
+              <FunctionsCard
+                image={cardsContent[3].image}
+                title={cardsContent[3].title}
+                text={cardsContent[3].text}
+                key={cardsContent[3].title}
+              />
+            }
+          />
+        </MarginBox>
         <ScrollAnimation
           animateOnce
           animateIn="fadeInUp"
@@ -64,11 +105,13 @@ const MainlyFunctions = () => {
           delay={1}
         >
           <MarginBox>
-            <OpacityButton
-              margin="40px auto 60px"
-              content="Ver mais benefícios"
-              maxWidth="247px"
-            />
+            <OpacityButtonMobile>
+              <OpacityButton
+                margin="40px auto 60px"
+                content="Ver mais benefícios"
+                maxWidth="247px"
+              />
+            </OpacityButtonMobile>
           </MarginBox>
         </ScrollAnimation>
       </MarginBox>

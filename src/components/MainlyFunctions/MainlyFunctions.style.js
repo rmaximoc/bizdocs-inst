@@ -18,6 +18,7 @@ export const MarginBox = styled.div`
 
   @media screen and (max-width: 992px) {
     margin: 0 auto -31px;
+    width: 90%;
   }
 
   p {
@@ -37,7 +38,7 @@ export const Title = styled.h1`
 
   @media screen and (max-width: 992px) {
     font-size: 24px;
-    margin: 335px 0 30px 0;
+    margin: 215px 0 30px 0;
   }
 `;
 
@@ -62,7 +63,32 @@ export const Strip = styled.div`
   margin: 35px 50% 0;
 
   @media screen and (max-width: 992px) {
-    margin: 255px 50% 0;
+    margin: 115px 50% 0;
     height: 50px;
+  }
+
+  /* @media screen and (min-width: 414px) {
+    margin: 219px 50% 0;
+    height: 50px;
+  } */
+`;
+
+export const OpacityButtonMobile = styled.div`
+  display: flex;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+`;
+
+export const MarginBoxDesktop = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto 10px;
+
+  @media screen and (max-width: 992px) {
+    display: none;
   }
 `;

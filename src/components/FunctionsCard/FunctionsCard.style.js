@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   box-shadow: 0px 10px 20px #b4b4b429;
+  margin: 20px 10px;
 `;
 
 export const MarginBox = styled.div`
@@ -15,6 +16,7 @@ export const MarginBox = styled.div`
   padding: 45px;
   background-color: #ffffff;
   text-align: center;
+  border-radius: 6px;
 
   p {
     color: #585858;

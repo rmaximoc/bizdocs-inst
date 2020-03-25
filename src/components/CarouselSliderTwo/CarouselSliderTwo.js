@@ -1,12 +1,13 @@
 import React from 'react';
 import Slider from '@bit/akiran.react-slick.slider';
 import { element, number } from 'prop-types';
-import { Container, MarginBox, Carousel } from './CarouselSlider.style';
+import { Container, MarginBox, Carousel, Box } from './CarouselSliderTwo.style';
 
 const CarouselSlider = ({
   firstCard,
   secondCard,
   thirdCard,
+  fourthCard,
   slidesToShow,
   slidesToScroll
 }) => {
@@ -22,9 +23,14 @@ const CarouselSlider = ({
             slidesToShow={slidesToShow}
             slidesToScroll={slidesToScroll}
           >
-            <div>{firstCard}</div>
-            <div>{secondCard}</div>
-            <div>{thirdCard}</div>
+            <Box>
+              <div>{firstCard}</div>
+              <div>{secondCard}</div>
+            </Box>
+            <Box>
+              <div>{thirdCard}</div>
+              <div>{fourthCard}</div>
+            </Box>
           </Slider>
         </Carousel>
       </MarginBox>
@@ -36,6 +42,7 @@ CarouselSlider.propTypes = {
   firstCard: element.isRequired,
   secondCard: element.isRequired,
   thirdCard: element.isRequired,
+  fourthCard: element.isRequired,
   slidesToShow: number.isRequired,
   slidesToScroll: number.isRequired
 };

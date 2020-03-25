@@ -57,6 +57,8 @@ const Testimonials = () => {
           delay={1}
         >
           <CarouselSlider
+            slidesToShow={1}
+            slidesToScroll={1}
             firstCard={
               <TestimonialCard
                 image={testimonialContent[0].image}

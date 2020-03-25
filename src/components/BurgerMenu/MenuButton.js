@@ -23,7 +23,7 @@ const MenuButton = () => {
     },
     {
       text: 'G. Contabilidade',
-      link: '/benefits'
+      link: '/plans/benefits'
     },
     {
       text: 'Empresas',
