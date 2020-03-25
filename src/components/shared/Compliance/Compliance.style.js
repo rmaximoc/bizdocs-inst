@@ -43,6 +43,10 @@ export const StampBox = styled.div`
   height: 100%;
   padding: 33px 20px;
   margin-bottom: 120px;
+
+  @media screen and (max-width: 992px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const Title = styled.h2`

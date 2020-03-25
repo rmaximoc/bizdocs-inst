@@ -14,6 +14,7 @@ import { MarginBox } from '../../components/Header/Header.style';
 import { AccordionMargin } from './Benefits.style';
 import { BreadBox } from '../Bizdocs/Bizdocs.style';
 import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
+import { ReactComponent as Stamp } from '../../assets/images/integration-white.svg';
 
 const Benefits = () => {
   return (
@@ -49,6 +50,7 @@ const Benefits = () => {
         ))}
       </AccordionMargin>
       <Compliance
+        stamp={<Stamp />}
         margin="134px auto 68px"
         title="Integração Automatizada"
         content="O Bizdocs é compatível com os principais sistemas de contabilidade e gestão, permitindo uma integração imediata e sem disrupção. Os processos habituais entre si e a sua contabilidade podem ser automatizados, permitindo que, por exemplo, faturas sejam classificadas e lançadas sem intervenção humana – e com menos erros e atrasos."
