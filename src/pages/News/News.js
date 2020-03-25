@@ -10,13 +10,18 @@ import Background from '../../assets/images/newsBg.png';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
 import { TitleGreen, MarginBox, ButtonBox } from './News.styles';
 import CardImageTitle from '../../components/CardImageTitle/CardImageTitle';
+import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
+import { BreadBox } from '../Bizdocs/Bizdocs.style';
 
 const News = () => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
-      <Title margin="0 auto 35px" content="Novidades" />
+      <BreadBox>
+        <BreadCrumbs content="Home Page >" link=" Novidades" />
+      </BreadBox>
+      <Title margin="20px auto 35px" content="Novidades" />
       <ImageBottomText
         bgImage={Background}
         text="Portugal em destaque nas startups no setor contábil"
