@@ -62,15 +62,20 @@ export const Strip = styled.div`
   background-color: #69b643;
   margin: 35px 50% 0;
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 768px) {
+    margin: 55px 50% 0;
+    height: 50px;
+  }
+
+  @media screen and (max-width: 425px) {
     margin: 115px 50% 0;
     height: 50px;
   }
 
-  /* @media screen and (min-width: 414px) {
-    margin: 219px 50% 0;
+  @media screen and (max-width: 374px) {
+    margin: 130px 50% 0;
     height: 50px;
-  } */
+  }
 `;
 
 export const OpacityButtonMobile = styled.div`
