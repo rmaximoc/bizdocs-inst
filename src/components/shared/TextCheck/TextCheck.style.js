@@ -19,6 +19,10 @@ export const Box = styled.div`
   color: #585858;
   font-size: 16px;
   margin: 10px 0;
+
+  @media screen and (max-width: 992px) {
+    font-size: 12px;
+  }
 `;
 
 export const BoxCheck = styled.div`

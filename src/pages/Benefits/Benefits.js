@@ -12,15 +12,23 @@ import checkContent from './checkContent';
 import accordionContent from './accordionContent';
 import { MarginBox } from '../../components/Header/Header.style';
 import { AccordionMargin } from './Benefits.style';
+import { BreadBox } from '../Bizdocs/Bizdocs.style';
+import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 
 const Benefits = () => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
+      <BreadBox>
+        <BreadCrumbs
+          content="Home Page > Bizdocs > "
+          link="Benefícios e funcionalidades"
+        />
+      </BreadBox>
       <MarginBox>
         <TextContent
-          margin="0 auto 35px"
+          margin="20px auto 35px"
           color="#585858"
           title="Principais Benefícios e funcionalidades"
           paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."

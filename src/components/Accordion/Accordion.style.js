@@ -68,6 +68,11 @@ export const AccordionTitle = styled.h3`
   margin: 0;
   font-weight: 700;
   color: ${({ color }) => color};
+
+  @media screen and (max-width: 992px) {
+    font-size: 12px;
+    max-width: 90%;
+  }
 `;
 
 export const AccordionIcon = styled.span`
