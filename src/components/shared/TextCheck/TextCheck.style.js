@@ -18,6 +18,7 @@ export const Box = styled.div`
   display: flex;
   color: #585858;
   font-size: 16px;
+  margin: 10px 0;
 `;
 
 export const BoxCheck = styled.div`
