@@ -11,7 +11,18 @@ import Testimonials from '../components/Testimonials/Testimonials';
 import Compliance from '../components/shared/Compliance/Compliance';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
 import MobileFooter from '../components/shared/MobileFooter/MobileFooter';
-import { ReactComponent as Stamp } from '../assets/images/green-stamp.svg';
+// import { ReactComponent as Dl28 } from '../assets/images/stamp-DL28-2019.svg';
+import image from '../assets/images/home.png';
+
+const Stamp = () => {
+  return (
+    <img
+      style={{ maxWidth: '67px', maxHeight: '67px' }}
+      src={image}
+      alt="stamp"
+    />
+  );
+};
 
 const Home = () => {
   return (
@@ -30,11 +41,10 @@ const Home = () => {
       </SecondBackground>
       <Testimonials />
       <Compliance
-        margin="0 auto 84px"
+        margin="0 auto 78px"
         stamp={<Stamp />}
         title="Conformidade com DL28/2019"
-        content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em
-              contabilidade manual como automatizada."
+        content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em contabilidade manual como automatizada."
         buttonContent="Experimente grátis"
       />
       <DesktopFooter />

@@ -42,6 +42,7 @@ export const StampBox = styled.div`
   display: flex;
   height: 100%;
   padding: 33px 20px;
+  margin-bottom: 120px;
 `;
 
 export const Title = styled.h2`
