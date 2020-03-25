@@ -21,6 +21,7 @@ const ComparativeTable = () => {
           <Header>
             <Title>Principais Características</Title>
             <OpacityButton
+              maxHeight="73px"
               width="137px"
               color="#69B643"
               content="Experimente Grátis"

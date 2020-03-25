@@ -47,9 +47,7 @@ const TableContent = ({ planValue, margin, bgColor }) => {
             bgColor={item.bgColor}
           />
         ))}
-        <DesktopHeader bgColor={bgColor}>
-          <Title>Funcionalidades</Title>
-        </DesktopHeader>
+        <Title>Funcionalidades</Title>
         <DesktopBox>
           {functionalities.map(item => (
             <PlanTableLine

@@ -19,3 +19,12 @@ export const MobileBox = styled.div`
     display: flex;
   }
 `;
+
+export const ButtonBox = styled.div`
+  display: none;
+  margin: 0 auto 30px;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+  }
+`;

@@ -45,15 +45,6 @@ export const characteristics = [
     fifth: '2/ ilimitado'
   },
   {
-    bgColor: '#FCFCFC',
-    main: 'Armazenamento',
-    first: '1GB',
-    second: '5GB',
-    third: '10GB',
-    fourth: '20GB',
-    fifth: '20GB'
-  },
-  {
     bgColor: '#F4F4F4',
     main: 'Clientes incluídos / máx. clientes',
     first: 'element',

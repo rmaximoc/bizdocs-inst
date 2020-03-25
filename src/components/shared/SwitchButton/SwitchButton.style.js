@@ -5,6 +5,10 @@ export const Box = styled.div`
   margin: 58px auto;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.h1`

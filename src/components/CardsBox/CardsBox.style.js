@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 63px;
+  margin: 0 auto;
 `;
 
 export const MarginBox = styled.div`
@@ -22,6 +23,7 @@ export const MarginBox = styled.div`
 
   @media screen and (max-width: 992px) {
     grid-template-columns: 1fr;
+    margin: 0 auto 29px;
   }
 `;
 
@@ -41,7 +43,9 @@ export const Box = styled.div`
   @media screen and (max-width: 992px) {
     box-shadow: 0px 10px 20px #86868629;
     margin: 10px auto;
-    max-width: 88%;
+    width: 100%;
+    max-height: unset;
+    height: unset;
   }
 
   @media screen and (max-width: 1160px) {

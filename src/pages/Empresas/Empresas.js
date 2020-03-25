@@ -10,16 +10,22 @@ import Contact from '../../components/Contact/Contact';
 import Compliance from '../../components/shared/Compliance/Compliance';
 import { ReactComponent as Smart } from '../../assets/images/smartOCR.svg';
 import { MarginBox } from '../../components/Header/Header.style';
-import { DesktopBox, MobileBox } from './Empresas.style';
+import { DesktopBox, MobileBox, ButtonBox } from './Empresas.style';
+import { BreadBox } from '../Bizdocs/Bizdocs.style';
+import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
+import GreenButton from '../../components/shared/GreenButton/GreenButton';
 
 const Empresas = () => {
   return (
     <>
       <GlobalStyles />
       <Header bgColor="#1B2555" />
+      <BreadBox>
+        <BreadCrumbs content="Home Page >" link=" Empresas" />
+      </BreadBox>
       <MarginBox>
         <TextContent
-          margin="0 auto 35px"
+          margin="20px auto 35px"
           color="#585858"
           title="Bizdocs Mobi - Empresas"
           paragraph="Seja qual for a dimensão da sua empresa, existe uma solução Bizdocs para si. É natural que queira experimentar, testando este sistema em funcionamento, utilizando a versão gratuita que lhe disponibilizamos de imediato. Mas estamos certos de que, assim que sentir o alívio de poder trabalhar sem montanhas de papel, vai querer ajustar a sua solução Bizdocs às necessidades específicas da sua empresa."
@@ -31,6 +37,13 @@ const Empresas = () => {
       <MobileBox>
         <CardsBoxPart />
       </MobileBox>
+      <ButtonBox>
+        <GreenButton
+          width="80%"
+          margin="0 auto 70px"
+          content="Ver mais benefícios e funcionalidades"
+        />
+      </ButtonBox>
       <PlanCardBox />
       <Contact margin="106px 0 174px" />
       <Compliance
