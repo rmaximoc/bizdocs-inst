@@ -7,7 +7,7 @@ import { ReactComponent as Functionalities } from '../../assets/images/functiona
 import { ReactComponent as Integration } from '../../assets/images/automatic-integration.svg';
 import { ReactComponent as Conformity } from '../../assets/images/conformidade-rgpd.svg';
 
-const cards = [
+export const cardsFull = [
   {
     image: <Information />,
     text:
@@ -44,4 +44,20 @@ const cards = [
   }
 ];
 
-export default cards;
+export const cardsPart = [
+  {
+    image: <Information />,
+    text:
+      'Toda a informação do seu negócio centralizada e atualizada num sistema único de arquivo digital, integrado e sincronizado em web cloud'
+  },
+  {
+    image: <Access />,
+    text:
+      'Controlo e acesso seguro aos seus documentos, a partir de qualquer lugar, em qualquer dispositivo online '
+  },
+  {
+    image: <Papers />,
+    text:
+      'Digitalize os seus papéis ou faça o upload diretamente através do seu Email ou do seu Smartphone.'
+  }
+];

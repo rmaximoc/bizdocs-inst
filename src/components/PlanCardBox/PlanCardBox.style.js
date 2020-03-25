@@ -17,7 +17,7 @@ export const MarginBox = styled.div`
 
 export const Box = styled.div`
   display: flex;
-  margin: 0px 10px 20px;
+  margin: 0px 0px 20px;
 
   @media screen and (max-width: 992px) {
     flex-direction: column;
