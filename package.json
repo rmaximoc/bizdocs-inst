@@ -14,6 +14,7 @@
     "react-ios-switch": "^0.1.19",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "react-through": "^1.1.4",
     "styled-components": "^5.0.1"
   },
   "scripts": {

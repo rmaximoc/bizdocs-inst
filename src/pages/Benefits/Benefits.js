@@ -33,6 +33,7 @@ const Benefits = () => {
       <AccordionMargin>
         {accordionContent.map(acc => (
           <Accordion
+            key={acc.title}
             title={acc.title}
             paragraph={acc.paragraph}
             bgColor={acc.bgColor}
