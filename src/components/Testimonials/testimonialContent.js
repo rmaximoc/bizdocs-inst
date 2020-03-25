@@ -4,7 +4,7 @@ import image3 from '../../assets/images/Image3.png';
 
 const cards = [
   {
-    image: image1,
+    image: image2,
     text:
       '“Vivia em stress permanente com os montinhos de facturas para o contabilista, até que instalei o Bizdocs“',
     name: 'Nuno Amaral Frazão, Sócio-Fundador da Mindsetters',
@@ -12,7 +12,7 @@ const cards = [
     marginTop: '30px'
   },
   {
-    image: image2,
+    image: image1,
     text:
       '"Vivia em stress permanente com os montinhos de facturas para o contabilista, até que instalei o Bizdocs"',
     name: 'Nuno Amaral Frazão, Sócio-Fundador da Mindsetters',

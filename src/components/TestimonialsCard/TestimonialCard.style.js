@@ -31,6 +31,7 @@ export const Cards = styled.div`
     padding: 10px;
     border: 1px solid #69b643;
     margin-bottom: 21px;
+    object-fit: cover;
   }
 
   @media screen and (max-width: 992px) {
