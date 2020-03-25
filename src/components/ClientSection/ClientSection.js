@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import {
   Container,
   MarginBox,
@@ -19,26 +20,47 @@ const ClientSection = () => {
       <MarginBox>
         <Strip />
         <PresentationContent>
-          <News>NOTÍCIAS</News>
-          <TextContent>
-            <h1>
-              Mais de <span>3.200 </span>
-              empresários aplaudiram o Bizdocs em acção durante o evento OMIE de
-              Agosto 2019, em São Paulo
-            </h1>
-            <p>
-              Imagine uma plataforma que aceita qualquer formato, através de
-              qualquer dispositivo, desde a foto de telemóvel à digitalização,
-              para criar.
-            </p>
-          </TextContent>
-          <ButtonBox>
-            <GreyButton
-              content="Saber mais"
-              minWidth="247px"
-              maxWidth="247px"
-            />
-          </ButtonBox>
+          <ScrollAnimation
+            animateOnce
+            animateIn="fadeInUp"
+            duration={1}
+            delay={1}
+          >
+            <News>NOTÍCIAS</News>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateOnce
+            animateIn="fadeInUp"
+            duration={1}
+            delay={1}
+          >
+            <TextContent>
+              <h1>
+                Mais de <span>3.200 </span>
+                empresários aplaudiram o Bizdocs em acção durante o evento OMIE
+                de Agosto 2019, em São Paulo
+              </h1>
+              <p>
+                Imagine uma plataforma que aceita qualquer formato, através de
+                qualquer dispositivo, desde a foto de telemóvel à digitalização,
+                para criar.
+              </p>
+            </TextContent>
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateOnce
+            animateIn="fadeInUp"
+            duration={1}
+            delay={1}
+          >
+            <ButtonBox>
+              <GreyButton
+                content="Saber mais"
+                minWidth="247px"
+                maxWidth="247px"
+              />
+            </ButtonBox>
+          </ScrollAnimation>
         </PresentationContent>
         <ImageContent>
           <Image />

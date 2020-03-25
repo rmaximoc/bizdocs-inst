@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import {
   Container,
   MarginBox,
@@ -15,25 +16,61 @@ const MainlyFunctions = () => {
     <Container>
       <Strip />
       <MarginBox>
-        <Title>
-          Principais
-          <br /> benefícios e funcionalidades
-        </Title>
-        <p>
-          O Bizdocs é uma solução inteligente, dinâmica e integrada de gestão
-          documental.
-        </p>
-        <CardsBox>
-          {cardsContent.map(card => (
-            <FunctionsCard
-              image={card.image}
-              title={card.title}
-              text={card.text}
-              key={card.title}
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={2}
+          delay={1}
+        >
+          <Title>
+            Principais
+            <br /> benefícios e funcionalidades
+          </Title>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={2}
+          delay={1}
+        >
+          <p>
+            O Bizdocs é uma solução inteligente, dinâmica e integrada de gestão
+            documental.
+          </p>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={2}
+          delay={1}
+        >
+          <MarginBox>
+            <CardsBox>
+              {cardsContent.map(card => (
+                <FunctionsCard
+                  image={card.image}
+                  title={card.title}
+                  text={card.text}
+                  key={card.title}
+                />
+              ))}
+            </CardsBox>
+          </MarginBox>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={2}
+          delay={1}
+        >
+          <MarginBox>
+            <OpacityButton
+              margin="40px auto 60px"
+              content="Ver mais benefícios"
+              maxWidth="247px"
             />
-          ))}
-        </CardsBox>
-        <OpacityButton content="Ver mais benefícios" maxWidth="247px" />
+          </MarginBox>
+        </ScrollAnimation>
       </MarginBox>
     </Container>
   );

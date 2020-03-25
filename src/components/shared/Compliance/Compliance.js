@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { element, string } from 'prop-types';
 import {
   Container,
@@ -17,19 +18,30 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
   return (
     <Container>
       <MarginBox margin={margin}>
-        <ComplianceContent>
-          <StampBox>{stamp}</StampBox>
-          <Texts>
-            <Title>{title}</Title>
-            <TextContent>{content}</TextContent>
-          </Texts>
-          <ButtonBoxDesktop>
-            <GreenButton content={buttonContent} maxWidth="280px" />
-          </ButtonBoxDesktop>
-          <ButtonBoxMobile>
-            <GreenButton content={buttonContent} width="100%" maxWidth="100%" />
-          </ButtonBoxMobile>
-        </ComplianceContent>
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={1}
+          delay={1}
+        >
+          <ComplianceContent>
+            <StampBox>{stamp}</StampBox>
+            <Texts>
+              <Title>{title}</Title>
+              <TextContent>{content}</TextContent>
+            </Texts>
+            <ButtonBoxDesktop>
+              <GreenButton content={buttonContent} maxWidth="280px" />
+            </ButtonBoxDesktop>
+            <ButtonBoxMobile>
+              <GreenButton
+                content={buttonContent}
+                width="100%"
+                maxWidth="100%"
+              />
+            </ButtonBoxMobile>
+          </ComplianceContent>
+        </ScrollAnimation>
       </MarginBox>
     </Container>
   );

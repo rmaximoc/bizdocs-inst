@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export const Container = styled.div`
   display: flex;
@@ -13,6 +14,18 @@ export const MarginBox = styled.div`
   width: 80%;
   justify-content: center;
   margin: 0 auto 240px;
+
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
+`;
+
+export const MarginBoxMobile = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
 
   @media screen and (max-width: 992px) {
     width: 90%;
@@ -38,6 +51,14 @@ export const GreenBackground = styled.div`
 export const CardsBox = styled.div`
   display: flex;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+`;
+
+export const ScrollAnimationBox = styled(ScrollAnimation)`
+  display: flex;
 
   @media screen and (max-width: 992px) {
     display: none;

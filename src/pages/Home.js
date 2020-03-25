@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyle from '../global.styles';
 import Header from '../components/Header/Header';
 import IntroSection from '../components/IntroSection/IntroSection';
@@ -21,7 +22,9 @@ const Home = () => {
         <IntroSection />
       </MainBackground>
       <ClientSection />
-      <ClientsLogo />
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ClientsLogo />
+      </ScrollAnimation>
       <SecondBackground>
         <MainlyFunctions />
       </SecondBackground>
