@@ -7,6 +7,11 @@ export const Box = styled.div`
   width: 343px;
   height: 545px;
   margin: 0 10px;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
 `;
 
 export const Header = styled.div`

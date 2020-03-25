@@ -3,7 +3,8 @@ import {
   Container,
   MarginBox,
   SocialLinks,
-  Copyright
+  Copyright,
+  Links
 } from './MobileFooter.style';
 import footerLinks from '../DesktopFooter/footerLinks';
 import AccordionFooter from '../../AccordionFooter/AccordionFooter';
@@ -17,8 +18,8 @@ const MobileFooter = () => {
           title="Sobre o Bizdocs"
           paragraph={
             <>
-              <li>teste1</li>
-              <li>teste2</li>
+              <Links>teste1</Links>
+              <Links>teste2</Links>
             </>
           }
           color="#ABC6DE"
@@ -31,8 +32,8 @@ const MobileFooter = () => {
           title="Portal Gab. Contabilidade"
           paragraph={
             <>
-              <li>teste1</li>
-              <li>teste2</li>
+              <Links>teste1</Links>
+              <Links>teste2</Links>
             </>
           }
           color="#ABC6DE"
@@ -45,8 +46,8 @@ const MobileFooter = () => {
           title="Empresa - Mobi"
           paragraph={
             <>
-              <li>teste1</li>
-              <li>teste2</li>
+              <Links>Grátis</Links>
+              <Links>Platinum</Links>
             </>
           }
           color="#ABC6DE"
@@ -59,8 +60,8 @@ const MobileFooter = () => {
           title="Login"
           paragraph={
             <>
-              <li>teste1</li>
-              <li>teste2</li>
+              <Links>teste1</Links>
+              <Links>teste2</Links>
             </>
           }
           color="#ABC6DE"

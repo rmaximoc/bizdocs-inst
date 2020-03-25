@@ -38,8 +38,13 @@ const PlanCards = ({
             return <TableLine title={content} content={content} />;
           })}
         </Table>
-        <GreenButton content={buttonText} />
-        <OpacityButton color="#1C3144" width="100%" content="Comparar planos" />
+        <GreenButton width="100%" content={buttonText} />
+        <OpacityButton
+          maxWidth="100%"
+          color="#1C3144"
+          width="100%"
+          content="Comparar planos"
+        />
       </Content>
     </Box>
   );

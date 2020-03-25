@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { ReactComponent as Plus } from '../../assets/images/plus.svg';
 
 export const Container = styled.div`
   display: flex;

@@ -17,7 +17,7 @@ const AccordionItemFooter = ({ title, paragraph, opened, bgColor, color }) => {
       <AccordionLine bgColor={bgColor}>
         <AccordionTitle color={color}>{title}</AccordionTitle>
         <AccordionIcon opened={opened}>
-          {!opened ? <Plus fill="#ffffff" /> : <Substract fill="#ffffff" />}
+          {!opened ? <Plus fill="#ABC6DE" /> : <Substract fill="#ABC6DE" />}
         </AccordionIcon>
       </AccordionLine>
       <AccordionInner opened={opened}>

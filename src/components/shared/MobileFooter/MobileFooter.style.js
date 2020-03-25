@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   display: none;
@@ -34,4 +35,13 @@ export const SocialLinks = styled.div`
 export const Copyright = styled.p`
   font-size: 10px;
   margin-bottom: 46px;
+`;
+
+export const Links = styled(Link)`
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 20px 0;
 `;

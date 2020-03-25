@@ -41,6 +41,7 @@ export const Box = styled.div`
   @media screen and (max-width: 992px) {
     box-shadow: 0px 10px 20px #86868629;
     margin: 10px auto;
+    max-width: 88%;
   }
 
   @media screen and (max-width: 1160px) {

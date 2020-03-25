@@ -16,7 +16,13 @@ const CarouselSlider = ({ firstCard, secondCard, thirdCard }) => {
     <Container>
       <MarginBox>
         <Carousel>
-          <Slider dots adaptiveHeight arrows={false} settings={settings}>
+          <Slider
+            variableWidth={false}
+            dots
+            adaptiveHeight
+            arrows={false}
+            settings={settings}
+          >
             <div>{firstCard}</div>
             <div>{secondCard}</div>
             <div>{thirdCard}</div>

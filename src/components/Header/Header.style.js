@@ -4,6 +4,10 @@ import { ReactComponent as BizLogo } from '../../assets/images/logo-bizdocs.svg'
 export const Logo = styled(BizLogo)`
   margin-right: 5%;
   min-width: 200px;
+
+  @media screen and (min-width: 992px) {
+    width: 135px;
+  }
 `;
 
 export const Container = styled.div`
