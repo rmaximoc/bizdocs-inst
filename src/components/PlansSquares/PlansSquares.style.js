@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const MarginBox = styled.div`
   display: flex;
-  width: 80%;
+  width: 88%;
   justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
