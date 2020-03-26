@@ -35,6 +35,7 @@ export const Title = styled.h1`
 export const InputBox = styled.div`
   display: flex;
   width: 100%;
+  margin: 20px;
 
   @media screen and (max-width: 992px) {
     flex-direction: column;
@@ -42,7 +43,7 @@ export const InputBox = styled.div`
 
   input {
     min-width: 468px;
-    margin: 30px 5px;
+    margin: 0px 5px;
     padding: 20px;
     font-size: 14px;
     color: #585858;

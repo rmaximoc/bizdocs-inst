@@ -23,7 +23,7 @@ const Contact = ({ margin }) => {
             <input placeholder="Palavra-Chave" />
             <input placeholder="Confirmar Palavra-Chave" />
           </InputBox>
-          <GreenButton content="Experimente grátis" />
+          <GreenButton margin="20px 0" content="Experimente grátis" />
         </ContactBox>
       </MarginBox>
     </Container>
