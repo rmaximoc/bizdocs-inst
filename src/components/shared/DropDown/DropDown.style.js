@@ -5,6 +5,8 @@ export const Button = styled.div`
   flex-direction: column;
   user-select: none;
   cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
 
   @media screen and (max-width: 992px) {
     text-align: center;
@@ -15,7 +17,7 @@ export const Triangle = styled.div`
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin: auto 10px;
+  margin: auto 10px 15px;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
