@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import Compliance from '../../components/shared/Compliance/Compliance';
@@ -23,27 +24,37 @@ const PlansAndPrices = () => {
       <BreadBox>
         <BreadCrumbs content="Home Page >" link=" Planos e Preços" />
       </BreadBox>
-      <DesktopBox>
-        <MarginBox>
-          <TextContent
-            margin="20px auto 35px"
-            color="#585858"
-            title="Planos e Preços"
-            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-          />
-        </MarginBox>
-      </DesktopBox>
-      <SwitchButton />
-      <DesktopBox>
-        <MarginBox>
-          <Paragraph
-            color="#585858"
-            content="Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-          />
-        </MarginBox>
-      </DesktopBox>
-      <ComparativeTable />
-      <Contact margin="140px 0 174px" />
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <DesktopBox>
+          <MarginBox>
+            <TextContent
+              margin="20px auto 35px"
+              color="#585858"
+              title="Planos e Preços"
+              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            />
+          </MarginBox>
+        </DesktopBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <SwitchButton />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <DesktopBox>
+          <MarginBox>
+            <Paragraph
+              color="#585858"
+              content="Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Suspendisse non neque nisi. Ut sit amet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet niamet nibh blandit sollicitudin. Aliquam imperdiet interdu sit amet nibh. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            />
+          </MarginBox>
+        </DesktopBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ComparativeTable />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <Contact margin="140px 0 174px" />
+      </ScrollAnimation>
       <Compliance
         stamp={<Vault />}
         buttonContent="Experimente grátis"
