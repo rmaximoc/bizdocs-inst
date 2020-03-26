@@ -45,7 +45,7 @@ export const StampBox = styled.div`
   margin-bottom: 120px;
 
   @media screen and (max-width: 992px) {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 `;
 
