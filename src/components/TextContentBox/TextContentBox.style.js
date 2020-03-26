@@ -19,6 +19,7 @@ export const MarginBox = styled.div`
 export const DesktopBox = styled.div`
   display: flex;
   justify-content: center;
+  margin: 0 auto 30px;
 
   @media screen and (max-width: 992px) {
     display: none;
