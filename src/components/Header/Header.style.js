@@ -11,8 +11,18 @@ export const Logo = styled(BizLogo)`
     min-width: unset;
   }
 
-  @media screen and (max-width: 1296px) {
+  @media screen and (max-width: 1300px) {
     max-width: 146px;
+    min-width: unset;
+  }
+
+  @media screen and (max-width: 1280px) {
+    max-width: 130px;
+    min-width: unset;
+  }
+
+  @media screen and (max-width: 1264px) {
+    max-width: 125px;
     min-width: unset;
   }
 
