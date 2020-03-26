@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
@@ -22,19 +23,29 @@ const News = () => {
       <BreadBox>
         <BreadCrumbs content="Home Page >" link=" Novidades" />
       </BreadBox>
-      <Title margin="20px auto 35px" content="Novidades" />
-      <ImageBottomText
-        bgImage={Background}
-        text="Portugal em destaque nas startups no setor contábil"
-      />
-      <MarginBox>
-        <TitleGreen>Últimas notícias</TitleGreen>
-      </MarginBox>
-      <CardImageTitle />
-      <CardImageTitle />
-      <ButtonBox>
-        <GreenButton content="Ver mais notícias" minWidth="372px" />
-      </ButtonBox>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <Title margin="20px auto 35px" content="Novidades" />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ImageBottomText
+          bgImage={Background}
+          text="Portugal em destaque nas startups no setor contábil"
+        />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MarginBox>
+          <TitleGreen>Últimas notícias</TitleGreen>
+        </MarginBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <CardImageTitle />
+        <CardImageTitle />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ButtonBox>
+          <GreenButton content="Ver mais notícias" minWidth="372px" />
+        </ButtonBox>
+      </ScrollAnimation>
       <Compliance
         stamp={<Stamp />}
         margin="0 auto 75px"
