@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   display: flex;
@@ -41,7 +42,7 @@ export const Title = styled.h2`
   margin-bottom: 21px;
 `;
 
-export const Links = styled.a`
+export const Links = styled(Link)`
   color: #ffffff;
   margin-top: 10px;
   cursor: pointer;
