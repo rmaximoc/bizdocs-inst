@@ -6,6 +6,10 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 98px;
   min-width: 1258px;
+
+  @media screen and (max-width: 992px) {
+    min-width: 1227px;
+  }
 `;
 
 export const MarginBox = styled.div`

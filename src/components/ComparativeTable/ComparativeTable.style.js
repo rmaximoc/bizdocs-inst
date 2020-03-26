@@ -17,7 +17,7 @@ export const Header = styled.div`
   align-items: center;
   padding: 38px 0px;
   display: flex;
-  min-width: 1100px;
+  min-width: 1145px;
 `;
 
 export const Box = styled.div`
