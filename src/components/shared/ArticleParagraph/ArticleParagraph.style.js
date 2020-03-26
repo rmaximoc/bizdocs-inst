@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   width: 80%;
   margin: 0 auto;
 
@@ -14,4 +15,5 @@ export const Paragraph = styled.p`
   text-align: justify;
   font-size: 14px;
   color: ${({ color }) => color};
+  margin-bottom: 50px;
 `;
