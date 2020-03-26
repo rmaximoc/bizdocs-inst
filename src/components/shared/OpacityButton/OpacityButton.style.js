@@ -13,5 +13,11 @@ export const Button = styled.button`
   width: ${({ width }) => width};
   margin: ${({ margin }) => margin};
   max-height: ${({ maxHeight }) => maxHeight};
+  transition: 0.5s;
   cursor: pointer;
+
+  :hover {
+    transition: 0.5s;
+    box-shadow: 0 0 23px rgba(117, 203, 75, 0.6);
+  }
 `;
