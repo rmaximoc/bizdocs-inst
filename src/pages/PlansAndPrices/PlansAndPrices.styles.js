@@ -9,7 +9,7 @@ export const DesktopBox = styled.div`
 `;
 
 export const MobileBox = styled.div`
-  display: flex;
+  display: none;
   flex-direction: column;
   margin: 80%;
   margin: 0;
