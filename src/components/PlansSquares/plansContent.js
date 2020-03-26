@@ -1,3 +1,6 @@
+import React from 'react';
+import { ReactComponent as Stamp } from '../../assets/images/most-popular.svg';
+
 const card = [
   {
     planPrice: '0€/Mês',
@@ -7,7 +10,8 @@ const card = [
   {
     planPrice: '3,99€/Mês',
     plan: 'Mobi Silver',
-    color: '#ADADAD'
+    color: '#ADADAD',
+    stamp: <Stamp />
   },
   {
     planPrice: '7,99€/Mês',

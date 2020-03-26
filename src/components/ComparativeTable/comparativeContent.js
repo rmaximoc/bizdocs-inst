@@ -1,3 +1,7 @@
+import React from 'react';
+import { ReactComponent as Check } from '../../assets/images/check.svg';
+import { ReactComponent as Xis } from '../../assets/images/xis.svg';
+
 export const characteristics = [
   {
     bgColor: '#F4F4F4',
@@ -47,11 +51,11 @@ export const characteristics = [
   {
     bgColor: '#F4F4F4',
     main: 'Clientes incluídos / máx. clientes',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Xis />,
+    fifth: <Xis />
   },
   {
     bgColor: '#FCFCFC',
@@ -64,12 +68,21 @@ export const characteristics = [
   },
   {
     bgColor: '#F4F4F4',
+    main: 'Partilha de documentos com Gab. Contabilidade',
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
+  },
+  {
+    bgColor: '#FCFCFC',
     main: 'Partilha de documentos com clientes',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Xis />,
+    fifth: <Xis />
   }
 ];
 
@@ -77,128 +90,128 @@ export const functionalities = [
   {
     bgColor: '#F4F4F4',
     main: 'Conformidade com DL28/2019',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Conformidade com o RGPD e a ePrivacy',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Máxima segurança documental',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Bizdocs App (Android)',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Arquivo dinâmico',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Smart Scan Multi-Device',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Check fill="#69b643" />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Pesquisa simples',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Check fill="#69b643" />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Pesquisa avançada',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Split/merge e agrupamento de documentos',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Smart OCR com Machine Learning',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Print Driver Bizdocs',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Mailbox dedicada, para upload directo',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Check fill="#69b643" />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#F4F4F4',
     main: 'Integração com os seus sistemas (ERP)',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Ajuda por Chatbot - Giulia',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Check fill="#69b643" />,
+    fifth: <Check fill="#69b643" />
   }
 ];
 
@@ -206,19 +219,19 @@ export const adon = [
   {
     bgColor: '#F4F4F4',
     main: 'Extração e Contabilização Inteligentes',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Xis />,
+    fifth: <Xis />
   },
   {
     bgColor: '#FCFCFC',
     main: 'Automatização de Fluxos Documentais',
-    first: 'element',
-    second: 'element',
-    third: 'element',
-    fourth: 'element',
-    fifth: 'element'
+    first: <Xis />,
+    second: <Xis />,
+    third: <Xis />,
+    fourth: <Xis />,
+    fifth: <Xis />
   }
 ];

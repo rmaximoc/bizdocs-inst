@@ -36,3 +36,15 @@ export const Title = styled.div`
 export const TableWindow = styled.section`
   overflow: scroll;
 `;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  flex-direction: flex-end;
+  align-items: center;
+  width: 65%;
+  margin: 0 0 0 403px;
+`;
+
+export const StampBox = styled.div`
+  display: flex;
+`;

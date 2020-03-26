@@ -5,7 +5,8 @@ import {
   Header,
   Box,
   Title,
-  TableWindow
+  TableWindow,
+  ButtonBox
 } from './ComparativeTable.style';
 import PlansSquares from '../PlansSquares/PlansSquares';
 import ComparationTableLine from '../shared/ComparationTableLine/ComparationTableLine';
@@ -84,6 +85,26 @@ const ComparativeTable = () => {
               />
             </Box>
           ))}
+          <ButtonBox>
+            <OpacityButton
+              maxHeight="73px"
+              width="137px"
+              color="#69B643"
+              content="Experimente Grátis"
+            />
+            <OpacityButton width="145px" color="#ADADAD" content="Aderir" />
+            <OpacityButton width="145px" color="#B99769" content="Aderir" />
+            <OpacityButton
+              width="145px"
+              color="#656565"
+              content="Fale conosco"
+            />
+            <OpacityButton
+              width="145px"
+              color="#1C3144"
+              content="Fale conosco"
+            />
+          </ButtonBox>
         </TableWindow>
       </MarginBox>
     </Container>

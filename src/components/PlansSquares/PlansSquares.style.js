@@ -35,3 +35,8 @@ export const Value = styled.h1`
 export const Text = styled.p`
   font-size: 14px;
 `;
+
+export const StampBox = styled.div`
+  display: flex;
+  margin-bottom: 24px;
+`;

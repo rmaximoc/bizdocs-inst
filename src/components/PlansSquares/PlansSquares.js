@@ -1,5 +1,12 @@
 import React from 'react';
-import { Container, MarginBox, Box, Value, Text } from './PlansSquares.style';
+import {
+  Container,
+  MarginBox,
+  Box,
+  Value,
+  Text,
+  StampBox
+} from './PlansSquares.style';
 import plansContent from './plansContent';
 
 const PlansSquares = () => {
@@ -9,6 +16,7 @@ const PlansSquares = () => {
         {plansContent.map(plan => (
           <>
             <Box color={plan.color}>
+              <StampBox>{plan.stamp}</StampBox>
               <Value>{plan.planPrice}</Value>
               <Text>{plan.plan}</Text>
             </Box>
