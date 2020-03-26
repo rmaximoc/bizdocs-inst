@@ -19,7 +19,6 @@ export const MarginBox = styled.div`
 
   @media screen and (max-width: 992px) {
     width: 100%;
-    margin: 10px;
   }
 `;
 
