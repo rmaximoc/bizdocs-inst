@@ -23,6 +23,7 @@ const PlanCardBox = () => {
               valueText={card.valueText}
               tableContent={card.tableContent}
               buttonText={card.buttonText}
+              stamp={card.stamp}
             />
           ))}
         </Box>

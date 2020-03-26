@@ -57,3 +57,13 @@ export const Value = styled.h1`
     color: ${({ cardColor }) => cardColor};
   }
 `;
+
+export const StampBox = styled.div`
+  display: flex;
+  position: absolute;
+  margin: 23px 248px;
+
+  @media screen and (max-width: 992px) {
+    margin: 22px 168px;
+  }
+`;

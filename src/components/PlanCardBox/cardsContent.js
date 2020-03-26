@@ -1,3 +1,6 @@
+import React from 'react';
+import { ReactComponent as Stamp } from '../../assets/images/most-popular.svg';
+
 export const cards = [
   {
     cardColor: '#69B643',
@@ -21,7 +24,8 @@ export const cards = [
         title: ['Armazenamento', 'Limite uploads mês', 'Tamanho máx. upload']
       }
     ],
-    buttonText: 'ADERIR'
+    buttonText: 'ADERIR',
+    stamp: <Stamp />
   },
   {
     cardColor: '#BA9F7A',

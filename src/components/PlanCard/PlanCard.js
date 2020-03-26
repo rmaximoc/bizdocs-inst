@@ -1,6 +1,14 @@
 import React from 'react';
-import PropTypes, { string } from 'prop-types';
-import { Box, Header, Price, Value, Table, Content } from './PlanCard.style';
+import PropTypes, { string, element } from 'prop-types';
+import {
+  Box,
+  Header,
+  Price,
+  Value,
+  Table,
+  Content,
+  StampBox
+} from './PlanCard.style';
 import TableLine from '../shared/TableLine/TableLine';
 import GreenButton from '../shared/GreenButton/GreenButton';
 import OpacityButton from '../shared/OpacityButton/OpacityButton';
@@ -23,11 +31,13 @@ const PlanCards = ({
   headerTitle,
   valueText,
   tableContent,
-  buttonText
+  buttonText,
+  stamp
 }) => {
   return (
     <Box>
       <Header cardColor={cardColor}>{headerTitle}</Header>
+      <StampBox>{stamp}</StampBox>
       <Content>
         <Price cardColor={cardColor}>
           A partir de
@@ -55,7 +65,12 @@ PlanCards.propTypes = {
   valueText: string.isRequired,
   cardColor: string.isRequired,
   buttonText: string.isRequired,
-  tableContent: PropTypes.arrayOf(string).isRequired
+  tableContent: PropTypes.arrayOf(string).isRequired,
+  stamp: element
+};
+
+PlanCards.defaultProps = {
+  stamp: ''
 };
 
 export default PlanCards;
