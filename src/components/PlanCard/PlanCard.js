@@ -48,7 +48,7 @@ const PlanCards = ({
             return <TableLine title={content} content={content} />;
           })}
         </Table>
-        <GreenButton width="100%" content={buttonText} />
+        <GreenButton color={cardColor} width="100%" content={buttonText} />
         <OpacityButton
           maxWidth="100%"
           color="#1C3144"
