@@ -20,9 +20,9 @@ const DesktopFooter = () => {
           <LinksContent>
             <Title>Sobre o Bizdocs</Title>
             {footerLinks.about.map(link => (
-              <Link to={link.link} key={link.text}>
+              <Links to={link.link} key={link.text}>
                 {link.text}
-              </Link>
+              </Links>
             ))}
           </LinksContent>
         </Column>

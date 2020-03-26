@@ -21,7 +21,6 @@ export const MarginBox = styled.div`
 export const LinksContent = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 105px 0 0;
 
   a {
     color: #ffffff;
@@ -46,6 +45,7 @@ export const Links = styled.a`
   color: #ffffff;
   margin-top: 10px;
   cursor: pointer;
+  font-size: 12px;
 `;
 
 export const SocialLinks = styled.div`
