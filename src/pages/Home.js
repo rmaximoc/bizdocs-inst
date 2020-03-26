@@ -11,7 +11,6 @@ import Testimonials from '../components/Testimonials/Testimonials';
 import Compliance from '../components/shared/Compliance/Compliance';
 import DesktopFooter from '../components/shared/DesktopFooter/DesktopFooter';
 import MobileFooter from '../components/shared/MobileFooter/MobileFooter';
-// import { ReactComponent as Dl28 } from '../assets/images/stamp-DL28-2019.svg';
 import image from '../assets/images/home.png';
 
 const Stamp = () => {

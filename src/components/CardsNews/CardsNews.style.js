@@ -5,6 +5,7 @@ export const CardBox = styled.div`
   flex-direction: column;
   text-align: left;
   max-width: 303px;
+  margin: 0 auto;
 `;
 
 export const Date = styled.p`
@@ -22,6 +23,8 @@ export const Image = styled.div`
   display: flex;
 
   img {
-    min-width: 303px;
+    object-fit: cover;
+    max-width: 303px;
+    max-height: 200px;
   }
 `;

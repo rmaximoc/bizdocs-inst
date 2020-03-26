@@ -11,6 +11,7 @@ import GreenButton from '../../components/shared/GreenButton/GreenButton';
 import { MarginBox, DesktopButton, MobileButton } from './Security.style';
 import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 import Coding from '../../assets/images/coding-pc.png';
+import { ReactComponent as Stamp } from '../../assets/images/click-white.svg';
 
 const Security = () => {
   return (
@@ -60,6 +61,7 @@ const Security = () => {
         </MobileButton>
       </MarginBox>
       <Compliance
+        stamp={<Stamp />}
         margin="0 auto 73px"
         buttonContent="Experimente grátis"
         title="Reconhecimento, Classificação, Arquivo, Envio ou Partilha de Documentos"
