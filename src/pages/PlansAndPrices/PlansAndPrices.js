@@ -12,7 +12,7 @@ import ComparativeTable from '../../components/ComparativeTable/ComparativeTable
 import SwitchButton from '../../components/shared/SwitchButton/SwitchButton';
 import { ReactComponent as Vault } from '../../assets/images/vault.svg';
 import { MarginBox } from '../../components/Header/Header.style';
-import { DesktopBox } from './PlansAndPrices.styles';
+import { DesktopBox, MobileBox, Box } from './PlansAndPrices.styles';
 import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 import { BreadBox } from '../Bizdocs/Bizdocs.style';
 
@@ -37,6 +37,17 @@ const PlansAndPrices = () => {
         </DesktopBox>
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MobileBox>
+          <Box>
+            <TextContent
+              margin="20px auto 35px"
+              color="#585858"
+              title="Planos e Preços"
+            />
+          </Box>
+        </MobileBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <SwitchButton />
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
@@ -48,6 +59,17 @@ const PlansAndPrices = () => {
             />
           </MarginBox>
         </DesktopBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MobileBox>
+          <Box>
+            <TextContent
+              margin="20px auto 35px"
+              color="#585858"
+              title="Comparação entre planos"
+            />
+          </Box>
+        </MobileBox>
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <ComparativeTable />
