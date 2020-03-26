@@ -30,7 +30,7 @@ export const ComplianceContent = styled.div`
 `;
 
 export const TextContent = styled.p`
-  font-size: 16px;
+  font-size: 14px;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 24px;
@@ -50,7 +50,7 @@ export const StampBox = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 15px;
 `;
 
