@@ -57,7 +57,7 @@ export const TextContent = styled.div`
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
 
     @media screen and (max-width: 992px) {
       display: none;

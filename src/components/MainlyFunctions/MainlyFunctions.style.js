@@ -25,7 +25,7 @@ export const MarginBox = styled.div`
     text-align: center;
 
     @media screen and (max-width: 992px) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `;

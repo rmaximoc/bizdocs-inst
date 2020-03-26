@@ -17,7 +17,7 @@ export const MarginBox = styled.div`
 export const Box = styled.div`
   display: flex;
   color: #585858;
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 0;
 
   @media screen and (max-width: 992px) {

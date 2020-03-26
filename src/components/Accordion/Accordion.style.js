@@ -64,7 +64,7 @@ export const AccordionLine = styled.div`
 
 export const AccordionTitle = styled.h3`
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   font-weight: 700;
   color: ${({ color }) => color};

@@ -39,7 +39,7 @@ export const Copyright = styled.p`
 
 export const Links = styled(Link)`
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   flex-direction: column;
   text-decoration: none;

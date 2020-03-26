@@ -43,7 +43,7 @@ export const TextContent = styled.div`
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     color: #585858;
 
     @media screen and (max-width: 992px) {
@@ -100,7 +100,7 @@ export const News = styled.p`
   background-color: #69b643;
   padding: 12px 19px;
   max-width: 117px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 16px;
 

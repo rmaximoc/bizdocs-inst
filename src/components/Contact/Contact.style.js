@@ -44,7 +44,7 @@ export const InputBox = styled.div`
     min-width: 468px;
     margin: 30px 5px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 14px;
     color: #585858;
     border-radius: 6px;
     border: 1px solid #adadad;
