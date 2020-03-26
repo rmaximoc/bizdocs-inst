@@ -85,6 +85,7 @@ export const VideoContent = styled.div`
 
   @media screen and (max-width: 992px) {
     width: 100%;
+    height: 157px;
   }
 
   img {
