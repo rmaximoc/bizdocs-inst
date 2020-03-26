@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import DesktopFooter from '../../components/shared/DesktopFooter/DesktopFooter';
@@ -27,28 +28,34 @@ const Benefits = () => {
           link="Benefícios e funcionalidades"
         />
       </BreadBox>
-      <MarginBox>
-        <TextContent
-          margin="20px auto 35px"
-          color="#585858"
-          title="Principais Benefícios e funcionalidades"
-          paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."
-        />
-      </MarginBox>
-      <Title margin="107px auto 47px" content="Portal Seguro e Ilimitado" />
-      {checkContent.map(item => (
-        <TextCheck key={item.content} content={item.content} />
-      ))}
-      <AccordionMargin>
-        {accordionContent.map(acc => (
-          <Accordion
-            key={acc.title}
-            title={acc.title}
-            paragraph={acc.paragraph}
-            bgColor={acc.bgColor}
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MarginBox>
+          <TextContent
+            margin="20px auto 35px"
+            color="#585858"
+            title="Principais Benefícios e funcionalidades"
+            paragraph="Um sistema cuja principal função é eliminar papel e gerir de forma dinâmica toda a documentação empresarial, tem que ser activo e integrado com sistemas de gestão e contabilidade existentes. Por isso o Bizdocs está suportado em RPA (Robotic Process Automation), em Inteligência Artificial e Machine Learning, com OCR (Optical Character Recognition) de última geração."
           />
+        </MarginBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <Title margin="107px auto 47px" content="Portal Seguro e Ilimitado" />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        {checkContent.map(item => (
+          <TextCheck key={item.content} content={item.content} />
         ))}
-      </AccordionMargin>
+        <AccordionMargin>
+          {accordionContent.map(acc => (
+            <Accordion
+              key={acc.title}
+              title={acc.title}
+              paragraph={acc.paragraph}
+              bgColor={acc.bgColor}
+            />
+          ))}
+        </AccordionMargin>
+      </ScrollAnimation>
       <Compliance
         stamp={<Stamp />}
         margin="134px auto 68px"
