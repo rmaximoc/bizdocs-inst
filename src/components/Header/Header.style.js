@@ -6,6 +6,16 @@ export const Logo = styled(BizLogo)`
   min-width: 200px;
   display: flex;
 
+  @media screen and (max-width: 1352px) {
+    max-width: 160px;
+    min-width: unset;
+  }
+
+  @media screen and (max-width: 1296px) {
+    max-width: 146px;
+    min-width: unset;
+  }
+
   @media screen and (max-width: 992px) {
     width: 135px;
     max-width: 135px;
