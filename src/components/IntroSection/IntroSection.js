@@ -10,6 +10,7 @@ import {
   ButtonBoxDesktop,
   ButtonBoxMobile
 } from './IntroSection.style';
+import videoImage from '../../assets/images/video-image.png';
 
 const IntroSection = () => {
   return (
@@ -36,7 +37,9 @@ const IntroSection = () => {
             />
           </ButtonBoxDesktop>
         </PresentationContent>
-        <VideoContent>video here</VideoContent>
+        <VideoContent>
+          <img src={videoImage} alt="video" />
+        </VideoContent>
         <ButtonBoxMobile>
           <GreenButton
             margin="23px auto 42px"

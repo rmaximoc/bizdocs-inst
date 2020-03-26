@@ -80,12 +80,16 @@ export const PresentationContent = styled.div`
 
 export const VideoContent = styled.div`
   display: flex;
-  border: 1px solid red;
   width: 564px;
   height: 320px;
 
   @media screen and (max-width: 992px) {
     width: 100%;
+  }
+
+  img {
+    width: 100%;
+    object-fit: contain;
   }
 `;
 
