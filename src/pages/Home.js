@@ -29,9 +29,18 @@ const Home = () => {
       <GlobalStyle />
       <MainBackground>
         <Header />
-        <IntroSection />
+        <ScrollAnimation
+          animateOnce
+          animateIn="fadeInUp"
+          duration={1}
+          delay={1}
+        >
+          <IntroSection />
+        </ScrollAnimation>
       </MainBackground>
-      <ClientSection />
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ClientSection />
+      </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <ClientsLogo />
       </ScrollAnimation>
