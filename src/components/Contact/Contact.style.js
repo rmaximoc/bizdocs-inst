@@ -39,6 +39,7 @@ export const InputBox = styled.div`
 
   @media screen and (max-width: 992px) {
     flex-direction: column;
+    margin: 0px;
   }
 
   input {
@@ -52,6 +53,9 @@ export const InputBox = styled.div`
 
     @media screen and (max-width: 992px) {
       min-width: unset;
+      margin: 10px 5px;
+      min-width: unset;
+      width: 100%;
     }
   }
 `;
