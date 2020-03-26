@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
 import TextContent from '../../components/shared/TextContent/TextContent';
@@ -23,29 +24,41 @@ const Empresas = () => {
       <BreadBox>
         <BreadCrumbs content="Home Page >" link=" Empresas" />
       </BreadBox>
-      <MarginBox>
-        <TextContent
-          margin="20px auto 35px"
-          color="#585858"
-          title="Bizdocs Mobi - Empresas"
-          paragraph="Seja qual for a dimensão da sua empresa, existe uma solução Bizdocs para si. É natural que queira experimentar, testando este sistema em funcionamento, utilizando a versão gratuita que lhe disponibilizamos de imediato. Mas estamos certos de que, assim que sentir o alívio de poder trabalhar sem montanhas de papel, vai querer ajustar a sua solução Bizdocs às necessidades específicas da sua empresa."
-        />
-      </MarginBox>
-      <DesktopBox>
-        <CardsBox />
-      </DesktopBox>
-      <MobileBox>
-        <CardsBoxPart />
-      </MobileBox>
-      <ButtonBox>
-        <GreenButton
-          width="80%"
-          margin="0 auto 70px"
-          content="Ver mais benefícios e funcionalidades"
-        />
-      </ButtonBox>
-      <PlanCardBox />
-      <Contact margin="106px 0 174px" />
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MarginBox>
+          <TextContent
+            margin="20px auto 35px"
+            color="#585858"
+            title="Bizdocs Mobi - Empresas"
+            paragraph="Seja qual for a dimensão da sua empresa, existe uma solução Bizdocs para si. É natural que queira experimentar, testando este sistema em funcionamento, utilizando a versão gratuita que lhe disponibilizamos de imediato. Mas estamos certos de que, assim que sentir o alívio de poder trabalhar sem montanhas de papel, vai querer ajustar a sua solução Bizdocs às necessidades específicas da sua empresa."
+          />
+        </MarginBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <DesktopBox>
+          <CardsBox />
+        </DesktopBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MobileBox>
+          <CardsBoxPart />
+        </MobileBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <ButtonBox>
+          <GreenButton
+            width="80%"
+            margin="0 auto 70px"
+            content="Ver mais benefícios e funcionalidades"
+          />
+        </ButtonBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <PlanCardBox />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <Contact margin="106px 0 174px" />
+      </ScrollAnimation>
       <Compliance
         stamp={<Smart />}
         margin="0 auto 35px"
