@@ -35,6 +35,18 @@ export const Title = styled.div`
 
 export const TableWindow = styled.section`
   overflow: scroll;
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(117, 203, 75, 0.5);
+  }
 `;
 
 export const ButtonBox = styled.div`
