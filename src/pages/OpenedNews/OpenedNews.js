@@ -59,13 +59,14 @@ const OpenedNews = () => {
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <MarginBox>
           <GreenButton
-            margin="0 auto"
+            margin="68px auto 140px"
             minWidth="372px"
             content="Ver mais notícias"
           />
         </MarginBox>
       </ScrollAnimation>
       <Compliance
+        margin="0 auto 78px"
         buttonContent="Experimente grátis"
         title="Integração Automatizada"
         content="O Bizdocs é compatível com os principais sistemas de contabilidade e gestão, permitindo uma integração imediata e sem disrupção. Os processos habituais entre si e a sua contabilidade podem ser automatizados, permitindo que, por exemplo, faturas sejam classificadas e lançadas sem intervenção humana – e com menos erros e atrasos."

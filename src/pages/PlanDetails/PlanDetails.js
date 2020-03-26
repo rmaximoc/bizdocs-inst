@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import { string } from 'prop-types';
 import GlobalStyles from '../../global.styles';
 import Header from '../../components/Header/Header';
@@ -21,20 +22,26 @@ const PlanDetails = ({ planValue, bgColor }) => {
       <BreadBox>
         <BreadCrumb content="Home Page > Empresas > " link="Mobigrátis" />
       </BreadBox>
-      <MarginBox>
-        <TextContent
-          margin="30px auto 35px"
-          title="Mobi grátis"
-          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-          color="#585858"
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <MarginBox>
+          <TextContent
+            margin="30px auto 35px"
+            title="Mobi grátis"
+            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            color="#585858"
+          />
+        </MarginBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <TableContent
+          bgColor={bgColor}
+          planValue={planValue}
+          margin="20px 0 0 0"
         />
-      </MarginBox>
-      <TableContent
-        bgColor={bgColor}
-        planValue={planValue}
-        margin="20px 0 0 0"
-      />
-      <Contact margin="71px 0 175px" />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <Contact margin="71px 0 175px" />
+      </ScrollAnimation>
       <Compliance
         stamp={<Dl28 />}
         margin="0 auto 78px"
