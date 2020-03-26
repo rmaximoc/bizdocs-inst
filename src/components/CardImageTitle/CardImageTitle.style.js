@@ -13,4 +13,12 @@ export const MarginBox = styled.div`
   grid-gap: 10px;
   width: 80%;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 657px) {
+    grid-template-columns: 1fr;
+  }
 `;
