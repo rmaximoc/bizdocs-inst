@@ -20,10 +20,10 @@ const TableContent = ({ planValue, margin, bgColor }) => {
   return (
     <Container margin={margin}>
       <MarginBox>
-        <DesktopHeader bgColor={bgColor}>
+        <DesktopHeader bgColor="#69b643">
           <Title>Principais Características</Title>
           <div>
-            <Value>{planValue}</Value>
+            <Value>10€</Value>
             <ButtonBox>
               <OpacityButton
                 minWidth="254px"
@@ -33,9 +33,9 @@ const TableContent = ({ planValue, margin, bgColor }) => {
             </ButtonBox>
           </div>
         </DesktopHeader>
-        <MobileHeader bgColor={bgColor}>
+        <MobileHeader bgColor="#69b643">
           <Value>
-            {planValue}
+            10€
             <span>/mês</span>
           </Value>
           <Title>Principais Características</Title>
@@ -47,7 +47,12 @@ const TableContent = ({ planValue, margin, bgColor }) => {
             bgColor={item.bgColor}
           />
         ))}
-        <Title>Funcionalidades</Title>
+        <DesktopHeader bgColor="#69b643">
+          <Title>Funcionalidades</Title>
+        </DesktopHeader>
+        <MobileHeader bgColor="#69b643">
+          <Title>Funcionalidades</Title>
+        </MobileHeader>
         <DesktopBox>
           {functionalities.map(item => (
             <PlanTableLine
