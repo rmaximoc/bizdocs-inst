@@ -40,7 +40,7 @@ export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 41px;
+  margin: 0 20px 41px 0;
   max-width: 550px;
 
   @media screen and (max-width: 992px) {
@@ -68,7 +68,7 @@ export const TextContent = styled.div`
 export const PresentationContent = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 130px auto 123px 0;
+  margin: 130px 50px 123px 0;
   width: 50%;
 
   @media screen and (max-width: 992px) {
