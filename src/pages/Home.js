@@ -51,8 +51,8 @@ const Home = () => {
       <Compliance
         margin="0 auto 78px"
         stamp={<Stamp />}
-        title="Conformidade com DL28/2019"
-        content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em contabilidade manual como automatizada."
+        title="Conformidade com o RGPD e a ePrivacy"
+        content="Permanentemente actualizado com a última legislação em vigor, a gestão documental do Bizdocs garante que a sua empresa estará sempre segura na conformidade. A segurança e inviolabilidade dos dados, outro requisite exigido pela nova regulamentação, estão também garantidos pelos sistemas e recursos que temos instalados"
         buttonContent="Experimente grátis"
       />
       <DesktopFooter />
