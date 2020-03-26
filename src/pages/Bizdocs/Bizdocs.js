@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import GlobalStyle from '../../global.styles';
 import { CardBox, BreadBox } from './Bizdocs.style';
 import Header from '../../components/Header/Header';
@@ -21,49 +22,55 @@ const Bizdocs = () => {
       <BreadBox>
         <BreadCrumbs content="Home Page >" link=" Bizdocs" />
       </BreadBox>
-      <TextContentBox />
-      <CardBox>
-        {cardContent.map(card => (
-          <CardWithLink
-            image={card.image}
-            title={card.title}
-            paragraph={card.paragraph}
-            linkText={card.linkText}
-            href={card.href}
-          />
-        ))}
-      </CardBox>
-      <CarouselSlider
-        slidesToShow={1}
-        slidesToScroll={1}
-        firstCard={
-          <CardWithLink
-            image={cardContent[0].image}
-            title={cardContent[0].title}
-            paragraph={cardContent[0].paragraph}
-            linkText={cardContent[0].linkText}
-            href={cardContent[0].href}
-          />
-        }
-        secondCard={
-          <CardWithLink
-            image={cardContent[1].image}
-            title={cardContent[1].title}
-            paragraph={cardContent[1].paragraph}
-            linkText={cardContent[1].linkText}
-            href={cardContent[1].href}
-          />
-        }
-        thirdCard={
-          <CardWithLink
-            image={cardContent[2].image}
-            title={cardContent[2].title}
-            paragraph={cardContent[2].paragraph}
-            linkText={cardContent[2].linkText}
-            href={cardContent[2].href}
-          />
-        }
-      />
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <TextContentBox />
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <CardBox>
+          {cardContent.map(card => (
+            <CardWithLink
+              image={card.image}
+              title={card.title}
+              paragraph={card.paragraph}
+              linkText={card.linkText}
+              href={card.href}
+            />
+          ))}
+        </CardBox>
+      </ScrollAnimation>
+      <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
+        <CarouselSlider
+          slidesToShow={1}
+          slidesToScroll={1}
+          firstCard={
+            <CardWithLink
+              image={cardContent[0].image}
+              title={cardContent[0].title}
+              paragraph={cardContent[0].paragraph}
+              linkText={cardContent[0].linkText}
+              href={cardContent[0].href}
+            />
+          }
+          secondCard={
+            <CardWithLink
+              image={cardContent[1].image}
+              title={cardContent[1].title}
+              paragraph={cardContent[1].paragraph}
+              linkText={cardContent[1].linkText}
+              href={cardContent[1].href}
+            />
+          }
+          thirdCard={
+            <CardWithLink
+              image={cardContent[2].image}
+              title={cardContent[2].title}
+              paragraph={cardContent[2].paragraph}
+              linkText={cardContent[2].linkText}
+              href={cardContent[2].href}
+            />
+          }
+        />
+      </ScrollAnimation>
       <TextContentBoxButton />
       <Compliance
         margin="0 auto 84px"
