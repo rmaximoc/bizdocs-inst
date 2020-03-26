@@ -54,7 +54,8 @@ export const ButtonBox = styled.div`
   flex-direction: flex-end;
   align-items: center;
   width: 65%;
-  margin: 0 0 0 403px;
+  margin: 0 0 40px 354px;
+  min-width: 756px;
 `;
 
 export const StampBox = styled.div`
