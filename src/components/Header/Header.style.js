@@ -58,6 +58,10 @@ export const MarginBoxHeader = styled.div`
   width: 80%;
   margin: 0 auto;
 
+  @media screen and (max-width: 1185px) {
+    width: 90%;
+  }
+
   @media screen and (max-width: 1024px) {
     flex-direction: row;
     justify-content: space-between;
@@ -93,6 +97,10 @@ export const Anchor = styled.a`
   text-decoration: none;
   font-weight: 600;
   margin: 0 18px;
+
+  @media screen and (max-width: 1264px) {
+    font-size: 12px;
+  }
 `;
 
 export const ButtonContent = styled.div`
