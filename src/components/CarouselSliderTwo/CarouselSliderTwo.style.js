@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 992px) {
     display: flex;
+    min-height: 750px;
   }
 `;
 

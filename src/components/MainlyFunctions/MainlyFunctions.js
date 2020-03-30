@@ -110,6 +110,7 @@ const MainlyFunctions = () => {
                 margin="0px auto 60px"
                 content="Ver mais benefícios"
                 maxWidth="247px"
+                minWidth="247px"
               />
             </OpacityButtonMobile>
           </MarginBox>

@@ -6,7 +6,9 @@ export const Button = styled.div`
   user-select: none;
   cursor: pointer;
   font-size: 12px;
+  color: #abc6de;
   margin-bottom: 10px;
+  font-weight: 600;
 
   @media screen and (max-width: 992px) {
     text-align: center;
@@ -22,7 +24,7 @@ export const Triangle = styled.div`
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #ffffff;
+  border-top: 5px solid #abc6de;
 
   @media screen and (max-width: 992px) {
     margin: 6px 10px 6px 47px;

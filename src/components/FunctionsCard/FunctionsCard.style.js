@@ -18,12 +18,16 @@ export const MarginBox = styled.div`
 
   p {
     color: #585858;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 170%;
   }
 
   @media screen and (max-width: 992px) {
     min-width: unset;
     width: 100%;
     padding: 30px;
+    min-height: 400px;
   }
 `;
 

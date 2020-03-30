@@ -7,7 +7,7 @@ export const Button = styled.button`
   border-radius: 6px;
   border: 0;
   font-weight: 500;
-  max-height: 51px;
+  font-size: 18px;
   margin: ${({ margin }) => margin};
   background-color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
