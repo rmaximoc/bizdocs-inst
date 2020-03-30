@@ -72,7 +72,7 @@ const TextContentBoxButton = () => {
           <ButtonBox>
             <GreenButton
               width="100%"
-              content="Ver Planos e Preços"
+              content="Representante Bizdocs"
               maxWidth="372px"
             />
           </ButtonBox>

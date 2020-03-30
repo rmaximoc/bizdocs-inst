@@ -10,5 +10,6 @@ export const Container = styled.div`
 export const TextBox = styled.p`
   margin-top: 26px;
   font-size: 18px;
+  font-weight: 700;
   color: #69b643;
 `;

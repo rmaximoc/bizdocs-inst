@@ -14,7 +14,7 @@ const Contact = ({ margin }) => {
     <Container margin={margin}>
       <MarginBox>
         <ContactBox>
-          <Title>Faça o seu registro</Title>
+          <Title>Faça o seu registo</Title>
           <InputBox>
             <input placeholder="O seu nome" />
             <input placeholder="O seu email" />
