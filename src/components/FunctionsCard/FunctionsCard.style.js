@@ -10,8 +10,6 @@ export const MarginBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 450px;
-  width: 80%;
   justify-content: center;
   padding: 45px;
   background-color: #ffffff;

@@ -44,7 +44,7 @@ export const Title = styled.h1`
 
 export const CardsBox = styled.div`
   display: grid;
-  margin: 60px auto 70px;
+  margin: 60px auto 20px;
   grid-template-columns: 450px 450px;
   grid-column-gap: 45px;
   grid-row-gap: 42px;
@@ -89,7 +89,6 @@ export const OpacityButtonMobile = styled.div`
 export const MarginBoxDesktop = styled.div`
   display: flex;
   flex-direction: column;
-  width: 80%;
   justify-content: center;
   margin: 0 auto 10px;
 
