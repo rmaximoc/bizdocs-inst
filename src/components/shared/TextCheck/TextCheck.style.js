@@ -28,5 +28,5 @@ export const Box = styled.div`
 export const BoxCheck = styled.div`
   display: flex;
   margin-right: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 6px;
 `;
