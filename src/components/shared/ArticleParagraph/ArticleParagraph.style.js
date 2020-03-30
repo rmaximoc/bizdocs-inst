@@ -12,7 +12,6 @@ export const Container = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  text-align: justify;
   font-size: 14px;
   color: ${({ color }) => color};
   margin-bottom: 50px;

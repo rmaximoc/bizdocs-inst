@@ -9,12 +9,14 @@ export const MarginBox = styled.div`
 
   img {
     margin: 30px auto;
+    min-width: 920px;
     max-height: 350px;
     object-fit: cover;
-    object-position: center;
+    object-position: bottom;
 
     @media screen and (max-width: 992px) {
       width: 100%;
+      min-width: unset;
     }
   }
 `;

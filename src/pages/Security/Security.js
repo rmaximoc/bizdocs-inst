@@ -45,7 +45,7 @@ const Security = () => {
           content="Ver todos os benefícios e funcionalidades"
           width="100%"
           maxWidth="372px"
-          margin="50px auto 164px"
+          margin="30px auto 94px"
         />
       </DesktopButton>
       <MarginBox>
