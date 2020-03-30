@@ -23,7 +23,7 @@ const TableContent = ({ planValue, margin, bgColor }) => {
         <DesktopHeader bgColor="#69b643">
           <Title>Principais Características</Title>
           <div>
-            <Value>10€</Value>
+            <Value>0€/Mês</Value>
             <ButtonBox>
               <OpacityButton
                 minWidth="254px"
@@ -35,7 +35,7 @@ const TableContent = ({ planValue, margin, bgColor }) => {
         </DesktopHeader>
         <MobileHeader bgColor="#69b643">
           <Value>
-            10€
+            0€
             <span>/mês</span>
           </Value>
           <Title>Principais Características</Title>

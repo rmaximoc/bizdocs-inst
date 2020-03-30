@@ -62,7 +62,7 @@ export const MenuContainer = styled.div`
   transition: height 0.3s ease;
   z-index: 2;
   margin-top: 70px;
-  margin-right: -10vw;
+  margin-right: -5vw;
   transition: all 0.2s ease;
 
   @media screen and (max-width: 1024px) {
