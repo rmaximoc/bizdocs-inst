@@ -34,6 +34,7 @@ const IntroSection = () => {
               content="Experimente grátis"
               maxWidth="301px"
               minWidth="301px"
+              fontSize="18px"
             />
           </ButtonBoxDesktop>
         </PresentationContent>

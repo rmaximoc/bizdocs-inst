@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as ConformityDL } from '../../assets/images/conformidade-dl28.svg';
+import { ReactComponent as ConformityDL } from '../../assets/images/stamp-DL28-2019.svg';
 import { ReactComponent as Security } from '../../assets/images/security.svg';
 import { ReactComponent as ConformityRG } from '../../assets/images/conformidade-rgpd.svg';
 

@@ -42,6 +42,7 @@ const Compliance = ({ stamp, title, content, buttonContent, margin }) => {
                 content={buttonContent}
                 width="100%"
                 maxWidth="100%"
+                fontSize="18px"
               />
             </ButtonBoxMobile>
           </ComplianceContent>

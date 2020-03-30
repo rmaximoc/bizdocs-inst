@@ -59,6 +59,7 @@ export const Texts = styled.div`
   flex-direction: column;
   max-width: 474px;
   margin-right: 128px;
+  line-height: 170%;
 
   @media screen and (max-width: 992px) {
     max-width: unset;
