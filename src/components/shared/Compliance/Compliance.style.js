@@ -19,6 +19,7 @@ export const ComplianceContent = styled.div`
   align-items: center;
   background-color: #1b2555;
   min-height: 248px;
+  padding: 28px;
   justify-content: center;
   box-shadow: 0px 10px 20px #0000003b;
 
@@ -42,7 +43,7 @@ export const StampBox = styled.div`
   display: flex;
   height: 100%;
   padding: 33px 20px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 5px;
@@ -50,8 +51,9 @@ export const StampBox = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: 15px;
+  font-weight: 700;
 `;
 
 export const Texts = styled.div`
@@ -60,6 +62,8 @@ export const Texts = styled.div`
   max-width: 474px;
   margin-right: 128px;
   line-height: 170%;
+  font-size: 16px;
+  font-weight: 500;
 
   @media screen and (max-width: 992px) {
     max-width: unset;
