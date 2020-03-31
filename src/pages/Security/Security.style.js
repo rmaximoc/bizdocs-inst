@@ -9,7 +9,7 @@ export const MarginBox = styled.div`
 
   img {
     margin: 30px auto;
-    min-width: 920px;
+    min-width: 756px;
     max-height: 350px;
     object-fit: cover;
     object-position: bottom;

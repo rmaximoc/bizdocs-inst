@@ -12,7 +12,8 @@ export const Container = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   color: ${({ color }) => color};
-  margin-bottom: 50px;
+  margin: auto auto 50px;
+  max-width: 756px;
 `;
