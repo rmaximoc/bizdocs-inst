@@ -48,12 +48,13 @@ export const TextContent = styled.p`
   color: #585858;
   text-align: center;
   margin-bottom: 19px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
 `;
 
 export const NameText = styled.p`
   color: #585858;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
 `;
