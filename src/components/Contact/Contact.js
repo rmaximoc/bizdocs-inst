@@ -6,7 +6,8 @@ import {
   MarginBox,
   ContactBox,
   Title,
-  InputBox
+  InputBox,
+  ButtonBox
 } from './Contact.style';
 
 const Contact = ({ margin }) => {
@@ -23,7 +24,14 @@ const Contact = ({ margin }) => {
             <input placeholder="Palavra-Chave" />
             <input placeholder="Confirmar Palavra-Chave" />
           </InputBox>
-          <GreenButton margin="20px 0" content="Experimente grátis" />
+          <ButtonBox>
+            <GreenButton
+              width="95.4%"
+              margin="20px 0"
+              content="Experimente grátis"
+              fontSize="16px"
+            />
+          </ButtonBox>
         </ContactBox>
       </MarginBox>
     </Container>

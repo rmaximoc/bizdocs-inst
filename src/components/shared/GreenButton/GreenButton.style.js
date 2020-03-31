@@ -12,6 +12,7 @@ export const Button = styled.button`
   background-color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
   min-width: ${({ minWidth }) => minWidth};
+  min-height: ${({ minHeight }) => minHeight};
   width: ${({ width }) => width};
   cursor: pointer;
   transition: 0.5s;

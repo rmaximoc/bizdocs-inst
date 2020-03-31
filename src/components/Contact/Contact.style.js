@@ -59,3 +59,10 @@ export const InputBox = styled.div`
     }
   }
 `;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+`;

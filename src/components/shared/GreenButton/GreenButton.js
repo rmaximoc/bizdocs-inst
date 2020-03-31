@@ -9,7 +9,8 @@ const GreenButton = ({
   color,
   margin,
   width,
-  fontSize
+  fontSize,
+  minHeight
 }) => {
   return (
     <Button
@@ -19,6 +20,7 @@ const GreenButton = ({
       color={color}
       margin={margin}
       fontSize={fontSize}
+      minHeight={minHeight}
     >
       {content}
     </Button>
@@ -32,7 +34,8 @@ GreenButton.propTypes = {
   color: string,
   margin: string,
   width: string,
-  fontSize: string
+  fontSize: string,
+  minHeight: string
 };
 
 GreenButton.defaultProps = {
@@ -40,7 +43,8 @@ GreenButton.defaultProps = {
   color: '#69b643',
   margin: '0',
   width: '',
-  fontSize: '14px'
+  fontSize: '14px',
+  minHeight: 'unset'
 };
 
 export default GreenButton;
