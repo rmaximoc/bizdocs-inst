@@ -11,8 +11,14 @@ export const Box = styled.div`
   }
 `;
 
-export const Title = styled.h1`
+export const Title1 = styled.h1`
   margin: 18px;
   font-size: 18px;
-  color: ${({ color }) => color};
+  color: ${props => (props.checked ? '#ADADAD' : '#69B643')};
+`;
+
+export const Title2 = styled.h1`
+  margin: 18px;
+  font-size: 18px;
+  color: ${props => (props.checked ? '#69B643' : '#ADADAD')};
 `;
