@@ -7,7 +7,7 @@ export const Box = styled.p`
   line-height: 170%;
   color: ${({ color }) => color};
   font-weight: 500;
-  max-width: 709px;
+  max-width: 750px;
 
   @media screen and (max-width: 992px) {
     font-size: 14px;
