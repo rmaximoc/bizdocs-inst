@@ -9,7 +9,7 @@ import Title from '../../components/shared/Title/Title';
 import ImageBottomText from '../../components/ImageBottomText/ImageBottomText';
 import Background from '../../assets/images/newsBg.png';
 import GreenButton from '../../components/shared/GreenButton/GreenButton';
-import { TitleGreen, MarginBox, ButtonBox } from './News.styles';
+import { TitleGreen, MarginBox, ButtonBox, CardsBox } from './News.styles';
 import CardImageTitle from '../../components/CardImageTitle/CardImageTitle';
 import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 import { BreadBox } from '../Bizdocs/Bizdocs.style';
@@ -38,8 +38,10 @@ const News = () => {
         </MarginBox>
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
-        <CardImageTitle />
-        <CardImageTitle />
+        <CardsBox>
+          <CardImageTitle />
+          <CardImageTitle />
+        </CardsBox>
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <ButtonBox>

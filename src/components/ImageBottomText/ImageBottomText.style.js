@@ -22,6 +22,7 @@ export const Image = styled.div`
   padding: 36px;
   flex-direction: column-reverse;
   background-repeat: no-repeat;
+  max-width: 948px;
 `;
 
 export const Text = styled.p`

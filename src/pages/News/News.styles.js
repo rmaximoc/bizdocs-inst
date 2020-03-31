@@ -12,6 +12,7 @@ export const MarginBox = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 60px auto 30px;
+  max-width: 948px;
 `;
 
 export const TitleBox = styled.div`
@@ -28,5 +29,12 @@ export const TitleGreen = styled.h1`
 export const ButtonBox = styled.div`
   display: flex;
   justify-content: center;
-  margin: 68px auto 140px;
+  margin: 50px auto 140px;
+`;
+
+export const CardsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 `;
