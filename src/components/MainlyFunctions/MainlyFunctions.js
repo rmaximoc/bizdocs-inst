@@ -111,6 +111,9 @@ const MainlyFunctions = () => {
                 content="Ver mais benefícios"
                 maxWidth="247px"
                 minWidth="247px"
+                fontWeigth="700"
+                maxHeight="70px"
+                color="#ABC6DE"
               />
             </OpacityButtonMobile>
           </MarginBox>

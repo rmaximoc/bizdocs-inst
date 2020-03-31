@@ -63,7 +63,7 @@ export const Strip = styled.div`
   margin: 35px 50% 0;
 
   @media screen and (max-width: 768px) {
-    margin: 55px 50% 0;
+    margin: 120px 50% 0;
     height: 50px;
   }
 

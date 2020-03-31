@@ -9,7 +9,9 @@ const OpacityButton = ({
   color,
   margin,
   minWidth,
-  maxHeight
+  maxHeight,
+  fontSize,
+  fontWeight
 }) => {
   return (
     <Button
@@ -20,6 +22,8 @@ const OpacityButton = ({
       maxWidth={maxWidth}
       minWidth={minWidth}
       maxHeight={maxHeight}
+      fontSize={fontSize}
+      fontWeight={fontWeight}
     >
       {content}
     </Button>
@@ -33,13 +37,17 @@ OpacityButton.propTypes = {
   color: string.isRequired,
   margin: string,
   minWidth: string,
-  maxHeight: string
+  maxHeight: string,
+  fontSize: string,
+  fontWeight: string
 };
 
 OpacityButton.defaultProps = {
   margin: '0 auto',
   minWidth: '',
-  maxHeight: '51px'
+  maxHeight: '51px',
+  fontSize: '14px',
+  fontWeight: '500'
 };
 
 export default OpacityButton;

@@ -57,7 +57,7 @@ export const TextContent = styled.div`
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 170%;
 

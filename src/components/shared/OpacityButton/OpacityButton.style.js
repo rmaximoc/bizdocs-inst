@@ -5,7 +5,7 @@ export const Button = styled.button`
   padding: 17px 23px;
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0);
-  font-weight: 500;
+  font-weight: ${({ fontWeight }) => fontWeight};
   border: 1px solid ${({ color }) => color};
   color: ${({ color }) => color};
   max-width: ${({ maxWidth }) => maxWidth};
@@ -14,6 +14,7 @@ export const Button = styled.button`
   margin: ${({ margin }) => margin};
   max-height: ${({ maxHeight }) => maxHeight};
   transition: 0.5s;
+  font-size: ${({ fontSize }) => fontSize};
   cursor: pointer;
 
   :hover {
