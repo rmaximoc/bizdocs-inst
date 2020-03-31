@@ -31,6 +31,7 @@ const Benefits = () => {
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <MarginBox>
           <TextContent
+            maxWidth="835px"
             margin="20px auto 35px"
             color="#585858"
             title="Principais Benefícios e funcionalidades"

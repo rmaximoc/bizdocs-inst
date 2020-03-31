@@ -31,7 +31,7 @@ export const ComplianceContent = styled.div`
 `;
 
 export const TextContent = styled.p`
-  font-size: 14px;
+  font-size: 16px;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 24px;
@@ -59,8 +59,8 @@ export const Title = styled.h2`
 export const Texts = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 474px;
-  margin-right: 128px;
+  max-width: 664px;
+  margin-right: 40px;
   line-height: 170%;
   font-size: 16px;
   font-weight: 500;

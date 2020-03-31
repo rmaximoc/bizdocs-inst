@@ -15,7 +15,7 @@ export const MarginBox = styled.div`
 
 export const Header = styled.div`
   align-items: center;
-  padding: 38px 0px;
+  padding: 10px 0px 38px;
   display: flex;
   width: 100%;
 
@@ -35,7 +35,8 @@ export const Title = styled.div`
   font-size: 24px;
   margin-right: 60px;
   padding-left: 10px;
-  width: 30%;
+  width: 32%;
+  font-weight: 700;
 
   @media screen and (max-width: 2724px) {
     margin-right: 110px;
