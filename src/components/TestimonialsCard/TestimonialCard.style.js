@@ -23,6 +23,7 @@ export const Cards = styled.div`
   box-shadow: 0px 10px 20px #86868638;
   background-color: #ffffff;
   padding: 25px;
+  transition: transform 0.2s;
 
   img {
     width: 110px;
@@ -36,6 +37,10 @@ export const Cards = styled.div`
 
   @media screen and (max-width: 992px) {
     max-width: unset;
+  }
+
+  :hover {
+    transform: scale(1.17);
   }
 `;
 
