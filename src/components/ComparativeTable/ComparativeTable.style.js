@@ -17,12 +17,16 @@ export const Header = styled.div`
   align-items: center;
   padding: 38px 0px;
   display: flex;
-  min-width: 1145px;
+  width: 100%;
+
+  @media screen and (max-width: 1376px) {
+    min-width: 1220px;
+  }
 `;
 
 export const Box = styled.div`
   display: flex;
-  min-width: 1100px;
+  width: 100%;
 `;
 
 export const Title = styled.div`
@@ -31,6 +35,15 @@ export const Title = styled.div`
   font-size: 24px;
   margin-right: 60px;
   padding-left: 10px;
+  width: 30%;
+
+  @media screen and (max-width: 2724px) {
+    margin-right: 110px;
+  }
+
+  @media screen and (max-width: 1708px) {
+    margin-right: 41px;
+  }
 `;
 
 export const TableWindow = styled.section`
@@ -53,9 +66,13 @@ export const ButtonBox = styled.div`
   display: flex;
   flex-direction: flex-end;
   align-items: center;
-  width: 65%;
-  margin: 0 0 40px 354px;
+  width: 100%;
+  justify-content: flex-end;
   min-width: 756px;
+
+  @media screen and (max-width: 1376px) {
+    min-width: 1220px;
+  }
 `;
 
 export const StampBox = styled.div`

@@ -5,19 +5,18 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 98px;
-  min-width: 1258px;
 
-  @media screen and (max-width: 992px) {
-    min-width: 1227px;
+  @media screen and (max-width: 1376px) {
+    min-width: 1220px;
   }
 `;
 
 export const MarginBox = styled.div`
   display: flex;
-  width: 80%;
   justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
+  width: 100%;
 `;
 
 export const Box = styled.div`
@@ -28,7 +27,7 @@ export const Box = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   background-color: ${({ color }) => color};
-  width: 150px;
+  width: 13.4%;
 `;
 
 export const Value = styled.h1`

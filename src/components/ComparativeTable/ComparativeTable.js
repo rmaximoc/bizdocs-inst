@@ -11,7 +11,7 @@ import {
 import PlansSquares from '../PlansSquares/PlansSquares';
 import ComparationTableLine from '../shared/ComparationTableLine/ComparationTableLine';
 import { characteristics, functionalities, adon } from './comparativeContent';
-import OpacityButton from '../shared/OpacityButton/OpacityButton';
+import AdaptiveButton from '../shared/AdaptiveButton/AdaptiveButton';
 
 const ComparativeTable = () => {
   return (
@@ -21,21 +21,21 @@ const ComparativeTable = () => {
           <PlansSquares />
           <Header>
             <Title>Principais Características</Title>
-            <OpacityButton
+            <AdaptiveButton
               maxHeight="73px"
-              width="137px"
+              width="10.4%"
               color="#69B643"
               content="Experimente Grátis"
             />
-            <OpacityButton width="145px" color="#ADADAD" content="Aderir" />
-            <OpacityButton width="145px" color="#B99769" content="Aderir" />
-            <OpacityButton
-              width="145px"
+            <AdaptiveButton width="10.4%" color="#ADADAD" content="Aderir" />
+            <AdaptiveButton width="10.4%" color="#B99769" content="Aderir" />
+            <AdaptiveButton
+              width="10.4%"
               color="#656565"
               content="Fale conosco"
             />
-            <OpacityButton
-              width="145px"
+            <AdaptiveButton
+              width="10.4%"
               color="#1C3144"
               content="Fale conosco"
             />
@@ -86,21 +86,21 @@ const ComparativeTable = () => {
             </Box>
           ))}
           <ButtonBox>
-            <OpacityButton
+            <AdaptiveButton
               maxHeight="73px"
-              width="137px"
+              width="10.4%"
               color="#69B643"
               content="Experimente Grátis"
             />
-            <OpacityButton width="145px" color="#ADADAD" content="Aderir" />
-            <OpacityButton width="145px" color="#B99769" content="Aderir" />
-            <OpacityButton
-              width="145px"
+            <AdaptiveButton width="10.4%" color="#ADADAD" content="Aderir" />
+            <AdaptiveButton width="10.4%" color="#B99769" content="Aderir" />
+            <AdaptiveButton
+              width="10.4%"
               color="#656565"
               content="Fale conosco"
             />
-            <OpacityButton
-              width="145px"
+            <AdaptiveButton
+              width="10.4%"
               color="#1C3144"
               content="Fale conosco"
             />
