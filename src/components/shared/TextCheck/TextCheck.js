@@ -11,8 +11,10 @@ const TextCheck = ({ content, hyper }) => {
           <BoxCheck>
             <Check fill="#69B643" />
           </BoxCheck>
-          {`${content}ㅤ`}
-          <Hyper>{hyper}</Hyper>
+          <div>
+            {`${content}ㅤ`}
+            <Hyper>{hyper}</Hyper>
+          </div>
         </Box>
       </MarginBox>
     </Container>
