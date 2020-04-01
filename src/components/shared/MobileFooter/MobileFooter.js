@@ -18,13 +18,13 @@ const MobileFooter = () => {
           title="Sobre o Bizdocs"
           paragraph={
             <>
-              <Links>Por que o Bizdocs?</Links>
-              <Links>Beneficios e funcionalidades</Links>
-              <Links>Segurança</Links>
+              <Links to="/bizdocs">Por que o Bizdocs?</Links>
+              <Links to="/plans/benefits">Beneficios e funcionalidades</Links>
+              <Links to="/security">Segurança</Links>
               <Links>RGPD</Links>
-              <Links>Planos e preços</Links>
+              <Links to="/plans-and-prices">Planos e preços</Links>
               <Links>Suporte</Links>
-              <Links>Novidade</Links>
+              <Links to="/news">Novidade</Links>
               <Links>Contactos</Links>
             </>
           }
@@ -52,7 +52,7 @@ const MobileFooter = () => {
           title="Empresa - Mobi"
           paragraph={
             <>
-              <Links>Grátis</Links>
+              <Links to="/plans/plan-details">Grátis</Links>
               <Links>Silver</Links>
               <Links>Gold</Links>
               <Links>Platinum</Links>
