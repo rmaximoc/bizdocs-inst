@@ -1,9 +1,9 @@
 import React from 'react';
 import { string } from 'prop-types';
-import { Container, MarginBox, Box, BoxCheck } from './TextCheck.style';
+import { Container, MarginBox, Box, BoxCheck, Hyper } from './TextCheck.style';
 import { ReactComponent as Check } from '../../../assets/images/check.svg';
 
-const TextCheck = ({ content }) => {
+const TextCheck = ({ content, hyper }) => {
   return (
     <Container>
       <MarginBox>
@@ -11,7 +11,8 @@ const TextCheck = ({ content }) => {
           <BoxCheck>
             <Check fill="#69B643" />
           </BoxCheck>
-          {content}
+          {`${content}ㅤ`}
+          <Hyper>{hyper}</Hyper>
         </Box>
       </MarginBox>
     </Container>
@@ -19,7 +20,12 @@ const TextCheck = ({ content }) => {
 };
 
 TextCheck.propTypes = {
-  content: string.isRequired
+  content: string.isRequired,
+  hyper: string
+};
+
+TextCheck.defaultProps = {
+  hyper: ''
 };
 
 export default TextCheck;

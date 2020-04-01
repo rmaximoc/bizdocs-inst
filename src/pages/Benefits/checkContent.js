@@ -27,7 +27,8 @@ const data = [
     content: 'Integra automaticamente com sistemas de gestão e contabilidade'
   },
   {
-    content: 'Assegura total conformidade com o RGPD'
+    content: 'Assegura total conformidade com o ',
+    hyper: 'RGPD'
   }
 ];
 

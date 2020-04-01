@@ -44,7 +44,11 @@ const Benefits = () => {
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         {checkContent.map(item => (
-          <TextCheck key={item.content} content={item.content} />
+          <TextCheck
+            key={item.content}
+            content={item.content}
+            hyper={item.hyper}
+          />
         ))}
         <AccordionMargin>
           {accordionContent.map(acc => (
