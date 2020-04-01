@@ -18,8 +18,14 @@ const MobileFooter = () => {
           title="Sobre o Bizdocs"
           paragraph={
             <>
-              <Links>teste1</Links>
-              <Links>teste2</Links>
+              <Links>Por que o Bizdocs?</Links>
+              <Links>Beneficios e funcionalidades</Links>
+              <Links>Segurança</Links>
+              <Links>RGPD</Links>
+              <Links>Planos e preços</Links>
+              <Links>Suporte</Links>
+              <Links>Novidade</Links>
+              <Links>Contactos</Links>
             </>
           }
           color="#ABC6DE"
@@ -30,20 +36,6 @@ const MobileFooter = () => {
         <AccordionFooter
           bgColor="#1b2555"
           title="Portal Gab. Contabilidade"
-          paragraph={
-            <>
-              <Links>teste1</Links>
-              <Links>teste2</Links>
-            </>
-          }
-          color="#ABC6DE"
-          width="100%"
-          liColor="#1b2555"
-          fontColor="#ffffff"
-        />
-        <AccordionFooter
-          bgColor="#1b2555"
-          title="Empresa - Mobi"
           paragraph={
             <>
               <Links>Grátis</Links>
@@ -57,11 +49,30 @@ const MobileFooter = () => {
         />
         <AccordionFooter
           bgColor="#1b2555"
+          title="Empresa - Mobi"
+          paragraph={
+            <>
+              <Links>Grátis</Links>
+              <Links>Silver</Links>
+              <Links>Gold</Links>
+              <Links>Platinum</Links>
+              <Links>Portal</Links>
+            </>
+          }
+          color="#ABC6DE"
+          width="100%"
+          liColor="#1b2555"
+          fontColor="#ffffff"
+        />
+        <AccordionFooter
+          bgColor="#1b2555"
           title="Login"
           paragraph={
             <>
-              <Links>teste1</Links>
-              <Links>teste2</Links>
+              <Links>Registo</Links>
+              <Links>Politica e privacidade</Links>
+              <Links>Termos e condições</Links>
+              <Links>Mapa do site</Links>
             </>
           }
           color="#ABC6DE"
