@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   display: flex;
@@ -29,4 +30,9 @@ export const BoxCheck = styled.div`
   display: flex;
   margin-right: 50px;
   margin-bottom: 6px;
+`;
+
+export const Hyper = styled(Link).attrs({ to: '#' })`
+  color: #1b2555;
+  font-weight: bold;
 `;
