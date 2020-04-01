@@ -12,6 +12,7 @@ export const FirstColumn = styled.div`
   font-weight: 500;
   width: 30%;
   padding: 24px;
+  border-right: 0.4px solid #fff;
 
   @media screen and (max-width: 992px) {
     width: 70%;
