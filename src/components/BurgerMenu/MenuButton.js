@@ -36,14 +36,6 @@ const MenuButton = () => {
     {
       text: 'Suporte',
       link: '/plans/plan-details'
-    },
-    {
-      text: 'Security',
-      link: '/security'
-    },
-    {
-      text: 'News',
-      link: '/news'
     }
   ];
 
