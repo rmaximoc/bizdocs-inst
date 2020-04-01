@@ -24,6 +24,7 @@ export const DesktopHeader = styled.div`
   width: 100%;
   border-radius: 6px 6px 0 0;
   background-color: ${({ bgColor }) => bgColor};
+  margin-top: 20px;
 
   @media screen and (max-width: 992px) {
     display: none;
