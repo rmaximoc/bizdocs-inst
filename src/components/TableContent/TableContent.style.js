@@ -32,7 +32,13 @@ export const DesktopHeader = styled.div`
   div {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 41%;
+
+    @media screen and (max-width: 1400px) {
+      flex-direction: column;
+      margin: auto;
+      width: unset;
+    }
   }
 
   @media screen and (max-width: 992px) {
