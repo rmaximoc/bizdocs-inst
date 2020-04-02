@@ -35,6 +35,8 @@ export const AccordionList = styled.ul`
   background-color: #fff;
   border-radius: 0.4rem;
   overflow: hidden;
+  box-shadow: 0 0 0.8rem 0.1rem rgba(darken(#3978ef, 20%), 0.06),
+    0 20px 30px -10px rgba(darken(#3978ef, 20%), 0.2);
 
   li {
     background-color: ${({ liColor }) => liColor};
