@@ -32,10 +32,10 @@ export const ComplianceContent = styled.div`
 
 export const TextContent = styled.p`
   font-size: 16px;
+  font-weight: 500;
 
   @media screen and (max-width: 992px) {
     margin-bottom: 24px;
-    font-weight: 500;
   }
 `;
 
