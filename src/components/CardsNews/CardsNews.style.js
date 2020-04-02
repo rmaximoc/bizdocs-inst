@@ -4,14 +4,14 @@ export const CardBox = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  max-width: 303px;
+  max-width: 290px;
   margin: 0 auto;
 `;
 
 export const Date = styled.p`
   text-align: left;
   color: #adadad;
-  margin: 28px 0 8px;
+  margin: 28px 0;
 `;
 
 export const Title = styled.h1`
