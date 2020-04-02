@@ -10,7 +10,7 @@ import TextContentBox from '../../components/TextContentBox/TextContentBox';
 import TextContentBoxButton from '../../components/TextContentBoxButton/TextContentBoxButton';
 import CardWithLink from '../../components/CardWithLink/CardWithLink';
 import cardContent from '../../components/CardWithLink/cardContent';
-import { ReactComponent as Clock } from '../../assets/images/clock-white.svg';
+import { ReactComponent as Clock } from '../../assets/images/clock.svg';
 import CarouselSlider from '../../components/CarouselSlider/CarouselSlider';
 import BreadCrumbs from '../../components/BreadCrumbs/BreadCrumbs';
 
