@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import Menu from './Menu';
 import MenuItem from './MenuItem';
-
+import DropDown from '../shared/DropDown/DropDown';
+import GreenButton from '../shared/GreenButton/GreenButton';
+import OpacityButton from '../shared/OpacityButton/OpacityButton';
 import {
   MenuButtonContainer,
   MenuButtonLineTop,
   MenuButtonLineMiddle,
-  MenuButtonLineBottom
+  MenuButtonLineBottom,
+  PostMenu,
+  DropDownMobile
 } from './BurgerMenu.style';
 
 const MenuButton = () => {
@@ -52,7 +56,22 @@ const MenuButton = () => {
         <MenuButtonLineMiddle open={open} color="white" />
         <MenuButtonLineBottom open={open} color="white" />
       </MenuButtonContainer>
-      <Menu open={open}>{menuItems}</Menu>
+      <Menu open={open}>
+        <>
+          {menuItems}
+          <PostMenu open={open}>
+            <GreenButton
+              width="80%"
+              margin="46px auto 23px"
+              content="Experimente grátis"
+            />
+            <OpacityButton width="80%" content="Login" />
+            <DropDownMobile>
+              <DropDown content="Portugal" />
+            </DropDownMobile>
+          </PostMenu>
+        </>
+      </Menu>
     </>
   );
 };

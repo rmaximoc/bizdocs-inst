@@ -47,6 +47,7 @@ export const MenuItemContent = styled(Link)`
   transition: color 0.2s ease-in-out;
   animation: 0.5s slideIn forwards;
   animation-delay: ${({ delay }) => delay};
+  font-weight: bold;
 `;
 
 export const MenuContainer = styled.div`
@@ -62,8 +63,9 @@ export const MenuContainer = styled.div`
   transition: height 0.3s ease;
   z-index: 2;
   margin-top: 70px;
-  margin-right: -5vw;
+  margin-right: -3.5vw;
   transition: all 0.2s ease;
+  opacity: 0.99;
 
   @media screen and (max-width: 1024px) {
     display: flex;
