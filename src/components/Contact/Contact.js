@@ -30,6 +30,7 @@ const Contact = ({ margin }) => {
               margin="20px 0"
               content="Experimente grátis"
               fontSize="16px"
+              padding="30px 23px"
             />
           </ButtonBox>
         </ContactBox>
