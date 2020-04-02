@@ -38,4 +38,9 @@ export const BoxCheck = styled.div`
 export const Hyper = styled(Link).attrs({ to: '#' })`
   color: #1b2555;
   font-weight: bold;
+  margin-left: -11px;
+
+  @media screen and (max-width: 992px) {
+    margin-left: 0px;
+  }
 `;
