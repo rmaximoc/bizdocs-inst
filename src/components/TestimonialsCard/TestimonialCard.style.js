@@ -22,7 +22,7 @@ export const Cards = styled.div`
   max-width: 310px;
   box-shadow: 0px 10px 20px #86868638;
   background-color: #ffffff;
-  padding: 25px;
+  padding: 16px;
   transition: transform 0.2s;
 
   img {
