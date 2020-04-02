@@ -70,7 +70,9 @@ const ComparativeTable = () => {
             </Box>
           ))}
           <Header>
-            <Title>Bizdocs Automation add-on</Title>
+            <Title style={{ marginTop: '30px' }}>
+              Bizdocs Automation add-on
+            </Title>
           </Header>
           {adon.map(item => (
             <Box>

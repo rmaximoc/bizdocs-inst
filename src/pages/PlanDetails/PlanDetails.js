@@ -9,7 +9,7 @@ import MobileFooter from '../../components/shared/MobileFooter/MobileFooter';
 import Contact from '../../components/Contact/Contact';
 import TextContent from '../../components/shared/TextContent/TextContent';
 import TableContent from '../../components/TableContent/TableContent';
-import { ReactComponent as Dl28 } from '../../assets/images/stamp-DL28-2019.svg';
+import { ReactComponent as RGPD } from '../../assets/images/selo-RGPD.svg';
 import { MarginBox } from '../../components/Header/Header.style';
 import BreadCrumb from '../../components/BreadCrumbs/BreadCrumbs';
 import { BreadBox } from '../Bizdocs/Bizdocs.style';
@@ -43,7 +43,7 @@ const PlanDetails = ({ planValue, bgColor }) => {
         <Contact margin="71px 0 175px" />
       </ScrollAnimation>
       <Compliance
-        stamp={<Dl28 />}
+        stamp={<RGPD width="100px" height="100px" />}
         margin="0 auto 78px"
         buttonContent="Experimente grátis"
         title="Conformidade com o RGPD e a ePrivacy"
