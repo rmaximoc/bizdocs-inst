@@ -20,7 +20,7 @@ const ComparativeTable = () => {
         <TableWindow>
           <PlansSquares />
           <Header>
-            <Title>Principais Características</Title>
+            <Title titleButton>Principais Características</Title>
             <AdaptiveButton
               maxHeight="73px"
               width="10.4%"
@@ -88,19 +88,19 @@ const ComparativeTable = () => {
           <ButtonBox>
             <AdaptiveButton
               maxHeight="73px"
-              maxWidth="130px"
+              width="10.4%"
               color="#69B643"
               content="Experimente Grátis"
             />
-            <AdaptiveButton maxWidth="130px" color="#ADADAD" content="Aderir" />
-            <AdaptiveButton maxWidth="130px" color="#B99769" content="Aderir" />
+            <AdaptiveButton width="10.4%" color="#ADADAD" content="Aderir" />
+            <AdaptiveButton width="10.4%" color="#B99769" content="Aderir" />
             <AdaptiveButton
-              maxWidth="130px"
+              width="10.4%"
               color="#656565"
               content="Fale conosco"
             />
             <AdaptiveButton
-              maxWidth="130px"
+              width="10.4%"
               color="#1C3144"
               content="Fale conosco"
             />

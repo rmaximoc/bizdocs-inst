@@ -64,7 +64,7 @@ const PlansAndPrices = () => {
         <MobileBox>
           <Box>
             <TextContent
-              margin="20px auto 35px"
+              margin="20px auto 5px"
               color="#585858"
               title="Comparação entre planos"
             />

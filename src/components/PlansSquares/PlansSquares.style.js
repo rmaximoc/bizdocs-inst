@@ -17,6 +17,11 @@ export const MarginBox = styled.div`
   align-items: center;
   margin: 0 auto;
   width: 100%;
+
+  @media screen and (max-width: 992px) {
+    margin-left: 170px;
+    justify-content: flex-start;
+  }
 `;
 
 export const Box = styled.div`
@@ -28,6 +33,10 @@ export const Box = styled.div`
   justify-content: flex-end;
   background-color: ${({ color }) => color};
   width: 13.4%;
+
+  @media screen and (max-width: 992px) {
+    width: 13.8%;
+  }
 `;
 
 export const Value = styled.h1`

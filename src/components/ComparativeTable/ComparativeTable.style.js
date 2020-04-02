@@ -45,6 +45,11 @@ export const Title = styled.div`
   @media screen and (max-width: 1708px) {
     margin-right: 41px;
   }
+
+  @media screen and (max-width: 992px) {
+    font-size: 12px;
+    width: ${props => (props.titleButton ? '10%' : '32%')};
+  }
 `;
 
 export const TableWindow = styled.section`
@@ -73,6 +78,11 @@ export const ButtonBox = styled.div`
 
   @media screen and (max-width: 1376px) {
     min-width: 1220px;
+  }
+
+  @media screen and (max-width: 992px) {
+    justify-content: flex-start;
+    margin-left: 150px;
   }
 `;
 
