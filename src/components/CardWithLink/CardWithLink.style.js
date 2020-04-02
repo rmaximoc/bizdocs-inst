@@ -27,7 +27,7 @@ export const CardContent = styled.div`
   min-height: 377px;
   padding: 30px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   box-shadow: 0px 20px 60px #b4b4b429;
 
@@ -62,5 +62,5 @@ export const Link = styled.a`
 export const StampBox = styled.div`
   display: flex;
   min-width: 60px;
-  min-height: 70px;
+  height: 80px;
 `;
