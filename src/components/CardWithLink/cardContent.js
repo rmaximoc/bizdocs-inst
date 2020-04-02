@@ -21,7 +21,7 @@ export const cards = [
     href: '#'
   },
   {
-    image: <ConformityRG />,
+    image: <ConformityRG width="200px" height="100px" />,
     title: 'RGPD',
     paragraph:
       'A permanente actualização do Bizdocs quanto à mais recente legislação europeia e nacional implica que o armazenamento e tratamento de dados está sempre…',
