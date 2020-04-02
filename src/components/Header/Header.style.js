@@ -59,7 +59,7 @@ export const MarginBoxHeader = styled.div`
   margin: 0 auto;
 
   @media screen and (max-width: 1185px) {
-    width: 90%;
+    width: 93%;
   }
 
   @media screen and (max-width: 1024px) {
