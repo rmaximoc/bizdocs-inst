@@ -53,7 +53,11 @@ export const Title = styled.div`
 `;
 
 export const TableWindow = styled.section`
+  max-width: 1200px;
   overflow: scroll;
+
+  margin: 20px auto 20px;
+
   ::-webkit-scrollbar {
     width: 12px;
   }

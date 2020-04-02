@@ -50,4 +50,12 @@ export const Text = styled.p`
 export const StampBox = styled.div`
   display: flex;
   margin-bottom: 24px;
+
+  /** SAFARI ONLY */
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+      margin-bottom: 100px;
+    }
+  }
+  /** SAFARI ONLY */
 `;

@@ -53,7 +53,7 @@ const ComparativeTable = () => {
               />
             </Box>
           ))}
-          <Header>
+          <Header style={{ marginTop: '30px' }}>
             <Title>Funcionalidades</Title>
           </Header>
           {functionalities.map(item => (

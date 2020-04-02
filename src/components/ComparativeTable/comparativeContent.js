@@ -49,7 +49,7 @@ export const characteristics = [
     fifth: '2/ ilimitado'
   },
   {
-    bgColor: '#F4F4F4',
+    bgColor: '#FCFCFC',
     main: 'Clientes incluídos / máx. clientes',
     first: <Xis />,
     second: <Xis />,
@@ -58,7 +58,7 @@ export const characteristics = [
     fifth: <Xis />
   },
   {
-    bgColor: '#FCFCFC',
+    bgColor: '#F4F4F4',
     main: 'Configuração de caixas de email',
     first: '1',
     second: '1',
@@ -67,7 +67,7 @@ export const characteristics = [
     fifth: '5'
   },
   {
-    bgColor: '#F4F4F4',
+    bgColor: '#FCFCFC',
     main: 'Partilha de documentos com Gab. Contabilidade',
     first: <Check fill="#69b643" />,
     second: <Check fill="#69b643" />,
@@ -76,7 +76,7 @@ export const characteristics = [
     fifth: <Check fill="#69b643" />
   },
   {
-    bgColor: '#FCFCFC',
+    bgColor: '#F4F4F4',
     main: 'Partilha de documentos com clientes',
     first: <Xis />,
     second: <Xis />,
