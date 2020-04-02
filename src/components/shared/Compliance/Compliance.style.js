@@ -43,7 +43,7 @@ export const StampBox = styled.div`
   display: flex;
   height: 100%;
   padding: 33px 20px;
-  margin-bottom: 120px;
+  margin-bottom: ${({ marginBottom }) => marginBottom};
 
   @media screen and (max-width: 992px) {
     margin-bottom: 5px;
