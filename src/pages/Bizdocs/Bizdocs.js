@@ -78,7 +78,8 @@ const Bizdocs = () => {
         title="A Qualquer hora, em qualquer lugar"
         content="O Bizdocs aceita qualquer tipo de documento, da fatura ao talão de caixa, através de qualquer dispositivo, desde um scanner ou multifunções a um simples smartphone. Como funciona em Cloud, pode aceder aos seus documentos ou carregar seja o que for onde estiver, quando quiser, como preferir."
         buttonContent="Experimente grátis"
-        marginBottom="86px"
+        marginBottom="110px"
+        stampTextWidth="63%"
       />
       <DesktopFooter />
       <MobileFooter />

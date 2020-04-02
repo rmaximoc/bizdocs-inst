@@ -20,13 +20,24 @@ export const ComplianceContent = styled.div`
   background-color: #1b2555;
   min-height: 248px;
   padding: 28px;
-  justify-content: center;
+  justify-content: space-around;
   box-shadow: 0px 10px 20px #0000003b;
 
   @media screen and (max-width: 992px) {
     flex-direction: column;
     text-align: center;
     padding: 0 22px 53px;
+  }
+`;
+
+export const StampText = styled.div`
+  display: flex;
+  align-items: center;
+  width: ${({ stampTextWidth }) => stampTextWidth};
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    width: 90%;
   }
 `;
 

@@ -11,4 +11,3 @@ export const AccordionMargin = styled.div`
     margin: 0 auto;
   }
 `;
-

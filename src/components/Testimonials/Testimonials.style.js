@@ -11,7 +11,7 @@ export const Container = styled.div`
 export const MarginBox = styled.div`
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   margin: 0 auto 240px;
 
@@ -68,8 +68,9 @@ export const ScrollAnimationBox = styled(ScrollAnimation)`
 export const Title = styled.h1`
   font-size: 36px;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
   z-index: 1;
+  /* margin-top: 211px; */
 `;
 
 export const Strip = styled.div`
