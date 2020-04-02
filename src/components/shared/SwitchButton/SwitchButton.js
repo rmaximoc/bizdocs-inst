@@ -4,7 +4,7 @@ import Switch from 'react-ios-switch';
 import { Box, Title1, Title2 } from './SwitchButton.style';
 
 const SwitchButton = ({ color }) => {
-  const [check, setChecked] = useState(false);
+  const [check, setChecked] = useState(true);
 
   return (
     <Box>
