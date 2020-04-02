@@ -56,7 +56,7 @@ const Security = () => {
             content="Ver todos os benefícios e funcionalidades"
             width="100%"
             maxWidth="100%"
-            margin="40px auto 40px"
+            margin="0px auto 40px"
           />
         </MobileButton>
       </MarginBox>
