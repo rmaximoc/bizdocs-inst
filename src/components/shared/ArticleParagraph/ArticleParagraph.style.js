@@ -16,4 +16,5 @@ export const Paragraph = styled.p`
   color: ${({ color }) => color};
   margin: auto auto 50px;
   max-width: 756px;
+  font-weight: 500;
 `;

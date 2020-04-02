@@ -42,10 +42,12 @@ const Security = () => {
       </MarginBox>
       <DesktopButton>
         <GreenButton
+          shadow="0px 10px 20px #00000029"
           content="Ver todos os benefícios e funcionalidades"
           width="100%"
           maxWidth="372px"
           margin="30px auto 94px"
+          padding="25px 23px"
         />
       </DesktopButton>
       <MarginBox>

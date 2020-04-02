@@ -11,7 +11,8 @@ const GreenButton = ({
   width,
   fontSize,
   padding,
-  minHeight
+  minHeight,
+  shadow
 }) => {
   return (
     <Button
@@ -23,6 +24,7 @@ const GreenButton = ({
       fontSize={fontSize}
       minHeight={minHeight}
       padding={padding}
+      shadow={shadow}
     >
       {content}
     </Button>
@@ -38,7 +40,8 @@ GreenButton.propTypes = {
   width: string,
   fontSize: string,
   minHeight: string,
-  padding: string
+  padding: string,
+  shadow: string
 };
 
 GreenButton.defaultProps = {
@@ -48,7 +51,8 @@ GreenButton.defaultProps = {
   width: '',
   fontSize: '14px',
   minHeight: 'unset',
-  padding: '17px 23px'
+  padding: '17px 23px',
+  shadow: 'unset'
 };
 
 export default GreenButton;
