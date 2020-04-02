@@ -13,11 +13,23 @@ export const MarginBox = styled.div`
   flex-direction: column;
   width: 100%;
   justify-content: center;
-  margin: 0 auto 240px;
+  margin: -60px auto 240px;
 
   @media screen and (max-width: 992px) {
     width: 90%;
+    margin: 0px auto 240px;
   }
+
+  /** SAFARI ONLY */
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+      @media screen and (max-width: 992px) {
+        width: 90%;
+        margin: 200px auto 240px;
+      }
+    }
+  }
+  /** SAFARI ONLY */
 `;
 
 export const MarginBoxMobile = styled.div`

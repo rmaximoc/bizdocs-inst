@@ -22,12 +22,12 @@ export const Cards = styled.div`
   max-width: 310px;
   box-shadow: 0px 10px 20px #86868638;
   background-color: #ffffff;
-  padding: 16px;
+  padding: 20px;
   transition: transform 0.2s;
 
   img {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     padding: 10px;
     border: 1px solid #69b643;
@@ -53,6 +53,13 @@ export const TextContent = styled.p`
 `;
 
 export const NameText = styled.p`
+  color: #585858;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+`;
+
+export const OccupationText = styled.p`
   color: #585858;
   text-align: center;
   font-weight: 700;

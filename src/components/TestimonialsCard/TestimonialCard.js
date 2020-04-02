@@ -5,10 +5,18 @@ import {
   MarginBox,
   TextContent,
   NameText,
-  Cards
+  Cards,
+  OccupationText
 } from './TestimonialCard.style';
 
-const TestimonialCard = ({ image, text, name, minHeight, marginTop }) => {
+const TestimonialCard = ({
+  image,
+  text,
+  name,
+  minHeight,
+  marginTop,
+  occupation
+}) => {
   return (
     <Container>
       <MarginBox>
@@ -16,6 +24,7 @@ const TestimonialCard = ({ image, text, name, minHeight, marginTop }) => {
           <img src={image} alt="imag" />
           <TextContent>{text}</TextContent>
           <NameText>{name}</NameText>
+          <OccupationText>{occupation}</OccupationText>
         </Cards>
       </MarginBox>
     </Container>
@@ -27,6 +36,7 @@ TestimonialCard.propTypes = {
   text: string.isRequired,
   name: string.isRequired,
   minHeight: string.isRequired,
+  occupation: string.isRequired,
   marginTop: string
 };
 

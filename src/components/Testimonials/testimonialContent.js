@@ -7,21 +7,24 @@ const cards = [
     image: image2,
     text:
       '“Vivia em stress permanente com os montinhos de facturas para o contabilista, até que instalei o Bizdocs“',
-    name: 'Nuno Amaral Frazão, Sócio-Fundador da Mindsetters',
+    name: `Nuno Amaral Frazão,`,
+    occupation: 'Sócio-Fundador da Mindsetters',
     height: '436px'
   },
   {
     image: image1,
     text:
       '"Vivia em stress permanente com os montinhos de facturas para o contabilista, até que instalei o Bizdocs"',
-    name: 'Nuno Amaral Frazão, Sócio-Fundador da Mindsetters',
+    name: 'Nuno Amaral Frazão,',
+    occupation: 'Sócio-Fundador da Mindsetters',
     height: '436px'
   },
   {
     image: image3,
     text:
       '"Vivia em stress permanente com os montinhos de facturas para o contabilista, até que instalei o Bizdocs"',
-    name: 'Nuno Amaral Frazão, Sócio-Fundador da Mindsetters',
+    name: 'Nuno Amaral Frazão,',
+    occupation: 'Sócio-Fundador da Mindsetters',
     height: '436px'
   }
 ];

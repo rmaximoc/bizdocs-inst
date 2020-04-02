@@ -42,6 +42,7 @@ const Testimonials = () => {
                   image={card.image}
                   text={card.text}
                   name={card.name}
+                  occupation={card.occupation}
                   key={card.image}
                   minHeight={card.height}
                   marginTop={card.marginTop}
