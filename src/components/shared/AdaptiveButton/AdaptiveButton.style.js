@@ -26,7 +26,7 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 1820px) {
-    margin: 0 10px;
+    margin: ${({ mediaMargin }) => mediaMargin};
   }
 
   :hover {

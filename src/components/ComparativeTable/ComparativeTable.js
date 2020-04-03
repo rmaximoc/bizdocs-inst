@@ -89,19 +89,32 @@ const ComparativeTable = () => {
           ))}
           <ButtonBox>
             <AdaptiveButton
+              mediaMargin="0 5px"
               maxHeight="73px"
               width="10.4%"
               color="#69B643"
               content="Experimente Grátis"
             />
-            <AdaptiveButton width="10.4%" color="#ADADAD" content="Aderir" />
-            <AdaptiveButton width="10.4%" color="#B99769" content="Aderir" />
             <AdaptiveButton
+              mediaMargin="0 5px"
+              width="10.4%"
+              color="#ADADAD"
+              content="Aderir"
+            />
+            <AdaptiveButton
+              mediaMargin="0 5px"
+              width="10.4%"
+              color="#B99769"
+              content="Aderir"
+            />
+            <AdaptiveButton
+              mediaMargin="0 5px"
               width="10.4%"
               color="#656565"
               content="Fale conosco"
             />
             <AdaptiveButton
+              mediaMargin="0 5px"
               width="10.4%"
               color="#1C3144"
               content="Fale conosco"

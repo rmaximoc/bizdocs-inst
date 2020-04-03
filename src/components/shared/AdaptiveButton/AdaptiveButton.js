@@ -8,7 +8,8 @@ const AdaptiveButton = ({
   color,
   margin,
   minWidth,
-  maxHeight
+  maxHeight,
+  mediaMargin
 }) => {
   return (
     <Button
@@ -18,6 +19,7 @@ const AdaptiveButton = ({
       maxWidth={maxWidth}
       minWidth={minWidth}
       maxHeight={maxHeight}
+      mediaMargin={mediaMargin}
     >
       {content}
     </Button>
@@ -30,13 +32,15 @@ AdaptiveButton.propTypes = {
   color: string.isRequired,
   margin: string,
   minWidth: string,
-  maxHeight: string
+  maxHeight: string,
+  mediaMargin: string
 };
 
 AdaptiveButton.defaultProps = {
   margin: '0 auto',
   minWidth: '',
-  maxHeight: '51px'
+  maxHeight: '51px',
+  mediaMargin: '0 10px'
 };
 
 export default AdaptiveButton;
