@@ -27,7 +27,6 @@ export const SecondColumn = styled.div`
   width: 70%;
 
   @media screen and (max-width: 992px) {
-    text-align: right;
     width: 30%;
   }
 `;
