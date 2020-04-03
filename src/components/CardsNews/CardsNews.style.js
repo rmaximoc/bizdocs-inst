@@ -6,6 +6,10 @@ export const CardBox = styled.div`
   text-align: left;
   max-width: 300px;
   margin: 0 auto;
+
+  @media screen and (max-width: 992px) {
+    max-width: unset;
+  }
 `;
 
 export const Date = styled.p`
@@ -26,5 +30,11 @@ export const Image = styled.div`
     object-fit: cover;
     max-width: 300px;
     max-height: 200px;
+
+    @media screen and (max-width: 992px) {
+      max-width: unset;
+      max-height: unset;
+      width: 100%;
+    }
   }
 `;

@@ -9,7 +9,11 @@ export const CardsBox = () => {
       <MarginBox>
         {cardsFull.map(card => (
           <Box columnPosition={card.columnPosition}>
-            <CardTitle image={card.image} text={card.text} />
+            <CardTitle
+              marginTop={card.marginTop}
+              image={card.image}
+              text={card.text}
+            />
           </Box>
         ))}
       </MarginBox>

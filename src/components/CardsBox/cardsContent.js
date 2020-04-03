@@ -5,7 +5,7 @@ import { ReactComponent as Papers } from '../../assets/images/papers.svg';
 import { ReactComponent as Share } from '../../assets/images/share-platform.svg';
 import { ReactComponent as Functionalities } from '../../assets/images/functionalities.svg';
 import { ReactComponent as Integration } from '../../assets/images/automatic-integration.svg';
-import { ReactComponent as Conformity } from '../../assets/images/conformidade-rgpd.svg';
+import { ReactComponent as Conformity } from '../../assets/images/selo-RGPD.svg';
 
 export const cardsFull = [
   {
@@ -38,9 +38,10 @@ export const cardsFull = [
     text: 'Integra automaticamente com sistemas de gestão e contabilidade'
   },
   {
-    image: <Conformity />,
+    image: <Conformity width="100px" height="10x" />,
     text: 'Assegura total conformidade com o RGPD',
-    columnPosition: '2 / 3'
+    columnPosition: '2 / 3',
+    marginTop: '0px'
   }
 ];
 

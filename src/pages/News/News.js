@@ -45,7 +45,7 @@ const News = () => {
       </ScrollAnimation>
       <ScrollAnimation animateOnce animateIn="fadeInUp" duration={1} delay={1}>
         <ButtonBox>
-          <GreenButton content="Ver mais notícias" minWidth="372px" />
+          <GreenButton shadow content="Ver mais notícias" minWidth="372px" />
         </ButtonBox>
       </ScrollAnimation>
       <Compliance
