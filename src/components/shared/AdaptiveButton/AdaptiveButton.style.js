@@ -26,6 +26,10 @@ export const Button = styled.button`
   }
 
   @media screen and (max-width: 1820px) {
+    margin: 0 7px;
+  }
+
+  @media screen and (max-width: 992px) {
     margin: ${({ mediaMargin }) => mediaMargin};
   }
 
