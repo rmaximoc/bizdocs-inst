@@ -54,6 +54,8 @@ const News = () => {
         title="Integração Automatizada"
         content="O Bizdocs é compatível com os principais sistemas de contabilidade e gestão, permitindo uma integração imediata e sem disrupção. Os processos habituais entre si e a sua contabilidade podem ser automatizados, permitindo que, por exemplo, faturas sejam classificadas e lançadas sem intervenção humana – e com menos erros e atrasos."
         buttonContent="Experimente grátis"
+        stampTextWidth="64%"
+        marginBottom="146px"
       />
       <DesktopFooter />
       <MobileFooter />
