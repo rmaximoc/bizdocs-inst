@@ -12,11 +12,11 @@
       }
 
       .c {
-        fill: #ffffff;
+        fill: #69b643;
       }
 
       .d {
-        stroke: #ffffff;
+        stroke: #69b643;
         stroke-width: 3px;
       }
 

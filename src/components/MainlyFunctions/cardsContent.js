@@ -1,12 +1,12 @@
 import React from 'react';
-import { ReactComponent as Clock } from '../../assets/images/clock.svg';
+import { ReactComponent as Clock } from '../../assets/images/clock-white.svg';
 import { ReactComponent as Click } from '../../assets/images/click.svg';
 import { ReactComponent as Head } from '../../assets/images/head.svg';
 import { ReactComponent as Integration } from '../../assets/images/integration.svg';
 
 const cards = [
   {
-    image: <Clock />,
+    image: <Clock fill="#69b643" />,
     title: 'A Qualquer Hora, em Qualquer Lugar',
     text:
       'O Bizdocs aceita qualquer tipo de documento, da fatura ao talão de caixa, através de qualquer dispositivo, desde um scanner ou multifunções a um simples smartphone.'
