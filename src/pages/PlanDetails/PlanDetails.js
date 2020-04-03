@@ -49,6 +49,7 @@ const PlanDetails = ({ planValue, bgColor }) => {
         title="Conformidade com o RGPD e a ePrivacy"
         content="Permanentemente actualizado com a última legislação em vigor, a gestão documental do Bizdocs garante que a sua empresa estará sempre segura na conformidade. A segurança e inviolabilidade dos dados, outro requisite exigido pela nova regulamentação, estão também garantidos pelos sistemas e recursos que temos instalados"
         stampTextWidth="64%"
+        mediaMargin="160px"
       />
       <DesktopFooter />
       <MobileFooter />

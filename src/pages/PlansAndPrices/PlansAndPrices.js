@@ -85,6 +85,7 @@ const PlansAndPrices = () => {
         margin="0 auto 48px"
         marginBottom="173px"
         stampTextWidth="64%"
+        mediaMargin="200px"
       />
       <DesktopFooter />
       <MobileFooter />

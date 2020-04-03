@@ -68,6 +68,7 @@ const Security = () => {
         content="A última tecnologia de OCR, combinada com Inteligência Artificial e Machine Learning, permitem que um simples talão de Caixa possa ser reconhecido como fatura, com os totais e o IVA devidamente identificados, para ser enviado ou arquivado com o respectivo número."
         stampTextWidth="65%"
         marginBottom="111px"
+        mediaMargin="140px"
       />
       <DesktopFooter />
       <MobileFooter />

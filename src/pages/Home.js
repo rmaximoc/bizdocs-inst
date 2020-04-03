@@ -44,7 +44,8 @@ const Home = () => {
         title="Conformidade com DL28/2019"
         content="O Bizdocs está em total conformidade com o DL 28/2019, tanto em contabilidade manual como automatizada."
         buttonContent="Experimente grátis"
-        marginBottom="50px"
+        marginBottom="40px"
+        stampTextWidth="64%"
       />
       <DesktopFooter />
       <MobileFooter />

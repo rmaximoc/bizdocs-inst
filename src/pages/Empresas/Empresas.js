@@ -67,6 +67,7 @@ const Empresas = () => {
         buttonContent="Experimente grátis"
         marginBottom="169px"
         stampTextWidth="64%"
+        mediaMargin="200px"
       />
       <DesktopFooter />
       <MobileFooter />

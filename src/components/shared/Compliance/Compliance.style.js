@@ -56,6 +56,10 @@ export const StampBox = styled.div`
   padding: 33px 20px;
   margin-bottom: ${({ marginBottom }) => marginBottom};
 
+  @media screen and (max-width: 1360px) {
+    margin-bottom: ${({ mediaMargin }) => mediaMargin};
+  }
+
   @media screen and (max-width: 992px) {
     margin-bottom: 5px;
   }

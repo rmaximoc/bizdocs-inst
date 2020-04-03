@@ -80,6 +80,7 @@ const Bizdocs = () => {
         buttonContent="Experimente grátis"
         marginBottom="110px"
         stampTextWidth="63%"
+        mediaMargin="140px"
       />
       <DesktopFooter />
       <MobileFooter />

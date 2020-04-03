@@ -22,7 +22,8 @@ const Compliance = ({
   buttonContent,
   margin,
   marginBottom,
-  stampTextWidth
+  stampTextWidth,
+  mediaMargin
 }) => {
   return (
     <Container>
@@ -35,7 +36,7 @@ const Compliance = ({
         >
           <ComplianceContent>
             <StampText stampTextWidth={stampTextWidth}>
-              <StampBox marginBottom={marginBottom}>{stamp}</StampBox>
+              <StampBox mediaMargin={mediaMargin} marginBottom={marginBottom}>{stamp}</StampBox>
               <Texts>
                 <Title>{title}</Title>
                 <TextContent>{content}</TextContent>
@@ -69,13 +70,15 @@ Compliance.propTypes = {
   buttonContent: string.isRequired,
   margin: string,
   marginBottom: string,
-  stampTextWidth: string
+  stampTextWidth: string,
+  mediaMargin: string
 };
 
 Compliance.defaultProps = {
   margin: '0 auto 240px',
   marginBottom: '120px',
-  stampTextWidth: '50%'
+  stampTextWidth: '50%',
+  mediaMargin: ''
 };
 
 export default Compliance;
