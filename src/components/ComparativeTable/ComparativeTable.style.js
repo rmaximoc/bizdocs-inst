@@ -43,11 +43,12 @@ export const Title = styled.div`
   }
 
   @media screen and (max-width: 1708px) {
-    margin-right: 41px;
+    margin-right: 25px;
   }
 
   @media screen and (max-width: 992px) {
     font-size: 12px;
+    margin-right: 41px;
     width: ${props => (props.titleButton ? '10%' : '32%')};
   }
 `;
