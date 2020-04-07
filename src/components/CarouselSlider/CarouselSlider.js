@@ -21,6 +21,15 @@ const CarouselSlider = ({
             arrows={false}
             slidesToShow={slidesToShow}
             slidesToScroll={slidesToScroll}
+            appendDots={dots => (
+              <div
+                style={{
+                  bottom: '0px'
+                }}
+              >
+                <ul style={{ margin: '0px' }}> {dots} </ul>
+              </div>
+            )}
           >
             <div>{firstCard}</div>
             <div>{secondCard}</div>
